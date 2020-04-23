@@ -1,0 +1,12 @@
+0	Social_Commerce	Social_Commerce
+1	Book	Book
+2	Mobile_phone	Mobile_phone
+3	Food	Food
+4	Clothing_Shoes_Jewelry	Clothing_Shoes_Jewelry
+5	Music	Music
+6	Health_care	Health_care
+7	Sports	Sports
+8	Home_garden_tools	Home_garden_tools
+9	Electronics_computer	Electronics_computer
+10	Beauty	Beauty
+11	Baby_toys_kids	Baby_toys_kids
