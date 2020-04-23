@@ -1,6 +1,6 @@
 package ldbc.snb.datagen.generator.distribution.utils;
 
-import javafx.util.Pair;
+import org.javatuples.Pair;
 import ldbc.snb.datagen.generator.DatagenParams;
 
 import java.util.ArrayList;
@@ -24,8 +24,8 @@ public class Bucket {
         int population = 0;
         int num_edges = 0;
         for (Pair<Integer, Integer> i : histogram) {
-            population += i.getValue();
-            num_edges += i.getValue() * i.getKey();
+            population += i.getValue1();
+            num_edges += i.getValue1() * i.getValue0();
         }
         num_edges /= 2;
 
@@ -39,20 +39,20 @@ public class Bucket {
         System.out.println("Distribution mean degree: " + avgDegree + " Distribution target mean " + target_mean);
         int bucket_size = (int) (Math.ceil(population / (double) (num_buckets)));
         int current_histogram_index = 0;
-        int current_histogram_left = histogram.get(current_histogram_index).getValue();
+        int current_histogram_left = histogram.get(current_histogram_index).getValue1();
         for (int i = 0; i < num_buckets && (current_histogram_index < histogram.size()); ++i) {
             int current_bucket_count = 0;
             int min = population;
             int max = 0;
             while (current_bucket_count < bucket_size && current_histogram_index < histogram.size()) {
-                int degree = histogram.get(current_histogram_index).getKey();
+                int degree = histogram.get(current_histogram_index).getValue0();
                 min = degree < min ? degree : min;
                 max = degree > max ? degree : max;
                 if ((bucket_size - current_bucket_count) > current_histogram_left) {
                     current_bucket_count += current_histogram_left;
                     current_histogram_index++;
                     if (current_histogram_index < histogram.size()) {
-                        current_histogram_left = histogram.get(current_histogram_index).getValue();
+                        current_histogram_left = histogram.get(current_histogram_index).getValue1();
                     }
                 } else {
                     current_histogram_left -= (bucket_size - current_bucket_count);

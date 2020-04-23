@@ -1,6 +1,6 @@
 package ldbc.snb.datagen.generator;
 
-import javafx.util.Pair;
+import org.javatuples.Pair;
 import ldbc.snb.datagen.objects.Knows;
 import ldbc.snb.datagen.objects.Person;
 import org.apache.hadoop.conf.Configuration;
@@ -34,9 +34,9 @@ public class BTERKnowsGenerator implements KnowsGenerator {
             int midPoint = (max - min) / 2 + min;
             if (midPoint >= array.size()) return array.size() - 1;
             if (midPoint < 0) return 0;
-            if (array.get(midPoint).getKey() > degree) {
+            if (array.get(midPoint).getValue0() > degree) {
                 max = midPoint - 1;
-            } else if (array.get(midPoint).getKey() < degree) {
+            } else if (array.get(midPoint).getValue0() < degree) {
                 min = midPoint + 1;
             } else {
                 return midPoint;
@@ -150,14 +150,14 @@ public class BTERKnowsGenerator implements KnowsGenerator {
         for (int i = 2; i < maxExpectedDegree + 1; ++i) {
             int degree = i;
             int pos = BinarySearch(ccDistribution, (long) degree);
-            if (ccDistribution.get(pos).getKey() == degree || pos == (ccDistribution.size() - 1)) {
-                p[degree] = ccDistribution.get(pos).getValue();
+            if (ccDistribution.get(pos).getValue0() == degree || pos == (ccDistribution.size() - 1)) {
+                p[degree] = ccDistribution.get(pos).getValue1();
             } else if (pos < ccDistribution.size() - 1) {
-                long minDegree = ccDistribution.get(pos).getKey();
-                long maxDegree = ccDistribution.get(pos + 1).getKey();
+                long minDegree = ccDistribution.get(pos).getValue0();
+                long maxDegree = ccDistribution.get(pos + 1).getValue0();
                 double ratio = (degree - minDegree) / (maxDegree - minDegree);
-                double minCC = ccDistribution.get(pos).getValue();
-                double maxCC = ccDistribution.get(pos + 1).getValue();
+                double minCC = ccDistribution.get(pos).getValue1();
+                double maxCC = ccDistribution.get(pos + 1).getValue1();
                 double cc_current = ratio * (maxCC - minCC) + minCC;
                 p[degree] = Math.pow(cc_current, 1 / 3.0);
             }

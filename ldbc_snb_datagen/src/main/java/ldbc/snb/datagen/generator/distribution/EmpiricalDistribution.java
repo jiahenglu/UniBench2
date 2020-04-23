@@ -1,6 +1,6 @@
 package ldbc.snb.datagen.generator.distribution;
 
-import javafx.util.Pair;
+import org.javatuples.Pair;
 import ldbc.snb.datagen.generator.distribution.utils.Bucket;
 import ldbc.snb.datagen.generator.distribution.utils.BucketedDistribution;
 import org.apache.hadoop.conf.Configuration;
