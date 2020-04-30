@@ -27,8 +27,8 @@ public class TagIdGenerator {
         var classes_id = assignIds(all_classes.stream().map(Value::stringValue).collect(Collectors.toSet()));
 
         new File("./output/").mkdir();
-        Rio.write(tags_id, new FileWriter("./output/tagIds.ttl"), RDFFormat.TURTLE);
-        Rio.write(classes_id, new FileWriter("./output/tagClasses.ttl"), RDFFormat.TURTLE);
+        Rio.write(tags_id, new FileWriter("./output/product_id.ttl"), RDFFormat.TURTLE);
+        Rio.write(classes_id, new FileWriter("./output/product_type_id.ttl"), RDFFormat.TURTLE);
     }
 
     private static Model assignIds(Set<String> set) {

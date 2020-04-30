@@ -30,7 +30,7 @@ public class TagRankingGenerator {
         });
 
         new File("./output/").mkdir();
-        Rio.write(builder.build(), new FileWriter("./output/tagRankings.ttl"), RDFFormat.TURTLE);
+        Rio.write(builder.build(), new FileWriter("./output/product_ranking.ttl"), RDFFormat.TURTLE);
     }
 
     private static Map<Integer, Double> readRankings() throws IOException {
