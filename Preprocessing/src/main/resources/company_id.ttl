@@ -1,0 +1,2318 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/9ff> <http://schema.org/identifier> "0"^^xsd:int .
+
+<http://dbpedia.org/resource/A&W_(Canada)> <http://schema.org/identifier> "1"^^xsd:int .
+
+<http://dbpedia.org/resource/ABB_Group> <http://schema.org/identifier> "2"^^xsd:int .
+
+<http://dbpedia.org/resource/AC_Cars> <http://schema.org/identifier> "3"^^xsd:int .
+
+<http://dbpedia.org/resource/AC_Golden_Brewing_Company> <http://schema.org/identifier>
+    "4"^^xsd:int .
+
+<http://dbpedia.org/resource/ARCA_Space_Corporation> <http://schema.org/identifier>
+    "5"^^xsd:int .
+
+<http://dbpedia.org/resource/ARO> <http://schema.org/identifier> "6"^^xsd:int .
+
+<http://dbpedia.org/resource/ATR_(aircraft_manufacturer)> <http://schema.org/identifier>
+    "7"^^xsd:int .
+
+<http://dbpedia.org/resource/AZLK> <http://schema.org/identifier> "8"^^xsd:int .
+
+<http://dbpedia.org/resource/Abarth> <http://schema.org/identifier> "9"^^xsd:int .
+
+<http://dbpedia.org/resource/Acer_Inc.> <http://schema.org/identifier> "10"^^xsd:int .
+
+<http://dbpedia.org/resource/Aces_High_Light_Aircraft> <http://schema.org/identifier>
+    "11"^^xsd:int .
+
+<http://dbpedia.org/resource/Acorn_Computers> <http://schema.org/identifier> "12"^^xsd:int .
+
+<http://dbpedia.org/resource/Acura> <http://schema.org/identifier> "13"^^xsd:int .
+
+<http://dbpedia.org/resource/Adam_Aircraft_Industries> <http://schema.org/identifier>
+    "14"^^xsd:int .
+
+<http://dbpedia.org/resource/Adam_Motor_Company> <http://schema.org/identifier> "15"^^xsd:int .
+
+<http://dbpedia.org/resource/Adobe_Systems> <http://schema.org/identifier> "16"^^xsd:int .
+
+<http://dbpedia.org/resource/Adventure_SA> <http://schema.org/identifier> "17"^^xsd:int .
+
+<http://dbpedia.org/resource/Aerion> <http://schema.org/identifier> "18"^^xsd:int .
+
+<http://dbpedia.org/resource/Aeritalia> <http://schema.org/identifier> "19"^^xsd:int .
+
+<http://dbpedia.org/resource/Aermacchi> <http://schema.org/identifier> "20"^^xsd:int .
+
+<http://dbpedia.org/resource/AeroAndina> <http://schema.org/identifier> "21"^^xsd:int .
+
+<http://dbpedia.org/resource/AeroLites> <http://schema.org/identifier> "22"^^xsd:int .
+
+<http://dbpedia.org/resource/AeroVironment> <http://schema.org/identifier> "23"^^xsd:int .
+
+<http://dbpedia.org/resource/Aero_Adventure_Aviation> <http://schema.org/identifier>
+    "24"^^xsd:int .
+
+<http://dbpedia.org/resource/Aero_Designs> <http://schema.org/identifier> "25"^^xsd:int .
+
+<http://dbpedia.org/resource/Aero_Synergie> <http://schema.org/identifier> "26"^^xsd:int .
+
+<http://dbpedia.org/resource/Aero_Vodochody> <http://schema.org/identifier> "27"^^xsd:int .
+
+<http://dbpedia.org/resource/Aerojet_Rocketdyne> <http://schema.org/identifier> "28"^^xsd:int .
+
+<http://dbpedia.org/resource/Aeromarine> <http://schema.org/identifier> "29"^^xsd:int .
+
+<http://dbpedia.org/resource/Aeronca_Aircraft> <http://schema.org/identifier> "30"^^xsd:int .
+
+<http://dbpedia.org/resource/Aerophile> <http://schema.org/identifier> "31"^^xsd:int .
+
+<http://dbpedia.org/resource/Aeros> <http://schema.org/identifier> "32"^^xsd:int .
+
+<http://dbpedia.org/resource/Aerospace_Industrial_Development_Corporation> <http://schema.org/identifier>
+    "33"^^xsd:int .
+
+<http://dbpedia.org/resource/Aerostar> <http://schema.org/identifier> "34"^^xsd:int .
+
+<http://dbpedia.org/resource/Aerotec> <http://schema.org/identifier> "35"^^xsd:int .
+
+<http://dbpedia.org/resource/Aeryon_Labs> <http://schema.org/identifier> "36"^^xsd:int .
+
+<http://dbpedia.org/resource/AgustaWestland> <http://schema.org/identifier> "37"^^xsd:int .
+
+<http://dbpedia.org/resource/Ainol> <http://schema.org/identifier> "38"^^xsd:int .
+
+<http://dbpedia.org/resource/AirLony> <http://schema.org/identifier> "39"^^xsd:int .
+
+<http://dbpedia.org/resource/Air_Magic_Ultralights> <http://schema.org/identifier>
+    "40"^^xsd:int .
+
+<http://dbpedia.org/resource/Airbridge_(ultralight_aircraft_manufacturer)> <http://schema.org/identifier>
+    "41"^^xsd:int .
+
+<http://dbpedia.org/resource/Airbus> <http://schema.org/identifier> "42"^^xsd:int .
+
+<http://dbpedia.org/resource/Airbus_Defence_and_Space> <http://schema.org/identifier>
+    "43"^^xsd:int .
+
+<http://dbpedia.org/resource/Airbus_Helicopters> <http://schema.org/identifier> "44"^^xsd:int .
+
+<http://dbpedia.org/resource/Airbus_Military> <http://schema.org/identifier> "45"^^xsd:int .
+
+<http://dbpedia.org/resource/Airco> <http://schema.org/identifier> "46"^^xsd:int .
+
+<http://dbpedia.org/resource/Aircraft_Manufacturing_and_Design> <http://schema.org/identifier>
+    "47"^^xsd:int .
+
+<http://dbpedia.org/resource/Aircraft_Sales_and_Parts> <http://schema.org/identifier>
+    "48"^^xsd:int .
+
+<http://dbpedia.org/resource/Aircraft_Technologies> <http://schema.org/identifier>
+    "49"^^xsd:int .
+
+<http://dbpedia.org/resource/Airdrome_Aeroplanes> <http://schema.org/identifier> "50"^^xsd:int .
+
+<http://dbpedia.org/resource/Airframes_Unlimited> <http://schema.org/identifier> "51"^^xsd:int .
+
+<http://dbpedia.org/resource/Airspeed_Ltd.> <http://schema.org/identifier> "52"^^xsd:int .
+
+<http://dbpedia.org/resource/Aixam> <http://schema.org/identifier> "53"^^xsd:int .
+
+<http://dbpedia.org/resource/Albion_Motors> <http://schema.org/identifier> "54"^^xsd:int .
+
+<http://dbpedia.org/resource/Alenia_Aermacchi> <http://schema.org/identifier> "55"^^xsd:int .
+
+<http://dbpedia.org/resource/Alenia_Aeronautica> <http://schema.org/identifier> "56"^^xsd:int .
+
+<http://dbpedia.org/resource/Alexander_Schleicher_GmbH_&_Co> <http://schema.org/identifier>
+    "57"^^xsd:int .
+
+<http://dbpedia.org/resource/Alfa_Romeo> <http://schema.org/identifier> "58"^^xsd:int .
+
+<http://dbpedia.org/resource/Alliant_Techsystems> <http://schema.org/identifier> "59"^^xsd:int .
+
+<http://dbpedia.org/resource/Allied_Domecq> <http://schema.org/identifier> "60"^^xsd:int .
+
+<http://dbpedia.org/resource/Alpina> <http://schema.org/identifier> "61"^^xsd:int .
+
+<http://dbpedia.org/resource/Alpine_(automobile)> <http://schema.org/identifier> "62"^^xsd:int .
+
+<http://dbpedia.org/resource/Alps_Electric> <http://schema.org/identifier> "63"^^xsd:int .
+
+<http://dbpedia.org/resource/Alvis_Car_and_Engineering_Company> <http://schema.org/identifier>
+    "64"^^xsd:int .
+
+<http://dbpedia.org/resource/AmBev> <http://schema.org/identifier> "65"^^xsd:int .
+
+<http://dbpedia.org/resource/Amax_Engineering> <http://schema.org/identifier> "66"^^xsd:int .
+
+<http://dbpedia.org/resource/Amazon.com> <http://schema.org/identifier> "67"^^xsd:int .
+
+<http://dbpedia.org/resource/Ameri-Cana_Ultralights> <http://schema.org/identifier>
+    "68"^^xsd:int .
+
+<http://dbpedia.org/resource/American_Champion> <http://schema.org/identifier> "69"^^xsd:int .
+
+<http://dbpedia.org/resource/American_Expedition_Vehicles> <http://schema.org/identifier>
+    "70"^^xsd:int .
+
+<http://dbpedia.org/resource/American_Motors> <http://schema.org/identifier> "71"^^xsd:int .
+
+<http://dbpedia.org/resource/Amiga_Corporation> <http://schema.org/identifier> "72"^^xsd:int .
+
+<http://dbpedia.org/resource/Amilcar> <http://schema.org/identifier> "73"^^xsd:int .
+
+<http://dbpedia.org/resource/Amkette> <http://schema.org/identifier> "74"^^xsd:int .
+
+<http://dbpedia.org/resource/Amphibian_Airplanes_of_Canada> <http://schema.org/identifier>
+    "75"^^xsd:int .
+
+<http://dbpedia.org/resource/Amrut_Distilleries> <http://schema.org/identifier> "76"^^xsd:int .
+
+<http://dbpedia.org/resource/Amstrad> <http://schema.org/identifier> "77"^^xsd:int .
+
+<http://dbpedia.org/resource/Anheuser-Busch_InBev> <http://schema.org/identifier>
+    "78"^^xsd:int .
+
+<http://dbpedia.org/resource/AnsaldoBreda> <http://schema.org/identifier> "79"^^xsd:int .
+
+<http://dbpedia.org/resource/Antonov> <http://schema.org/identifier> "80"^^xsd:int .
+
+<http://dbpedia.org/resource/Apple_Inc.> <http://schema.org/identifier> "81"^^xsd:int .
+
+<http://dbpedia.org/resource/Apricot_Computers> <http://schema.org/identifier> "82"^^xsd:int .
+
+<http://dbpedia.org/resource/Aptera_Motors> <http://schema.org/identifier> "83"^^xsd:int .
+
+<http://dbpedia.org/resource/Arab_American_Vehicles> <http://schema.org/identifier>
+    "84"^^xsd:int .
+
+<http://dbpedia.org/resource/Archos> <http://schema.org/identifier> "85"^^xsd:int .
+
+<http://dbpedia.org/resource/Arcus_(company)> <http://schema.org/identifier> "86"^^xsd:int .
+
+<http://dbpedia.org/resource/Argus_Motoren> <http://schema.org/identifier> "87"^^xsd:int .
+
+<http://dbpedia.org/resource/Arianespace> <http://schema.org/identifier> "88"^^xsd:int .
+
+<http://dbpedia.org/resource/Ariel_Motor_Company> <http://schema.org/identifier> "89"^^xsd:int .
+
+<http://dbpedia.org/resource/Armstrong_Whitworth> <http://schema.org/identifier> "90"^^xsd:int .
+
+<http://dbpedia.org/resource/Arrinera> <http://schema.org/identifier> "91"^^xsd:int .
+
+<http://dbpedia.org/resource/Arris_Group> <http://schema.org/identifier> "92"^^xsd:int .
+
+<http://dbpedia.org/resource/Arsenal_de_l'Aéronautique> <http://schema.org/identifier>
+    "93"^^xsd:int .
+
+<http://dbpedia.org/resource/Artega_Automobile> <http://schema.org/identifier> "94"^^xsd:int .
+
+<http://dbpedia.org/resource/Asahi_Breweries> <http://schema.org/identifier> "95"^^xsd:int .
+
+<http://dbpedia.org/resource/Ascari_Cars> <http://schema.org/identifier> "96"^^xsd:int .
+
+<http://dbpedia.org/resource/Ashok_Leyland> <http://schema.org/identifier> "97"^^xsd:int .
+
+<http://dbpedia.org/resource/Asia_Motors> <http://schema.org/identifier> "98"^^xsd:int .
+
+<http://dbpedia.org/resource/Associated_Equipment_Company> <http://schema.org/identifier>
+    "99"^^xsd:int .
+
+<http://dbpedia.org/resource/Astrium> <http://schema.org/identifier> "100"^^xsd:int .
+
+<http://dbpedia.org/resource/Atari,_Inc.> <http://schema.org/identifier> "101"^^xsd:int .
+
+<http://dbpedia.org/resource/Audi> <http://schema.org/identifier> "102"^^xsd:int .
+
+<http://dbpedia.org/resource/Austin_Motor_Company> <http://schema.org/identifier>
+    "103"^^xsd:int .
+
+<http://dbpedia.org/resource/Austin_Rover_Group> <http://schema.org/identifier> "104"^^xsd:int .
+
+<http://dbpedia.org/resource/AutoGyro_GmbH> <http://schema.org/identifier> "105"^^xsd:int .
+
+<http://dbpedia.org/resource/Auto_Union> <http://schema.org/identifier> "106"^^xsd:int .
+
+<http://dbpedia.org/resource/Autobianchi> <http://schema.org/identifier> "107"^^xsd:int .
+
+<http://dbpedia.org/resource/Automobile_Dacia> <http://schema.org/identifier> "108"^^xsd:int .
+
+<http://dbpedia.org/resource/Avco> <http://schema.org/identifier> "109"^^xsd:int .
+
+<http://dbpedia.org/resource/Avian_Limited> <http://schema.org/identifier> "110"^^xsd:int .
+
+<http://dbpedia.org/resource/Aviastroitel> <http://schema.org/identifier> "111"^^xsd:int .
+
+<http://dbpedia.org/resource/Aviation_Industry_Corporation_of_China> <http://schema.org/identifier>
+    "112"^^xsd:int .
+
+<http://dbpedia.org/resource/Aviation_Technology_Group> <http://schema.org/identifier>
+    "113"^^xsd:int .
+
+<http://dbpedia.org/resource/Avibras> <http://schema.org/identifier> "114"^^xsd:int .
+
+<http://dbpedia.org/resource/Avid_Aircraft> <http://schema.org/identifier> "115"^^xsd:int .
+
+<http://dbpedia.org/resource/Avioane_Craiova> <http://schema.org/identifier> "116"^^xsd:int .
+
+<http://dbpedia.org/resource/Avions_Amiot> <http://schema.org/identifier> "117"^^xsd:int .
+
+<http://dbpedia.org/resource/Avions_Jean-Pierre_Marie> <http://schema.org/identifier>
+    "118"^^xsd:int .
+
+<http://dbpedia.org/resource/AvtoVAZ> <http://schema.org/identifier> "119"^^xsd:int .
+
+<http://dbpedia.org/resource/Ayres_Corporation> <http://schema.org/identifier> "120"^^xsd:int .
+
+<http://dbpedia.org/resource/Azure_Dynamics> <http://schema.org/identifier> "121"^^xsd:int .
+
+<http://dbpedia.org/resource/BAE_Systems> <http://schema.org/identifier> "122"^^xsd:int .
+
+<http://dbpedia.org/resource/BAE_Systems_Military_Air_&_Information> <http://schema.org/identifier>
+    "123"^^xsd:int .
+
+<http://dbpedia.org/resource/BMW> <http://schema.org/identifier> "124"^^xsd:int .
+
+<http://dbpedia.org/resource/BYD_Auto> <http://schema.org/identifier> "125"^^xsd:int .
+
+<http://dbpedia.org/resource/Backcountry_Super_Cubs> <http://schema.org/identifier>
+    "126"^^xsd:int .
+
+<http://dbpedia.org/resource/Bajaj_Auto> <http://schema.org/identifier> "127"^^xsd:int .
+
+<http://dbpedia.org/resource/Baldwin_Locomotive_Works> <http://schema.org/identifier>
+    "128"^^xsd:int .
+
+<http://dbpedia.org/resource/Bally_Manufacturing> <http://schema.org/identifier> "129"^^xsd:int .
+
+<http://dbpedia.org/resource/Bandai> <http://schema.org/identifier> "130"^^xsd:int .
+
+<http://dbpedia.org/resource/Baojun> <http://schema.org/identifier> "131"^^xsd:int .
+
+<http://dbpedia.org/resource/Bautek> <http://schema.org/identifier> "132"^^xsd:int .
+
+<http://dbpedia.org/resource/Beam_Suntory> <http://schema.org/identifier> "133"^^xsd:int .
+
+<http://dbpedia.org/resource/Beaujon_Aircraft> <http://schema.org/identifier> "134"^^xsd:int .
+
+<http://dbpedia.org/resource/Bedford_Vehicles> <http://schema.org/identifier> "135"^^xsd:int .
+
+<http://dbpedia.org/resource/Beechcraft> <http://schema.org/identifier> "136"^^xsd:int .
+
+<http://dbpedia.org/resource/BelAZ> <http://schema.org/identifier> "137"^^xsd:int .
+
+<http://dbpedia.org/resource/Belite_Aircraft> <http://schema.org/identifier> "138"^^xsd:int .
+
+<http://dbpedia.org/resource/Belkin> <http://schema.org/identifier> "139"^^xsd:int .
+
+<http://dbpedia.org/resource/Bell_Helicopter> <http://schema.org/identifier> "140"^^xsd:int .
+
+<http://dbpedia.org/resource/Bell_Labs> <http://schema.org/identifier> "141"^^xsd:int .
+
+<http://dbpedia.org/resource/BenQ> <http://schema.org/identifier> "142"^^xsd:int .
+
+<http://dbpedia.org/resource/Bensen_Aircraft> <http://schema.org/identifier> "143"^^xsd:int .
+
+<http://dbpedia.org/resource/Beriev> <http://schema.org/identifier> "144"^^xsd:int .
+
+<http://dbpedia.org/resource/Best_Off> <http://schema.org/identifier> "145"^^xsd:int .
+
+<http://dbpedia.org/resource/Bethlehem_Steel> <http://schema.org/identifier> "146"^^xsd:int .
+
+<http://dbpedia.org/resource/Birdman_Enterprises> <http://schema.org/identifier> "147"^^xsd:int .
+
+<http://dbpedia.org/resource/Bit_Corporation> <http://schema.org/identifier> "148"^^xsd:int .
+
+<http://dbpedia.org/resource/Bizzarrini> <http://schema.org/identifier> "149"^^xsd:int .
+
+<http://dbpedia.org/resource/BlackBerry_Limited> <http://schema.org/identifier> "150"^^xsd:int .
+
+<http://dbpedia.org/resource/Blohm_+_Voss> <http://schema.org/identifier> "151"^^xsd:int .
+
+<http://dbpedia.org/resource/Blue_Yonder_Aviation> <http://schema.org/identifier>
+    "152"^^xsd:int .
+
+<http://dbpedia.org/resource/Boag's_Brewery> <http://schema.org/identifier> "153"^^xsd:int .
+
+<http://dbpedia.org/resource/Boeing> <http://schema.org/identifier> "154"^^xsd:int .
+
+<http://dbpedia.org/resource/Boeing_Commercial_Airplanes> <http://schema.org/identifier>
+    "155"^^xsd:int .
+
+<http://dbpedia.org/resource/Boeing_Defense,_Space_&_Security> <http://schema.org/identifier>
+    "156"^^xsd:int .
+
+<http://dbpedia.org/resource/Bollack_Netter_and_Co> <http://schema.org/identifier>
+    "157"^^xsd:int .
+
+<http://dbpedia.org/resource/Bombardier_Aerospace> <http://schema.org/identifier>
+    "158"^^xsd:int .
+
+<http://dbpedia.org/resource/Bombardier_Inc.> <http://schema.org/identifier> "159"^^xsd:int .
+
+<http://dbpedia.org/resource/Bookeen> <http://schema.org/identifier> "160"^^xsd:int .
+
+<http://dbpedia.org/resource/BorgWarner> <http://schema.org/identifier> "161"^^xsd:int .
+
+<http://dbpedia.org/resource/Borgward> <http://schema.org/identifier> "162"^^xsd:int .
+
+<http://dbpedia.org/resource/Bose_Corporation> <http://schema.org/identifier> "163"^^xsd:int .
+
+<http://dbpedia.org/resource/Bowler_Offroad> <http://schema.org/identifier> "164"^^xsd:int .
+
+<http://dbpedia.org/resource/Brabus> <http://schema.org/identifier> "165"^^xsd:int .
+
+<http://dbpedia.org/resource/Brantly_International> <http://schema.org/identifier>
+    "166"^^xsd:int .
+
+<http://dbpedia.org/resource/Brasserie_de_la_Couronne> <http://schema.org/identifier>
+    "167"^^xsd:int .
+
+<http://dbpedia.org/resource/Brilliance_Auto> <http://schema.org/identifier> "168"^^xsd:int .
+
+<http://dbpedia.org/resource/Bristol_Cars> <http://schema.org/identifier> "169"^^xsd:int .
+
+<http://dbpedia.org/resource/British_Aerospace> <http://schema.org/identifier> "170"^^xsd:int .
+
+<http://dbpedia.org/resource/British_Leyland> <http://schema.org/identifier> "171"^^xsd:int .
+
+<http://dbpedia.org/resource/British_Rail> <http://schema.org/identifier> "172"^^xsd:int .
+
+<http://dbpedia.org/resource/Britvic> <http://schema.org/identifier> "173"^^xsd:int .
+
+<http://dbpedia.org/resource/Brochet> <http://schema.org/identifier> "174"^^xsd:int .
+
+<http://dbpedia.org/resource/Brown-Forman> <http://schema.org/identifier> "175"^^xsd:int .
+
+<http://dbpedia.org/resource/Brumby_Aircraft_Australia> <http://schema.org/identifier>
+    "176"^^xsd:int .
+
+<http://dbpedia.org/resource/Buckeye_Industries> <http://schema.org/identifier> "177"^^xsd:int .
+
+<http://dbpedia.org/resource/Bugatti> <http://schema.org/identifier> "178"^^xsd:int .
+
+<http://dbpedia.org/resource/Buick> <http://schema.org/identifier> "179"^^xsd:int .
+
+<http://dbpedia.org/resource/Bushcaddy> <http://schema.org/identifier> "180"^^xsd:int .
+
+<http://dbpedia.org/resource/CAMI_Automotive> <http://schema.org/identifier> "181"^^xsd:int .
+
+<http://dbpedia.org/resource/CSR_Corporation_Limited> <http://schema.org/identifier>
+    "182"^^xsd:int .
+
+<http://dbpedia.org/resource/Cadbury> <http://schema.org/identifier> "183"^^xsd:int .
+
+<http://dbpedia.org/resource/Cadillac> <http://schema.org/identifier> "184"^^xsd:int .
+
+<http://dbpedia.org/resource/Cammell_Laird> <http://schema.org/identifier> "185"^^xsd:int .
+
+<http://dbpedia.org/resource/Campari_Group> <http://schema.org/identifier> "186"^^xsd:int .
+
+<http://dbpedia.org/resource/Canadian_Aerodrome_Company> <http://schema.org/identifier>
+    "187"^^xsd:int .
+
+<http://dbpedia.org/resource/Canadian_Electric_Vehicles> <http://schema.org/identifier>
+    "188"^^xsd:int .
+
+<http://dbpedia.org/resource/Canon_Inc.> <http://schema.org/identifier> "189"^^xsd:int .
+
+<http://dbpedia.org/resource/Capcom> <http://schema.org/identifier> "190"^^xsd:int .
+
+<http://dbpedia.org/resource/Carlsberg_Group> <http://schema.org/identifier> "191"^^xsd:int .
+
+<http://dbpedia.org/resource/Carlson_Aircraft> <http://schema.org/identifier> "192"^^xsd:int .
+
+<http://dbpedia.org/resource/Carpenterie_Pagotto> <http://schema.org/identifier> "193"^^xsd:int .
+
+<http://dbpedia.org/resource/Carrozzeria_Ghia> <http://schema.org/identifier> "194"^^xsd:int .
+
+<http://dbpedia.org/resource/Carter_Aviation_Technologies> <http://schema.org/identifier>
+    "195"^^xsd:int .
+
+<http://dbpedia.org/resource/Casio> <http://schema.org/identifier> "196"^^xsd:int .
+
+<http://dbpedia.org/resource/Castle_Technology> <http://schema.org/identifier> "197"^^xsd:int .
+
+<http://dbpedia.org/resource/Caterpillar_Inc.> <http://schema.org/identifier> "198"^^xsd:int .
+
+<http://dbpedia.org/resource/Celestica> <http://schema.org/identifier> "199"^^xsd:int .
+
+<http://dbpedia.org/resource/Celier_Aviation> <http://schema.org/identifier> "200"^^xsd:int .
+
+<http://dbpedia.org/resource/Central_Motors> <http://schema.org/identifier> "201"^^xsd:int .
+
+<http://dbpedia.org/resource/Cessna> <http://schema.org/identifier> "202"^^xsd:int .
+
+<http://dbpedia.org/resource/Changhe_Aircraft_Industries_Corporation> <http://schema.org/identifier>
+    "203"^^xsd:int .
+
+<http://dbpedia.org/resource/Chantiers_aéronavals_Étienne_Romano> <http://schema.org/identifier>
+    "204"^^xsd:int .
+
+<http://dbpedia.org/resource/Chase_Aircraft> <http://schema.org/identifier> "205"^^xsd:int .
+
+<http://dbpedia.org/resource/Checker_Motors_Corporation> <http://schema.org/identifier>
+    "206"^^xsd:int .
+
+<http://dbpedia.org/resource/Chemical_Automatics_Design_Bureau> <http://schema.org/identifier>
+    "207"^^xsd:int .
+
+<http://dbpedia.org/resource/Chengdu_Aircraft_Industry_Group> <http://schema.org/identifier>
+    "208"^^xsd:int .
+
+<http://dbpedia.org/resource/Chery> <http://schema.org/identifier> "209"^^xsd:int .
+
+<http://dbpedia.org/resource/Chevrolet> <http://schema.org/identifier> "210"^^xsd:int .
+
+<http://dbpedia.org/resource/Chichibu_Railway> <http://schema.org/identifier> "211"^^xsd:int .
+
+<http://dbpedia.org/resource/China_Aerospace_Science_and_Industry_Corporation> <http://schema.org/identifier>
+    "212"^^xsd:int .
+
+<http://dbpedia.org/resource/China_Aerospace_Science_and_Technology_Corporation> <http://schema.org/identifier>
+    "213"^^xsd:int .
+
+<http://dbpedia.org/resource/China_Aviation_Industry_General_Aircraft> <http://schema.org/identifier>
+    "214"^^xsd:int .
+
+<http://dbpedia.org/resource/China_CNR_Corporation> <http://schema.org/identifier>
+    "215"^^xsd:int .
+
+<http://dbpedia.org/resource/China_Motor_Corporation> <http://schema.org/identifier>
+    "216"^^xsd:int .
+
+<http://dbpedia.org/resource/Chrysler> <http://schema.org/identifier> "217"^^xsd:int .
+
+<http://dbpedia.org/resource/Chrysler_Europe> <http://schema.org/identifier> "218"^^xsd:int .
+
+<http://dbpedia.org/resource/Cirrus_Aircraft> <http://schema.org/identifier> "219"^^xsd:int .
+
+<http://dbpedia.org/resource/Citroën> <http://schema.org/identifier> "220"^^xsd:int .
+
+<http://dbpedia.org/resource/Civilian_Aircraft_Company> <http://schema.org/identifier>
+    "221"^^xsd:int .
+
+<http://dbpedia.org/resource/Cizeta> <http://schema.org/identifier> "222"^^xsd:int .
+
+<http://dbpedia.org/resource/Coca-Cola_Amatil> <http://schema.org/identifier> "223"^^xsd:int .
+
+<http://dbpedia.org/resource/Coda_Automotive> <http://schema.org/identifier> "224"^^xsd:int .
+
+<http://dbpedia.org/resource/Coleco> <http://schema.org/identifier> "225"^^xsd:int .
+
+<http://dbpedia.org/resource/Colyaer> <http://schema.org/identifier> "226"^^xsd:int .
+
+<http://dbpedia.org/resource/Comac> <http://schema.org/identifier> "227"^^xsd:int .
+
+<http://dbpedia.org/resource/Commer> <http://schema.org/identifier> "228"^^xsd:int .
+
+<http://dbpedia.org/resource/Commodore_International> <http://schema.org/identifier>
+    "229"^^xsd:int .
+
+<http://dbpedia.org/resource/Compal_Electronics> <http://schema.org/identifier> "230"^^xsd:int .
+
+<http://dbpedia.org/resource/Compaq> <http://schema.org/identifier> "231"^^xsd:int .
+
+<http://dbpedia.org/resource/Constellation_Brands> <http://schema.org/identifier>
+    "232"^^xsd:int .
+
+<http://dbpedia.org/resource/Construcciones_y_Auxiliar_de_Ferrocarriles> <http://schema.org/identifier>
+    "233"^^xsd:int .
+
+<http://dbpedia.org/resource/Convair> <http://schema.org/identifier> "234"^^xsd:int .
+
+<http://dbpedia.org/resource/Corre_La_Licorne> <http://schema.org/identifier> "235"^^xsd:int .
+
+<http://dbpedia.org/resource/Cosworth> <http://schema.org/identifier> "236"^^xsd:int .
+
+<http://dbpedia.org/resource/Cott> <http://schema.org/identifier> "237"^^xsd:int .
+
+<http://dbpedia.org/resource/Cowon> <http://schema.org/identifier> "238"^^xsd:int .
+
+<http://dbpedia.org/resource/Cravens> <http://schema.org/identifier> "239"^^xsd:int .
+
+<http://dbpedia.org/resource/Crawford_Composites> <http://schema.org/identifier> "240"^^xsd:int .
+
+<http://dbpedia.org/resource/Crown_Coach_Corporation> <http://schema.org/identifier>
+    "241"^^xsd:int .
+
+<http://dbpedia.org/resource/Cub_Crafters> <http://schema.org/identifier> "242"^^xsd:int .
+
+<http://dbpedia.org/resource/Culver_Aircraft_Company> <http://schema.org/identifier>
+    "243"^^xsd:int .
+
+<http://dbpedia.org/resource/Cummins> <http://schema.org/identifier> "244"^^xsd:int .
+
+<http://dbpedia.org/resource/Curtiss-Wright> <http://schema.org/identifier> "245"^^xsd:int .
+
+<http://dbpedia.org/resource/Curtiss_Aeroplane_and_Motor_Company> <http://schema.org/identifier>
+    "246"^^xsd:int .
+
+<http://dbpedia.org/resource/Custom_Flight> <http://schema.org/identifier> "247"^^xsd:int .
+
+<http://dbpedia.org/resource/Czech_Sport_Aircraft> <http://schema.org/identifier>
+    "248"^^xsd:int .
+
+<http://dbpedia.org/resource/D-Link> <http://schema.org/identifier> "249"^^xsd:int .
+
+<http://dbpedia.org/resource/D-Wave_Systems> <http://schema.org/identifier> "250"^^xsd:int .
+
+<http://dbpedia.org/resource/DAF_Trucks> <http://schema.org/identifier> "251"^^xsd:int .
+
+<http://dbpedia.org/resource/DAHER-SOCATA> <http://schema.org/identifier> "252"^^xsd:int .
+
+<http://dbpedia.org/resource/DCC_Doppelmayr_Cable_Car> <http://schema.org/identifier>
+    "253"^^xsd:int .
+
+<http://dbpedia.org/resource/DJI_(company)> <http://schema.org/identifier> "254"^^xsd:int .
+
+<http://dbpedia.org/resource/DKW> <http://schema.org/identifier> "255"^^xsd:int .
+
+<http://dbpedia.org/resource/DOK-ING> <http://schema.org/identifier> "256"^^xsd:int .
+
+<http://dbpedia.org/resource/DRS_Technologies> <http://schema.org/identifier> "257"^^xsd:int .
+
+<http://dbpedia.org/resource/DS_Automobiles> <http://schema.org/identifier> "258"^^xsd:int .
+
+<http://dbpedia.org/resource/DTA_sarl> <http://schema.org/identifier> "259"^^xsd:int .
+
+<http://dbpedia.org/resource/Daewoo_Motors> <http://schema.org/identifier> "260"^^xsd:int .
+
+<http://dbpedia.org/resource/Daihatsu> <http://schema.org/identifier> "261"^^xsd:int .
+
+<http://dbpedia.org/resource/Daiichi_Kosho_Company> <http://schema.org/identifier>
+    "262"^^xsd:int .
+
+<http://dbpedia.org/resource/Daimler-Benz> <http://schema.org/identifier> "263"^^xsd:int .
+
+<http://dbpedia.org/resource/Daimler_AG> <http://schema.org/identifier> "264"^^xsd:int .
+
+<http://dbpedia.org/resource/Daimler_Company> <http://schema.org/identifier> "265"^^xsd:int .
+
+<http://dbpedia.org/resource/Daimler_Trucks_North_America> <http://schema.org/identifier>
+    "266"^^xsd:int .
+
+<http://dbpedia.org/resource/Damavand_Mineral_Water_Co.> <http://schema.org/identifier>
+    "267"^^xsd:int .
+
+<http://dbpedia.org/resource/Data_General> <http://schema.org/identifier> "268"^^xsd:int .
+
+<http://dbpedia.org/resource/Datsun> <http://schema.org/identifier> "269"^^xsd:int .
+
+<http://dbpedia.org/resource/Davis_Motorcar_Company> <http://schema.org/identifier>
+    "270"^^xsd:int .
+
+<http://dbpedia.org/resource/Dax_Cars> <http://schema.org/identifier> "271"^^xsd:int .
+
+<http://dbpedia.org/resource/DeLorean_Motor_Company> <http://schema.org/identifier>
+    "272"^^xsd:int .
+
+<http://dbpedia.org/resource/DeSoto_(automobile)> <http://schema.org/identifier> "273"^^xsd:int .
+
+<http://dbpedia.org/resource/De_Havilland> <http://schema.org/identifier> "274"^^xsd:int .
+
+<http://dbpedia.org/resource/De_Havilland_Australia> <http://schema.org/identifier>
+    "275"^^xsd:int .
+
+<http://dbpedia.org/resource/De_Tomaso> <http://schema.org/identifier> "276"^^xsd:int .
+
+<http://dbpedia.org/resource/Delahaye> <http://schema.org/identifier> "277"^^xsd:int .
+
+<http://dbpedia.org/resource/Dell> <http://schema.org/identifier> "278"^^xsd:int .
+
+<http://dbpedia.org/resource/Denel> <http://schema.org/identifier> "279"^^xsd:int .
+
+<http://dbpedia.org/resource/Denel_Dynamics> <http://schema.org/identifier> "280"^^xsd:int .
+
+<http://dbpedia.org/resource/Detroit_Diesel> <http://schema.org/identifier> "281"^^xsd:int .
+
+<http://dbpedia.org/resource/Detroit_Electric> <http://schema.org/identifier> "282"^^xsd:int .
+
+<http://dbpedia.org/resource/Deutz_AG> <http://schema.org/identifier> "283"^^xsd:int .
+
+<http://dbpedia.org/resource/Diageo> <http://schema.org/identifier> "284"^^xsd:int .
+
+<http://dbpedia.org/resource/Diatto> <http://schema.org/identifier> "285"^^xsd:int .
+
+<http://dbpedia.org/resource/Distar_Air> <http://schema.org/identifier> "286"^^xsd:int .
+
+<http://dbpedia.org/resource/Dongfeng_Honda> <http://schema.org/identifier> "287"^^xsd:int .
+
+<http://dbpedia.org/resource/Douglas_Aircraft_Company> <http://schema.org/identifier>
+    "288"^^xsd:int .
+
+<http://dbpedia.org/resource/Dr_Pepper/Seven_Up> <http://schema.org/identifier> "289"^^xsd:int .
+
+<http://dbpedia.org/resource/Dr_Pepper_Snapple_Group> <http://schema.org/identifier>
+    "290"^^xsd:int .
+
+<http://dbpedia.org/resource/Durant_Motors> <http://schema.org/identifier> "291"^^xsd:int .
+
+<http://dbpedia.org/resource/Dyn'Aéro> <http://schema.org/identifier> "292"^^xsd:int .
+
+<http://dbpedia.org/resource/Dätwyler> <http://schema.org/identifier> "293"^^xsd:int .
+
+<http://dbpedia.org/resource/EACA> <http://schema.org/identifier> "294"^^xsd:int .
+
+<http://dbpedia.org/resource/EMI> <http://schema.org/identifier> "295"^^xsd:int .
+
+<http://dbpedia.org/resource/EMachines> <http://schema.org/identifier> "296"^^xsd:int .
+
+<http://dbpedia.org/resource/EVGA_Corporation> <http://schema.org/identifier> "297"^^xsd:int .
+
+<http://dbpedia.org/resource/Eagle_(automobile)> <http://schema.org/identifier> "298"^^xsd:int .
+
+<http://dbpedia.org/resource/Early_Bird_Aircraft_Company> <http://schema.org/identifier>
+    "299"^^xsd:int .
+
+<http://dbpedia.org/resource/East_Japan_Railway_Company> <http://schema.org/identifier>
+    "300"^^xsd:int .
+
+<http://dbpedia.org/resource/Eclipse_Aerospace> <http://schema.org/identifier> "301"^^xsd:int .
+
+<http://dbpedia.org/resource/Eclipse_Aviation> <http://schema.org/identifier> "302"^^xsd:int .
+
+<http://dbpedia.org/resource/Eicher_Motors> <http://schema.org/identifier> "303"^^xsd:int .
+
+<http://dbpedia.org/resource/Electric_Aircraft_Corporation> <http://schema.org/identifier>
+    "304"^^xsd:int .
+
+<http://dbpedia.org/resource/Elfin_Sports_Cars> <http://schema.org/identifier> "305"^^xsd:int .
+
+<http://dbpedia.org/resource/Elmwood_Aviation> <http://schema.org/identifier> "306"^^xsd:int .
+
+<http://dbpedia.org/resource/Engineering_and_Research_Corporation> <http://schema.org/identifier>
+    "307"^^xsd:int .
+
+<http://dbpedia.org/resource/Engro_Corporation> <http://schema.org/identifier> "308"^^xsd:int .
+
+<http://dbpedia.org/resource/Enrique_Cassinelli_and_Sons> <http://schema.org/identifier>
+    "309"^^xsd:int .
+
+<http://dbpedia.org/resource/Enstrom_Helicopter_Corporation> <http://schema.org/identifier>
+    "310"^^xsd:int .
+
+<http://dbpedia.org/resource/Epic_Aircraft> <http://schema.org/identifier> "311"^^xsd:int .
+
+<http://dbpedia.org/resource/Ericsson> <http://schema.org/identifier> "312"^^xsd:int .
+
+<http://dbpedia.org/resource/Ericsson_Mobile_Communications> <http://schema.org/identifier>
+    "313"^^xsd:int .
+
+<http://dbpedia.org/resource/Europa_Aircraft> <http://schema.org/identifier> "314"^^xsd:int .
+
+<http://dbpedia.org/resource/Europe_Sails> <http://schema.org/identifier> "315"^^xsd:int .
+
+<http://dbpedia.org/resource/Evektor-Aerotechnik> <http://schema.org/identifier> "316"^^xsd:int .
+
+<http://dbpedia.org/resource/Evergreen_Group> <http://schema.org/identifier> "317"^^xsd:int .
+
+<http://dbpedia.org/resource/FAW-GM> <http://schema.org/identifier> "318"^^xsd:int .
+
+<http://dbpedia.org/resource/FAW-Volkswagen> <http://schema.org/identifier> "319"^^xsd:int .
+
+<http://dbpedia.org/resource/FL_Goodwin> <http://schema.org/identifier> "320"^^xsd:int .
+
+<http://dbpedia.org/resource/FMC_Technologies> <http://schema.org/identifier> "321"^^xsd:int .
+
+<http://dbpedia.org/resource/FSC_Star> <http://schema.org/identifier> "322"^^xsd:int .
+
+<http://dbpedia.org/resource/Fabrika_automobila_Priboj> <http://schema.org/identifier>
+    "323"^^xsd:int .
+
+<http://dbpedia.org/resource/Fabryka_Samochodów_Małolitrażowych> <http://schema.org/identifier>
+    "324"^^xsd:int .
+
+<http://dbpedia.org/resource/Fabryka_Samochodów_Osobowych> <http://schema.org/identifier>
+    "325"^^xsd:int .
+
+<http://dbpedia.org/resource/Facel_Vega> <http://schema.org/identifier> "326"^^xsd:int .
+
+<http://dbpedia.org/resource/Fairchild_Semiconductor> <http://schema.org/identifier>
+    "327"^^xsd:int .
+
+<http://dbpedia.org/resource/Falconar_Avia> <http://schema.org/identifier> "328"^^xsd:int .
+
+<http://dbpedia.org/resource/Fantasy_Air> <http://schema.org/identifier> "329"^^xsd:int .
+
+<http://dbpedia.org/resource/Farman_Aviation_Works> <http://schema.org/identifier>
+    "330"^^xsd:int .
+
+<http://dbpedia.org/resource/Fiat_Automobiles> <http://schema.org/identifier> "331"^^xsd:int .
+
+<http://dbpedia.org/resource/Fiat_Aviazione> <http://schema.org/identifier> "332"^^xsd:int .
+
+<http://dbpedia.org/resource/Fiat_Powertrain_Technologies> <http://schema.org/identifier>
+    "333"^^xsd:int .
+
+<http://dbpedia.org/resource/Fiat_S.p.A.> <http://schema.org/identifier> "334"^^xsd:int .
+
+<http://dbpedia.org/resource/Finsterwalder> <http://schema.org/identifier> "335"^^xsd:int .
+
+<http://dbpedia.org/resource/First_International_Computer> <http://schema.org/identifier>
+    "336"^^xsd:int .
+
+<http://dbpedia.org/resource/Fisher_Flying_Products> <http://schema.org/identifier>
+    "337"^^xsd:int .
+
+<http://dbpedia.org/resource/Fleetwings> <http://schema.org/identifier> "338"^^xsd:int .
+
+<http://dbpedia.org/resource/Flextronics> <http://schema.org/identifier> "339"^^xsd:int .
+
+<http://dbpedia.org/resource/Flight_Design> <http://schema.org/identifier> "340"^^xsd:int .
+
+<http://dbpedia.org/resource/Flightstar_Sportplanes> <http://schema.org/identifier>
+    "341"^^xsd:int .
+
+<http://dbpedia.org/resource/FlyNano> <http://schema.org/identifier> "342"^^xsd:int .
+
+<http://dbpedia.org/resource/Fly_Synthesis> <http://schema.org/identifier> "343"^^xsd:int .
+
+<http://dbpedia.org/resource/Flying_Legend> <http://schema.org/identifier> "344"^^xsd:int .
+
+<http://dbpedia.org/resource/Flying_Machines_s.r.o.> <http://schema.org/identifier>
+    "345"^^xsd:int .
+
+<http://dbpedia.org/resource/Flylab> <http://schema.org/identifier> "346"^^xsd:int .
+
+<http://dbpedia.org/resource/Focke-Wulf> <http://schema.org/identifier> "347"^^xsd:int .
+
+<http://dbpedia.org/resource/Fokker> <http://schema.org/identifier> "348"^^xsd:int .
+
+<http://dbpedia.org/resource/Force_Motors> <http://schema.org/identifier> "349"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford-Vairogs> <http://schema.org/identifier> "350"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_Australia> <http://schema.org/identifier> "351"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_Brasil> <http://schema.org/identifier> "352"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_Germany> <http://schema.org/identifier> "353"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_Motor_Company> <http://schema.org/identifier> "354"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_Motor_Company_of_Canada> <http://schema.org/identifier>
+    "355"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_Otosan> <http://schema.org/identifier> "356"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_Performance_Vehicles> <http://schema.org/identifier>
+    "357"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_of_Britain> <http://schema.org/identifier> "358"^^xsd:int .
+
+<http://dbpedia.org/resource/Ford_of_Europe> <http://schema.org/identifier> "359"^^xsd:int .
+
+<http://dbpedia.org/resource/Fortune_Brands> <http://schema.org/identifier> "360"^^xsd:int .
+
+<http://dbpedia.org/resource/Foton_Motor> <http://schema.org/identifier> "361"^^xsd:int .
+
+<http://dbpedia.org/resource/Found_Aircraft> <http://schema.org/identifier> "362"^^xsd:int .
+
+<http://dbpedia.org/resource/Foxconn> <http://schema.org/identifier> "363"^^xsd:int .
+
+<http://dbpedia.org/resource/Freightliner_Trucks> <http://schema.org/identifier> "364"^^xsd:int .
+
+<http://dbpedia.org/resource/Fresh_Breeze> <http://schema.org/identifier> "365"^^xsd:int .
+
+<http://dbpedia.org/resource/FrieslandCampina> <http://schema.org/identifier> "366"^^xsd:int .
+
+<http://dbpedia.org/resource/Fujitsu> <http://schema.org/identifier> "367"^^xsd:int .
+
+<http://dbpedia.org/resource/Fuller's_Brewery> <http://schema.org/identifier> "368"^^xsd:int .
+
+<http://dbpedia.org/resource/Fábrica_Argentina_de_Aviones> <http://schema.org/identifier>
+    "369"^^xsd:int .
+
+<http://dbpedia.org/resource/GAZ> <http://schema.org/identifier> "370"^^xsd:int .
+
+<http://dbpedia.org/resource/GEN_Corporation> <http://schema.org/identifier> "371"^^xsd:int .
+
+<http://dbpedia.org/resource/GE_Jenbacher> <http://schema.org/identifier> "372"^^xsd:int .
+
+<http://dbpedia.org/resource/GE_Transportation> <http://schema.org/identifier> "373"^^xsd:int .
+
+<http://dbpedia.org/resource/GMC_(automobile)> <http://schema.org/identifier> "374"^^xsd:int .
+
+<http://dbpedia.org/resource/GM_Korea> <http://schema.org/identifier> "375"^^xsd:int .
+
+<http://dbpedia.org/resource/GTM_Cars> <http://schema.org/identifier> "376"^^xsd:int .
+
+<http://dbpedia.org/resource/Games_Workshop> <http://schema.org/identifier> "377"^^xsd:int .
+
+<http://dbpedia.org/resource/Ganz_Works> <http://schema.org/identifier> "378"^^xsd:int .
+
+<http://dbpedia.org/resource/Geely> <http://schema.org/identifier> "379"^^xsd:int .
+
+<http://dbpedia.org/resource/General_Atomics> <http://schema.org/identifier> "380"^^xsd:int .
+
+<http://dbpedia.org/resource/General_Aviation_Design_Bureau_of_Ukraine> <http://schema.org/identifier>
+    "381"^^xsd:int .
+
+<http://dbpedia.org/resource/General_Dynamics> <http://schema.org/identifier> "382"^^xsd:int .
+
+<http://dbpedia.org/resource/General_Dynamics_Mission_Systems> <http://schema.org/identifier>
+    "383"^^xsd:int .
+
+<http://dbpedia.org/resource/General_Electric> <http://schema.org/identifier> "384"^^xsd:int .
+
+<http://dbpedia.org/resource/General_Motors> <http://schema.org/identifier> "385"^^xsd:int .
+
+<http://dbpedia.org/resource/General_Motors_do_Brasil> <http://schema.org/identifier>
+    "386"^^xsd:int .
+
+<http://dbpedia.org/resource/Genesi> <http://schema.org/identifier> "387"^^xsd:int .
+
+<http://dbpedia.org/resource/Georgia_Tech_Research_Institute> <http://schema.org/identifier>
+    "388"^^xsd:int .
+
+<http://dbpedia.org/resource/Getac> <http://schema.org/identifier> "389"^^xsd:int .
+
+<http://dbpedia.org/resource/Getrag> <http://schema.org/identifier> "390"^^xsd:int .
+
+<http://dbpedia.org/resource/Gigabyte_Technology> <http://schema.org/identifier> "391"^^xsd:int .
+
+<http://dbpedia.org/resource/Gigaset_Communications> <http://schema.org/identifier>
+    "392"^^xsd:int .
+
+<http://dbpedia.org/resource/Gillig_Corporation> <http://schema.org/identifier> "393"^^xsd:int .
+
+<http://dbpedia.org/resource/Ginetta_Cars> <http://schema.org/identifier> "394"^^xsd:int .
+
+<http://dbpedia.org/resource/GippsAero> <http://schema.org/identifier> "395"^^xsd:int .
+
+<http://dbpedia.org/resource/Glasflügel> <http://schema.org/identifier> "396"^^xsd:int .
+
+<http://dbpedia.org/resource/Glenn_L._Martin_Company> <http://schema.org/identifier>
+    "397"^^xsd:int .
+
+<http://dbpedia.org/resource/Globe_Aircraft_Corporation> <http://schema.org/identifier>
+    "398"^^xsd:int .
+
+<http://dbpedia.org/resource/Gobosh_Aviation> <http://schema.org/identifier> "399"^^xsd:int .
+
+<http://dbpedia.org/resource/Gooderham_and_Worts> <http://schema.org/identifier> "400"^^xsd:int .
+
+<http://dbpedia.org/resource/Goodrich_Corporation> <http://schema.org/identifier>
+    "401"^^xsd:int .
+
+<http://dbpedia.org/resource/Google> <http://schema.org/identifier> "402"^^xsd:int .
+
+<http://dbpedia.org/resource/Gordini> <http://schema.org/identifier> "403"^^xsd:int .
+
+<http://dbpedia.org/resource/Gosport_Aircraft_Company> <http://schema.org/identifier>
+    "404"^^xsd:int .
+
+<http://dbpedia.org/resource/Gourdou-Leseurre> <http://schema.org/identifier> "405"^^xsd:int .
+
+<http://dbpedia.org/resource/Great_Wall_Motors> <http://schema.org/identifier> "406"^^xsd:int .
+
+<http://dbpedia.org/resource/Green_Sky_Adventures> <http://schema.org/identifier>
+    "407"^^xsd:int .
+
+<http://dbpedia.org/resource/Griffon_Aerospace> <http://schema.org/identifier> "408"^^xsd:int .
+
+<http://dbpedia.org/resource/Grob_Aircraft> <http://schema.org/identifier> "409"^^xsd:int .
+
+<http://dbpedia.org/resource/Groen_Brothers_Aviation> <http://schema.org/identifier>
+    "410"^^xsd:int .
+
+<http://dbpedia.org/resource/Grumman> <http://schema.org/identifier> "411"^^xsd:int .
+
+<http://dbpedia.org/resource/Grupo_Modelo> <http://schema.org/identifier> "412"^^xsd:int .
+
+<http://dbpedia.org/resource/Gruppo_Bertone> <http://schema.org/identifier> "413"^^xsd:int .
+
+<http://dbpedia.org/resource/Guangqi_Honda> <http://schema.org/identifier> "414"^^xsd:int .
+
+<http://dbpedia.org/resource/Gyro-Kopp-Ters> <http://schema.org/identifier> "415"^^xsd:int .
+
+<http://dbpedia.org/resource/HQM_Sachsenring_GmbH> <http://schema.org/identifier>
+    "416"^^xsd:int .
+
+<http://dbpedia.org/resource/HRG_Engineering_Company> <http://schema.org/identifier>
+    "417"^^xsd:int .
+
+<http://dbpedia.org/resource/HTC> <http://schema.org/identifier> "418"^^xsd:int .
+
+<http://dbpedia.org/resource/Hafei> <http://schema.org/identifier> "419"^^xsd:int .
+
+<http://dbpedia.org/resource/Handley_Page> <http://schema.org/identifier> "420"^^xsd:int .
+
+<http://dbpedia.org/resource/Hanjin_Heavy_Industries> <http://schema.org/identifier>
+    "421"^^xsd:int .
+
+<http://dbpedia.org/resource/Hanriot_(aircraft_company)> <http://schema.org/identifier>
+    "422"^^xsd:int .
+
+<http://dbpedia.org/resource/Harbin_Aircraft_Industry_Group> <http://schema.org/identifier>
+    "423"^^xsd:int .
+
+<http://dbpedia.org/resource/Hasbro> <http://schema.org/identifier> "424"^^xsd:int .
+
+<http://dbpedia.org/resource/Hawker_Beechcraft> <http://schema.org/identifier> "425"^^xsd:int .
+
+<http://dbpedia.org/resource/Heineken_International> <http://schema.org/identifier>
+    "426"^^xsd:int .
+
+<http://dbpedia.org/resource/Heinkel> <http://schema.org/identifier> "427"^^xsd:int .
+
+<http://dbpedia.org/resource/Heldeberg_Designs> <http://schema.org/identifier> "428"^^xsd:int .
+
+<http://dbpedia.org/resource/Helibras> <http://schema.org/identifier> "429"^^xsd:int .
+
+<http://dbpedia.org/resource/Hennessey_Performance_Engineering> <http://schema.org/identifier>
+    "430"^^xsd:int .
+
+<http://dbpedia.org/resource/Henschel_&_Son> <http://schema.org/identifier> "431"^^xsd:int .
+
+<http://dbpedia.org/resource/Heublein> <http://schema.org/identifier> "432"^^xsd:int .
+
+<http://dbpedia.org/resource/Hewlett-Packard> <http://schema.org/identifier> "433"^^xsd:int .
+
+<http://dbpedia.org/resource/Hiller_Aircraft> <http://schema.org/identifier> "434"^^xsd:int .
+
+<http://dbpedia.org/resource/Hillman> <http://schema.org/identifier> "435"^^xsd:int .
+
+<http://dbpedia.org/resource/Hindustan_Aeronautics_Limited> <http://schema.org/identifier>
+    "436"^^xsd:int .
+
+<http://dbpedia.org/resource/Hindustan_Motors> <http://schema.org/identifier> "437"^^xsd:int .
+
+<http://dbpedia.org/resource/Hino_Motors> <http://schema.org/identifier> "438"^^xsd:int .
+
+<http://dbpedia.org/resource/Historical_Aircraft_Corporation> <http://schema.org/identifier>
+    "439"^^xsd:int .
+
+<http://dbpedia.org/resource/Hitachi> <http://schema.org/identifier> "440"^^xsd:int .
+
+<http://dbpedia.org/resource/Holden> <http://schema.org/identifier> "441"^^xsd:int .
+
+<http://dbpedia.org/resource/Honda> <http://schema.org/identifier> "442"^^xsd:int .
+
+<http://dbpedia.org/resource/Honda_Aircraft_Company> <http://schema.org/identifier>
+    "443"^^xsd:int .
+
+<http://dbpedia.org/resource/Hongdu_Aviation_Industry_Group> <http://schema.org/identifier>
+    "444"^^xsd:int .
+
+<http://dbpedia.org/resource/Hongqi_(marque)> <http://schema.org/identifier> "445"^^xsd:int .
+
+<http://dbpedia.org/resource/Horch> <http://schema.org/identifier> "446"^^xsd:int .
+
+<http://dbpedia.org/resource/Howard_Aircraft_Corporation> <http://schema.org/identifier>
+    "447"^^xsd:int .
+
+<http://dbpedia.org/resource/Huawei> <http://schema.org/identifier> "448"^^xsd:int .
+
+<http://dbpedia.org/resource/Hudson_Motor_Car_Company> <http://schema.org/identifier>
+    "449"^^xsd:int .
+
+<http://dbpedia.org/resource/Hudson_Soft> <http://schema.org/identifier> "450"^^xsd:int .
+
+<http://dbpedia.org/resource/Hughes_Aircraft_Company> <http://schema.org/identifier>
+    "451"^^xsd:int .
+
+<http://dbpedia.org/resource/Humber_Limited> <http://schema.org/identifier> "452"^^xsd:int .
+
+<http://dbpedia.org/resource/Hummer> <http://schema.org/identifier> "453"^^xsd:int .
+
+<http://dbpedia.org/resource/Hybrid_Air_Vehicles> <http://schema.org/identifier> "454"^^xsd:int .
+
+<http://dbpedia.org/resource/Hyundai> <http://schema.org/identifier> "455"^^xsd:int .
+
+<http://dbpedia.org/resource/Hyundai_Mobis> <http://schema.org/identifier> "456"^^xsd:int .
+
+<http://dbpedia.org/resource/Hyundai_Motor_Company> <http://schema.org/identifier>
+    "457"^^xsd:int .
+
+<http://dbpedia.org/resource/Hyundai_Rotem> <http://schema.org/identifier> "458"^^xsd:int .
+
+<http://dbpedia.org/resource/Høka> <http://schema.org/identifier> "459"^^xsd:int .
+
+<http://dbpedia.org/resource/I-mate> <http://schema.org/identifier> "460"^^xsd:int .
+
+<http://dbpedia.org/resource/IBM> <http://schema.org/identifier> "461"^^xsd:int .
+
+<http://dbpedia.org/resource/ICON_Aircraft> <http://schema.org/identifier> "462"^^xsd:int .
+
+<http://dbpedia.org/resource/ICP_srl> <http://schema.org/identifier> "463"^^xsd:int .
+
+<http://dbpedia.org/resource/IHI_Corporation> <http://schema.org/identifier> "464"^^xsd:int .
+
+<http://dbpedia.org/resource/IQue> <http://schema.org/identifier> "465"^^xsd:int .
+
+<http://dbpedia.org/resource/IRobot> <http://schema.org/identifier> "466"^^xsd:int .
+
+<http://dbpedia.org/resource/Icaro_2000> <http://schema.org/identifier> "467"^^xsd:int .
+
+<http://dbpedia.org/resource/Ikarbus> <http://schema.org/identifier> "468"^^xsd:int .
+
+<http://dbpedia.org/resource/Ikarus_Bus> <http://schema.org/identifier> "469"^^xsd:int .
+
+<http://dbpedia.org/resource/Impuls> <http://schema.org/identifier> "470"^^xsd:int .
+
+<http://dbpedia.org/resource/IndUS_Aviation> <http://schema.org/identifier> "471"^^xsd:int .
+
+<http://dbpedia.org/resource/IndoMobil_Suzuki_International> <http://schema.org/identifier>
+    "472"^^xsd:int .
+
+<http://dbpedia.org/resource/Indonesian_Aerospace> <http://schema.org/identifier>
+    "473"^^xsd:int .
+
+<http://dbpedia.org/resource/Industria_Aeronautică_Română> <http://schema.org/identifier>
+    "474"^^xsd:int .
+
+<http://dbpedia.org/resource/Industrias_Kaiser_Argentina> <http://schema.org/identifier>
+    "475"^^xsd:int .
+
+<http://dbpedia.org/resource/Indústria_Aeronáutica_Neiva> <http://schema.org/identifier>
+    "476"^^xsd:int .
+
+<http://dbpedia.org/resource/Inekon_Trams> <http://schema.org/identifier> "477"^^xsd:int .
+
+<http://dbpedia.org/resource/Infiniti> <http://schema.org/identifier> "478"^^xsd:int .
+
+<http://dbpedia.org/resource/Innocenti> <http://schema.org/identifier> "479"^^xsd:int .
+
+<http://dbpedia.org/resource/Insitu> <http://schema.org/identifier> "480"^^xsd:int .
+
+<http://dbpedia.org/resource/International_Computers_Limited> <http://schema.org/identifier>
+    "481"^^xsd:int .
+
+<http://dbpedia.org/resource/International_Harvester> <http://schema.org/identifier>
+    "482"^^xsd:int .
+
+<http://dbpedia.org/resource/Intex_Technologies> <http://schema.org/identifier> "483"^^xsd:int .
+
+<http://dbpedia.org/resource/Inventel> <http://schema.org/identifier> "484"^^xsd:int .
+
+<http://dbpedia.org/resource/Iran_Aviation_Industries_Organization> <http://schema.org/identifier>
+    "485"^^xsd:int .
+
+<http://dbpedia.org/resource/Iran_Khodro> <http://schema.org/identifier> "486"^^xsd:int .
+
+<http://dbpedia.org/resource/Irizar> <http://schema.org/identifier> "487"^^xsd:int .
+
+<http://dbpedia.org/resource/Isdera> <http://schema.org/identifier> "488"^^xsd:int .
+
+<http://dbpedia.org/resource/Israel_Aerospace_Industries> <http://schema.org/identifier>
+    "489"^^xsd:int .
+
+<http://dbpedia.org/resource/Isuzu_Motors> <http://schema.org/identifier> "490"^^xsd:int .
+
+<http://dbpedia.org/resource/Itala> <http://schema.org/identifier> "491"^^xsd:int .
+
+<http://dbpedia.org/resource/J._Samuel_White> <http://schema.org/identifier> "492"^^xsd:int .
+
+<http://dbpedia.org/resource/JPMorgan_Chase> <http://schema.org/identifier> "493"^^xsd:int .
+
+<http://dbpedia.org/resource/J_&_J_Ultralights> <http://schema.org/identifier> "494"^^xsd:int .
+
+<http://dbpedia.org/resource/Jabiru_Aircraft> <http://schema.org/identifier> "495"^^xsd:int .
+
+<http://dbpedia.org/resource/Jaguar_Cars> <http://schema.org/identifier> "496"^^xsd:int .
+
+<http://dbpedia.org/resource/Jaguar_Land_Rover> <http://schema.org/identifier> "497"^^xsd:int .
+
+<http://dbpedia.org/resource/Jakks_Pacific> <http://schema.org/identifier> "498"^^xsd:int .
+
+<http://dbpedia.org/resource/Javelin_Aircraft> <http://schema.org/identifier> "499"^^xsd:int .
+
+<http://dbpedia.org/resource/Jel_Sert> <http://schema.org/identifier> "500"^^xsd:int .
+
+<http://dbpedia.org/resource/Jelcz> <http://schema.org/identifier> "501"^^xsd:int .
+
+<http://dbpedia.org/resource/Jensen_Motors> <http://schema.org/identifier> "502"^^xsd:int .
+
+<http://dbpedia.org/resource/Jiangling_Motors> <http://schema.org/identifier> "503"^^xsd:int .
+
+<http://dbpedia.org/resource/Jodel> <http://schema.org/identifier> "504"^^xsd:int .
+
+<http://dbpedia.org/resource/John_Deere> <http://schema.org/identifier> "505"^^xsd:int .
+
+<http://dbpedia.org/resource/Jolla> <http://schema.org/identifier> "506"^^xsd:int .
+
+<http://dbpedia.org/resource/Just_Aircraft> <http://schema.org/identifier> "507"^^xsd:int .
+
+<http://dbpedia.org/resource/KTM> <http://schema.org/identifier> "508"^^xsd:int .
+
+<http://dbpedia.org/resource/Kaiser_Motors> <http://schema.org/identifier> "509"^^xsd:int .
+
+<http://dbpedia.org/resource/Kaiserliche_Werft_Danzig> <http://schema.org/identifier>
+    "510"^^xsd:int .
+
+<http://dbpedia.org/resource/Kaiserliche_Werft_Kiel> <http://schema.org/identifier>
+    "511"^^xsd:int .
+
+<http://dbpedia.org/resource/Kaman_Aircraft> <http://schema.org/identifier> "512"^^xsd:int .
+
+<http://dbpedia.org/resource/Kamov> <http://schema.org/identifier> "513"^^xsd:int .
+
+<http://dbpedia.org/resource/Karmann> <http://schema.org/identifier> "514"^^xsd:int .
+
+<http://dbpedia.org/resource/Karsan> <http://schema.org/identifier> "515"^^xsd:int .
+
+<http://dbpedia.org/resource/Kawasaki_Aerospace_Company> <http://schema.org/identifier>
+    "516"^^xsd:int .
+
+<http://dbpedia.org/resource/Kawasaki_Heavy_Industries> <http://schema.org/identifier>
+    "517"^^xsd:int .
+
+<http://dbpedia.org/resource/Kawasaki_Heavy_Industries_Rolling_Stock_Company> <http://schema.org/identifier>
+    "518"^^xsd:int .
+
+<http://dbpedia.org/resource/Kayaba_Industry> <http://schema.org/identifier> "519"^^xsd:int .
+
+<http://dbpedia.org/resource/Kellner-Béchereau> <http://schema.org/identifier> "520"^^xsd:int .
+
+<http://dbpedia.org/resource/Kenworth> <http://schema.org/identifier> "521"^^xsd:int .
+
+<http://dbpedia.org/resource/Khartron> <http://schema.org/identifier> "522"^^xsd:int .
+
+<http://dbpedia.org/resource/Kia_Motors> <http://schema.org/identifier> "523"^^xsd:int .
+
+<http://dbpedia.org/resource/Kingston_Technology> <http://schema.org/identifier> "524"^^xsd:int .
+
+<http://dbpedia.org/resource/Kinki_Sharyo> <http://schema.org/identifier> "525"^^xsd:int .
+
+<http://dbpedia.org/resource/Kirin_Company> <http://schema.org/identifier> "526"^^xsd:int .
+
+<http://dbpedia.org/resource/Kobe_Steel> <http://schema.org/identifier> "527"^^xsd:int .
+
+<http://dbpedia.org/resource/Kobo_Inc.> <http://schema.org/identifier> "528"^^xsd:int .
+
+<http://dbpedia.org/resource/Koenigsegg> <http://schema.org/identifier> "529"^^xsd:int .
+
+<http://dbpedia.org/resource/Komatsu_Limited> <http://schema.org/identifier> "530"^^xsd:int .
+
+<http://dbpedia.org/resource/Komsomolsk-on-Amur_Aircraft_Production_Association> <http://schema.org/identifier>
+    "531"^^xsd:int .
+
+<http://dbpedia.org/resource/Koryolink> <http://schema.org/identifier> "532"^^xsd:int .
+
+<http://dbpedia.org/resource/KrAZ> <http://schema.org/identifier> "533"^^xsd:int .
+
+<http://dbpedia.org/resource/Kraft_Foods> <http://schema.org/identifier> "534"^^xsd:int .
+
+<http://dbpedia.org/resource/Krasniye_Kryl'ya> <http://schema.org/identifier> "535"^^xsd:int .
+
+<http://dbpedia.org/resource/Kubicek_Balloons> <http://schema.org/identifier> "536"^^xsd:int .
+
+<http://dbpedia.org/resource/Kyocera_Communications> <http://schema.org/identifier>
+    "537"^^xsd:int .
+
+<http://dbpedia.org/resource/L-3_Communications> <http://schema.org/identifier> "538"^^xsd:int .
+
+<http://dbpedia.org/resource/LG_Corporation> <http://schema.org/identifier> "539"^^xsd:int .
+
+<http://dbpedia.org/resource/LG_Electronics> <http://schema.org/identifier> "540"^^xsd:int .
+
+<http://dbpedia.org/resource/LVMH> <http://schema.org/identifier> "541"^^xsd:int .
+
+<http://dbpedia.org/resource/La_Mouette> <http://schema.org/identifier> "542"^^xsd:int .
+
+<http://dbpedia.org/resource/Lake_Aircraft> <http://schema.org/identifier> "543"^^xsd:int .
+
+<http://dbpedia.org/resource/Lancair> <http://schema.org/identifier> "544"^^xsd:int .
+
+<http://dbpedia.org/resource/Lanchester_Motor_Company> <http://schema.org/identifier>
+    "545"^^xsd:int .
+
+<http://dbpedia.org/resource/Lancia> <http://schema.org/identifier> "546"^^xsd:int .
+
+<http://dbpedia.org/resource/Land_Rover> <http://schema.org/identifier> "547"^^xsd:int .
+
+<http://dbpedia.org/resource/Landwind> <http://schema.org/identifier> "548"^^xsd:int .
+
+<http://dbpedia.org/resource/Lanitz_Aviation> <http://schema.org/identifier> "549"^^xsd:int .
+
+<http://dbpedia.org/resource/Lava_International> <http://schema.org/identifier> "550"^^xsd:int .
+
+<http://dbpedia.org/resource/Layzell_Gyroplanes> <http://schema.org/identifier> "551"^^xsd:int .
+
+<http://dbpedia.org/resource/LeapFrog_Enterprises> <http://schema.org/identifier>
+    "552"^^xsd:int .
+
+<http://dbpedia.org/resource/Lenovo> <http://schema.org/identifier> "553"^^xsd:int .
+
+<http://dbpedia.org/resource/Leonardo-Finmeccanica> <http://schema.org/identifier>
+    "554"^^xsd:int .
+
+<http://dbpedia.org/resource/Let_Kunovice> <http://schema.org/identifier> "555"^^xsd:int .
+
+<http://dbpedia.org/resource/Lexus> <http://schema.org/identifier> "556"^^xsd:int .
+
+<http://dbpedia.org/resource/Leyland_Trucks> <http://schema.org/identifier> "557"^^xsd:int .
+
+<http://dbpedia.org/resource/Liberty_Aerospace> <http://schema.org/identifier> "558"^^xsd:int .
+
+<http://dbpedia.org/resource/Lifan_Group> <http://schema.org/identifier> "559"^^xsd:int .
+
+<http://dbpedia.org/resource/Lightning_Car_Company> <http://schema.org/identifier>
+    "560"^^xsd:int .
+
+<http://dbpedia.org/resource/Ligier> <http://schema.org/identifier> "561"^^xsd:int .
+
+<http://dbpedia.org/resource/Lincoln_Motor_Company> <http://schema.org/identifier>
+    "562"^^xsd:int .
+
+<http://dbpedia.org/resource/Ling-Temco-Vought> <http://schema.org/identifier> "563"^^xsd:int .
+
+<http://dbpedia.org/resource/Linksys> <http://schema.org/identifier> "564"^^xsd:int .
+
+<http://dbpedia.org/resource/Lister_Cars> <http://schema.org/identifier> "565"^^xsd:int .
+
+<http://dbpedia.org/resource/Lockheed_Corporation> <http://schema.org/identifier>
+    "566"^^xsd:int .
+
+<http://dbpedia.org/resource/Lockheed_Martin> <http://schema.org/identifier> "567"^^xsd:int .
+
+<http://dbpedia.org/resource/Loehle_Aircraft> <http://schema.org/identifier> "568"^^xsd:int .
+
+<http://dbpedia.org/resource/Logitech> <http://schema.org/identifier> "569"^^xsd:int .
+
+<http://dbpedia.org/resource/Loire_Aviation> <http://schema.org/identifier> "570"^^xsd:int .
+
+<http://dbpedia.org/resource/Lola_Cars> <http://schema.org/identifier> "571"^^xsd:int .
+
+<http://dbpedia.org/resource/Lotus_Cars> <http://schema.org/identifier> "572"^^xsd:int .
+
+<http://dbpedia.org/resource/Lucas_Industries> <http://schema.org/identifier> "573"^^xsd:int .
+
+<http://dbpedia.org/resource/Luxco> <http://schema.org/identifier> "574"^^xsd:int .
+
+<http://dbpedia.org/resource/Luxgen> <http://schema.org/identifier> "575"^^xsd:int .
+
+<http://dbpedia.org/resource/M-Sport> <http://schema.org/identifier> "576"^^xsd:int .
+
+<http://dbpedia.org/resource/MACOSA> <http://schema.org/identifier> "577"^^xsd:int .
+
+<http://dbpedia.org/resource/MANAŞ> <http://schema.org/identifier> "578"^^xsd:int .
+
+<http://dbpedia.org/resource/MAN_SE> <http://schema.org/identifier> "579"^^xsd:int .
+
+<http://dbpedia.org/resource/MAN_Truck_&_Bus> <http://schema.org/identifier> "580"^^xsd:int .
+
+<http://dbpedia.org/resource/MG_Motor> <http://schema.org/identifier> "581"^^xsd:int .
+
+<http://dbpedia.org/resource/MG_Rover_Group> <http://schema.org/identifier> "582"^^xsd:int .
+
+<http://dbpedia.org/resource/Mack_Trucks> <http://schema.org/identifier> "583"^^xsd:int .
+
+<http://dbpedia.org/resource/Mad_Catz> <http://schema.org/identifier> "584"^^xsd:int .
+
+<http://dbpedia.org/resource/Magna_Steyr> <http://schema.org/identifier> "585"^^xsd:int .
+
+<http://dbpedia.org/resource/Mahindra_&_Mahindra> <http://schema.org/identifier> "586"^^xsd:int .
+
+<http://dbpedia.org/resource/Mahindra_REVA> <http://schema.org/identifier> "587"^^xsd:int .
+
+<http://dbpedia.org/resource/Mahou-San_Miguel_Group> <http://schema.org/identifier>
+    "588"^^xsd:int .
+
+<http://dbpedia.org/resource/Makelan_Corporation> <http://schema.org/identifier> "589"^^xsd:int .
+
+<http://dbpedia.org/resource/Mantic_Games> <http://schema.org/identifier> "590"^^xsd:int .
+
+<http://dbpedia.org/resource/Manufacturing_Commercial_Vehicles> <http://schema.org/identifier>
+    "591"^^xsd:int .
+
+<http://dbpedia.org/resource/Martin-Baker> <http://schema.org/identifier> "592"^^xsd:int .
+
+<http://dbpedia.org/resource/Martin_Marietta> <http://schema.org/identifier> "593"^^xsd:int .
+
+<http://dbpedia.org/resource/Martinsyde> <http://schema.org/identifier> "594"^^xsd:int .
+
+<http://dbpedia.org/resource/Marubeni> <http://schema.org/identifier> "595"^^xsd:int .
+
+<http://dbpedia.org/resource/Maruti_Suzuki> <http://schema.org/identifier> "596"^^xsd:int .
+
+<http://dbpedia.org/resource/Maschinenfabrik_Esslingen> <http://schema.org/identifier>
+    "597"^^xsd:int .
+
+<http://dbpedia.org/resource/Maspex> <http://schema.org/identifier> "598"^^xsd:int .
+
+<http://dbpedia.org/resource/Mastretta> <http://schema.org/identifier> "599"^^xsd:int .
+
+<http://dbpedia.org/resource/Matra> <http://schema.org/identifier> "600"^^xsd:int .
+
+<http://dbpedia.org/resource/Maule_Air> <http://schema.org/identifier> "601"^^xsd:int .
+
+<http://dbpedia.org/resource/Maybach> <http://schema.org/identifier> "602"^^xsd:int .
+
+<http://dbpedia.org/resource/Mazda> <http://schema.org/identifier> "603"^^xsd:int .
+
+<http://dbpedia.org/resource/McDonnell_Aircraft> <http://schema.org/identifier> "604"^^xsd:int .
+
+<http://dbpedia.org/resource/McDonnell_Douglas> <http://schema.org/identifier> "605"^^xsd:int .
+
+<http://dbpedia.org/resource/Mechanical_and_Chemical_Industry_Corporation> <http://schema.org/identifier>
+    "606"^^xsd:int .
+
+<http://dbpedia.org/resource/Medway_Microlights> <http://schema.org/identifier> "607"^^xsd:int .
+
+<http://dbpedia.org/resource/Meggitt> <http://schema.org/identifier> "608"^^xsd:int .
+
+<http://dbpedia.org/resource/Meizu> <http://schema.org/identifier> "609"^^xsd:int .
+
+<http://dbpedia.org/resource/Melco> <http://schema.org/identifier> "610"^^xsd:int .
+
+<http://dbpedia.org/resource/Mercedes-Benz> <http://schema.org/identifier> "611"^^xsd:int .
+
+<http://dbpedia.org/resource/Mercury_(automobile)> <http://schema.org/identifier>
+    "612"^^xsd:int .
+
+<http://dbpedia.org/resource/Messerschmitt> <http://schema.org/identifier> "613"^^xsd:int .
+
+<http://dbpedia.org/resource/Messerschmitt-Bölkow-Blohm> <http://schema.org/identifier>
+    "614"^^xsd:int .
+
+<http://dbpedia.org/resource/Metropolitan-Vickers> <http://schema.org/identifier>
+    "615"^^xsd:int .
+
+<http://dbpedia.org/resource/Michelin> <http://schema.org/identifier> "616"^^xsd:int .
+
+<http://dbpedia.org/resource/Micro_Cars> <http://schema.org/identifier> "617"^^xsd:int .
+
+<http://dbpedia.org/resource/Microleve> <http://schema.org/identifier> "618"^^xsd:int .
+
+<http://dbpedia.org/resource/Microsoft> <http://schema.org/identifier> "619"^^xsd:int .
+
+<http://dbpedia.org/resource/Microsoft_Mobile> <http://schema.org/identifier> "620"^^xsd:int .
+
+<http://dbpedia.org/resource/Midwest_Engineering_&_Design> <http://schema.org/identifier>
+    "621"^^xsd:int .
+
+<http://dbpedia.org/resource/Millennium_Transit_Services> <http://schema.org/identifier>
+    "622"^^xsd:int .
+
+<http://dbpedia.org/resource/Milton_Bradley_Company> <http://schema.org/identifier>
+    "623"^^xsd:int .
+
+<http://dbpedia.org/resource/Minsk_Automobile_Plant> <http://schema.org/identifier>
+    "624"^^xsd:int .
+
+<http://dbpedia.org/resource/Mirage_Aircraft_Corporation> <http://schema.org/identifier>
+    "625"^^xsd:int .
+
+<http://dbpedia.org/resource/Mitsubishi> <http://schema.org/identifier> "626"^^xsd:int .
+
+<http://dbpedia.org/resource/Mitsubishi_Electric> <http://schema.org/identifier> "627"^^xsd:int .
+
+<http://dbpedia.org/resource/Mitsubishi_Fuso_Truck_and_Bus_Corporation> <http://schema.org/identifier>
+    "628"^^xsd:int .
+
+<http://dbpedia.org/resource/Mitsubishi_Heavy_Industries> <http://schema.org/identifier>
+    "629"^^xsd:int .
+
+<http://dbpedia.org/resource/Mitsubishi_Motors> <http://schema.org/identifier> "630"^^xsd:int .
+
+<http://dbpedia.org/resource/Mitsuoka> <http://schema.org/identifier> "631"^^xsd:int .
+
+<http://dbpedia.org/resource/MoAZ> <http://schema.org/identifier> "632"^^xsd:int .
+
+<http://dbpedia.org/resource/Mohan_Meakin> <http://schema.org/identifier> "633"^^xsd:int .
+
+<http://dbpedia.org/resource/Mongoose_Publishing> <http://schema.org/identifier> "634"^^xsd:int .
+
+<http://dbpedia.org/resource/Moretti_Motor_Company> <http://schema.org/identifier>
+    "635"^^xsd:int .
+
+<http://dbpedia.org/resource/Morgan_Motor_Company> <http://schema.org/identifier>
+    "636"^^xsd:int .
+
+<http://dbpedia.org/resource/Morris_Motors> <http://schema.org/identifier> "637"^^xsd:int .
+
+<http://dbpedia.org/resource/Moskvitch> <http://schema.org/identifier> "638"^^xsd:int .
+
+<http://dbpedia.org/resource/Mosler_Automotive> <http://schema.org/identifier> "639"^^xsd:int .
+
+<http://dbpedia.org/resource/Motorola_Mobility> <http://schema.org/identifier> "640"^^xsd:int .
+
+<http://dbpedia.org/resource/Murphy_Aircraft> <http://schema.org/identifier> "641"^^xsd:int .
+
+<http://dbpedia.org/resource/Müller_Milk_&_Ingredients> <http://schema.org/identifier>
+    "642"^^xsd:int .
+
+<http://dbpedia.org/resource/NEC> <http://schema.org/identifier> "643"^^xsd:int .
+
+<http://dbpedia.org/resource/NHIndustries> <http://schema.org/identifier> "644"^^xsd:int .
+
+<http://dbpedia.org/resource/NUMMI> <http://schema.org/identifier> "645"^^xsd:int .
+
+<http://dbpedia.org/resource/Namco> <http://schema.org/identifier> "646"^^xsd:int .
+
+<http://dbpedia.org/resource/Nanjing_Automobile> <http://schema.org/identifier> "647"^^xsd:int .
+
+<http://dbpedia.org/resource/Nash_Motors> <http://schema.org/identifier> "648"^^xsd:int .
+
+<http://dbpedia.org/resource/National_Beverage> <http://schema.org/identifier> "649"^^xsd:int .
+
+<http://dbpedia.org/resource/National_Electric_Vehicle_Sweden> <http://schema.org/identifier>
+    "650"^^xsd:int .
+
+<http://dbpedia.org/resource/Navistar_International> <http://schema.org/identifier>
+    "651"^^xsd:int .
+
+<http://dbpedia.org/resource/Naza> <http://schema.org/identifier> "652"^^xsd:int .
+
+<http://dbpedia.org/resource/NeXT> <http://schema.org/identifier> "653"^^xsd:int .
+
+<http://dbpedia.org/resource/Nelson_Aircraft> <http://schema.org/identifier> "654"^^xsd:int .
+
+<http://dbpedia.org/resource/Neoplan> <http://schema.org/identifier> "655"^^xsd:int .
+
+<http://dbpedia.org/resource/Nestlé> <http://schema.org/identifier> "656"^^xsd:int .
+
+<http://dbpedia.org/resource/New_Kolb_Aircraft> <http://schema.org/identifier> "657"^^xsd:int .
+
+<http://dbpedia.org/resource/New_Standard_Aircraft_Company> <http://schema.org/identifier>
+    "658"^^xsd:int .
+
+<http://dbpedia.org/resource/Nieuport> <http://schema.org/identifier> "659"^^xsd:int .
+
+<http://dbpedia.org/resource/Nike,_Inc.> <http://schema.org/identifier> "660"^^xsd:int .
+
+<http://dbpedia.org/resource/Niki_Rotor_Aviation> <http://schema.org/identifier> "661"^^xsd:int .
+
+<http://dbpedia.org/resource/Ninetology> <http://schema.org/identifier> "662"^^xsd:int .
+
+<http://dbpedia.org/resource/Nissan> <http://schema.org/identifier> "663"^^xsd:int .
+
+<http://dbpedia.org/resource/Norman_Aviation> <http://schema.org/identifier> "664"^^xsd:int .
+
+<http://dbpedia.org/resource/North_American_Rotorwerks> <http://schema.org/identifier>
+    "665"^^xsd:int .
+
+<http://dbpedia.org/resource/North_Wing_Design> <http://schema.org/identifier> "666"^^xsd:int .
+
+<http://dbpedia.org/resource/Northrop_Corporation> <http://schema.org/identifier>
+    "667"^^xsd:int .
+
+<http://dbpedia.org/resource/Nova_Bus> <http://schema.org/identifier> "668"^^xsd:int .
+
+<http://dbpedia.org/resource/Nvidia> <http://schema.org/identifier> "669"^^xsd:int .
+
+<http://dbpedia.org/resource/O.S.C.A.> <http://schema.org/identifier> "670"^^xsd:int .
+
+<http://dbpedia.org/resource/OGMA> <http://schema.org/identifier> "671"^^xsd:int .
+
+<http://dbpedia.org/resource/Oculus_VR> <http://schema.org/identifier> "672"^^xsd:int .
+
+<http://dbpedia.org/resource/Officine_Meccaniche> <http://schema.org/identifier> "673"^^xsd:int .
+
+<http://dbpedia.org/resource/Oldsmobile> <http://schema.org/identifier> "674"^^xsd:int .
+
+<http://dbpedia.org/resource/Olivetti> <http://schema.org/identifier> "675"^^xsd:int .
+
+<http://dbpedia.org/resource/Oltcit> <http://schema.org/identifier> "676"^^xsd:int .
+
+<http://dbpedia.org/resource/OnePlus> <http://schema.org/identifier> "677"^^xsd:int .
+
+<http://dbpedia.org/resource/One_Aviation> <http://schema.org/identifier> "678"^^xsd:int .
+
+<http://dbpedia.org/resource/Opel> <http://schema.org/identifier> "679"^^xsd:int .
+
+<http://dbpedia.org/resource/Oracle_Corporation> <http://schema.org/identifier> "680"^^xsd:int .
+
+<http://dbpedia.org/resource/Orbital_Sciences_Corporation> <http://schema.org/identifier>
+    "681"^^xsd:int .
+
+<http://dbpedia.org/resource/Osborne_Computer_Corporation> <http://schema.org/identifier>
+    "682"^^xsd:int .
+
+<http://dbpedia.org/resource/Oshkosh_Corporation> <http://schema.org/identifier> "683"^^xsd:int .
+
+<http://dbpedia.org/resource/Osotspa> <http://schema.org/identifier> "684"^^xsd:int .
+
+<http://dbpedia.org/resource/Ostmecklenburgische_Flugzeugbau> <http://schema.org/identifier>
+    "685"^^xsd:int .
+
+<http://dbpedia.org/resource/Overland_Automobile> <http://schema.org/identifier> "686"^^xsd:int .
+
+<http://dbpedia.org/resource/P&M_Aviation> <http://schema.org/identifier> "687"^^xsd:int .
+
+<http://dbpedia.org/resource/PARC_(company)> <http://schema.org/identifier> "688"^^xsd:int .
+
+<http://dbpedia.org/resource/PZL-Świdnik> <http://schema.org/identifier> "689"^^xsd:int .
+
+<http://dbpedia.org/resource/Pabst_Brewing_Company> <http://schema.org/identifier>
+    "690"^^xsd:int .
+
+<http://dbpedia.org/resource/Packard> <http://schema.org/identifier> "691"^^xsd:int .
+
+<http://dbpedia.org/resource/Pakistan_Aeronautical_Complex> <http://schema.org/identifier>
+    "692"^^xsd:int .
+
+<http://dbpedia.org/resource/Paladin_Industries> <http://schema.org/identifier> "693"^^xsd:int .
+
+<http://dbpedia.org/resource/Palm,_Inc.> <http://schema.org/identifier> "694"^^xsd:int .
+
+<http://dbpedia.org/resource/Panasonic> <http://schema.org/identifier> "695"^^xsd:int .
+
+<http://dbpedia.org/resource/Panhard> <http://schema.org/identifier> "696"^^xsd:int .
+
+<http://dbpedia.org/resource/Panoz,_LLC> <http://schema.org/identifier> "697"^^xsd:int .
+
+<http://dbpedia.org/resource/Para-Ski> <http://schema.org/identifier> "698"^^xsd:int .
+
+<http://dbpedia.org/resource/Parallax,_Inc._(company)> <http://schema.org/identifier>
+    "699"^^xsd:int .
+
+<http://dbpedia.org/resource/Paramotor_Inc> <http://schema.org/identifier> "700"^^xsd:int .
+
+<http://dbpedia.org/resource/Parker_Brothers> <http://schema.org/identifier> "701"^^xsd:int .
+
+<http://dbpedia.org/resource/Parle_Agro> <http://schema.org/identifier> "702"^^xsd:int .
+
+<http://dbpedia.org/resource/Parmalat> <http://schema.org/identifier> "703"^^xsd:int .
+
+<http://dbpedia.org/resource/Pars_Khodro> <http://schema.org/identifier> "704"^^xsd:int .
+
+<http://dbpedia.org/resource/Państwowe_Zakłady_Inżynierii> <http://schema.org/identifier>
+    "705"^^xsd:int .
+
+<http://dbpedia.org/resource/Pegatron> <http://schema.org/identifier> "706"^^xsd:int .
+
+<http://dbpedia.org/resource/PepsiAmericas> <http://schema.org/identifier> "707"^^xsd:int .
+
+<http://dbpedia.org/resource/PepsiCo> <http://schema.org/identifier> "708"^^xsd:int .
+
+<http://dbpedia.org/resource/Per_Il_Volo> <http://schema.org/identifier> "709"^^xsd:int .
+
+<http://dbpedia.org/resource/Perceptive_Pixel> <http://schema.org/identifier> "710"^^xsd:int .
+
+<http://dbpedia.org/resource/Perodua> <http://schema.org/identifier> "711"^^xsd:int .
+
+<http://dbpedia.org/resource/Peterbilt> <http://schema.org/identifier> "712"^^xsd:int .
+
+<http://dbpedia.org/resource/Peugeot> <http://schema.org/identifier> "713"^^xsd:int .
+
+<http://dbpedia.org/resource/Philippine_Aerospace_Development_Corporation> <http://schema.org/identifier>
+    "714"^^xsd:int .
+
+<http://dbpedia.org/resource/Philips> <http://schema.org/identifier> "715"^^xsd:int .
+
+<http://dbpedia.org/resource/Phoenix_Motorcars> <http://schema.org/identifier> "716"^^xsd:int .
+
+<http://dbpedia.org/resource/Piasecki_Helicopter> <http://schema.org/identifier> "717"^^xsd:int .
+
+<http://dbpedia.org/resource/Pilatus_Aircraft> <http://schema.org/identifier> "718"^^xsd:int .
+
+<http://dbpedia.org/resource/Pininfarina> <http://schema.org/identifier> "719"^^xsd:int .
+
+<http://dbpedia.org/resource/Pioneer_Corporation> <http://schema.org/identifier> "720"^^xsd:int .
+
+<http://dbpedia.org/resource/Piper_Aircraft> <http://schema.org/identifier> "721"^^xsd:int .
+
+<http://dbpedia.org/resource/Pipistrel> <http://schema.org/identifier> "722"^^xsd:int .
+
+<http://dbpedia.org/resource/Platt-LePage_Aircraft_Company> <http://schema.org/identifier>
+    "723"^^xsd:int .
+
+<http://dbpedia.org/resource/Plymouth_(automobile)> <http://schema.org/identifier>
+    "724"^^xsd:int .
+
+<http://dbpedia.org/resource/Polaris_Motor> <http://schema.org/identifier> "725"^^xsd:int .
+
+<http://dbpedia.org/resource/Polmos_Białystok> <http://schema.org/identifier> "726"^^xsd:int .
+
+<http://dbpedia.org/resource/Polycom> <http://schema.org/identifier> "727"^^xsd:int .
+
+<http://dbpedia.org/resource/Polyphony_Digital> <http://schema.org/identifier> "728"^^xsd:int .
+
+<http://dbpedia.org/resource/Pontiac> <http://schema.org/identifier> "729"^^xsd:int .
+
+<http://dbpedia.org/resource/Porsche> <http://schema.org/identifier> "730"^^xsd:int .
+
+<http://dbpedia.org/resource/PowerTrike> <http://schema.org/identifier> "731"^^xsd:int .
+
+<http://dbpedia.org/resource/Powertrain_Ltd> <http://schema.org/identifier> "732"^^xsd:int .
+
+<http://dbpedia.org/resource/Powrachute> <http://schema.org/identifier> "733"^^xsd:int .
+
+<http://dbpedia.org/resource/Pratt-Read> <http://schema.org/identifier> "734"^^xsd:int .
+
+<http://dbpedia.org/resource/Preceptor_Aircraft> <http://schema.org/identifier> "735"^^xsd:int .
+
+<http://dbpedia.org/resource/Prince_Motor_Company> <http://schema.org/identifier>
+    "736"^^xsd:int .
+
+<http://dbpedia.org/resource/Privateer_Press> <http://schema.org/identifier> "737"^^xsd:int .
+
+<http://dbpedia.org/resource/Pro-Composites> <http://schema.org/identifier> "738"^^xsd:int .
+
+<http://dbpedia.org/resource/Pro.Mecc> <http://schema.org/identifier> "739"^^xsd:int .
+
+<http://dbpedia.org/resource/ProFe> <http://schema.org/identifier> "740"^^xsd:int .
+
+<http://dbpedia.org/resource/Prodrive> <http://schema.org/identifier> "741"^^xsd:int .
+
+<http://dbpedia.org/resource/Progressive_Aerodyne> <http://schema.org/identifier>
+    "742"^^xsd:int .
+
+<http://dbpedia.org/resource/Proton_Holdings> <http://schema.org/identifier> "743"^^xsd:int .
+
+<http://dbpedia.org/resource/Proximo_Spirits> <http://schema.org/identifier> "744"^^xsd:int .
+
+<http://dbpedia.org/resource/Psion_(company)> <http://schema.org/identifier> "745"^^xsd:int .
+
+<http://dbpedia.org/resource/Puch> <http://schema.org/identifier> "746"^^xsd:int .
+
+<http://dbpedia.org/resource/Qi_hardware> <http://schema.org/identifier> "747"^^xsd:int .
+
+<http://dbpedia.org/resource/Qualcomm> <http://schema.org/identifier> "748"^^xsd:int .
+
+<http://dbpedia.org/resource/Quattro_GmbH> <http://schema.org/identifier> "749"^^xsd:int .
+
+<http://dbpedia.org/resource/Quest_Aircraft> <http://schema.org/identifier> "750"^^xsd:int .
+
+<http://dbpedia.org/resource/Quicksilver_Manufacturing> <http://schema.org/identifier>
+    "751"^^xsd:int .
+
+<http://dbpedia.org/resource/Raceair_Designs> <http://schema.org/identifier> "752"^^xsd:int .
+
+<http://dbpedia.org/resource/Radical_Sportscars> <http://schema.org/identifier> "753"^^xsd:int .
+
+<http://dbpedia.org/resource/Rainbow_Aircraft> <http://schema.org/identifier> "754"^^xsd:int .
+
+<http://dbpedia.org/resource/Raj_Hamsa_Ultralights> <http://schema.org/identifier>
+    "755"^^xsd:int .
+
+<http://dbpedia.org/resource/Ralliart> <http://schema.org/identifier> "756"^^xsd:int .
+
+<http://dbpedia.org/resource/Rans_Designs> <http://schema.org/identifier> "757"^^xsd:int .
+
+<http://dbpedia.org/resource/Rautaruukki> <http://schema.org/identifier> "758"^^xsd:int .
+
+<http://dbpedia.org/resource/Raytheon> <http://schema.org/identifier> "759"^^xsd:int .
+
+<http://dbpedia.org/resource/Red_Bull_GmbH> <http://schema.org/identifier> "760"^^xsd:int .
+
+<http://dbpedia.org/resource/Reggiane> <http://schema.org/identifier> "761"^^xsd:int .
+
+<http://dbpedia.org/resource/Reliant> <http://schema.org/identifier> "762"^^xsd:int .
+
+<http://dbpedia.org/resource/Renault> <http://schema.org/identifier> "763"^^xsd:int .
+
+<http://dbpedia.org/resource/Renault_Argentina> <http://schema.org/identifier> "764"^^xsd:int .
+
+<http://dbpedia.org/resource/Renault_Samsung_Motors> <http://schema.org/identifier>
+    "765"^^xsd:int .
+
+<http://dbpedia.org/resource/Renault_Trucks> <http://schema.org/identifier> "766"^^xsd:int .
+
+<http://dbpedia.org/resource/Renault–Nissan_Alliance> <http://schema.org/identifier>
+    "767"^^xsd:int .
+
+<http://dbpedia.org/resource/Repco> <http://schema.org/identifier> "768"^^xsd:int .
+
+<http://dbpedia.org/resource/Revolution_Helicopter_Corporation> <http://schema.org/identifier>
+    "769"^^xsd:int .
+
+<http://dbpedia.org/resource/Rhein-Flugzeugbau> <http://schema.org/identifier> "770"^^xsd:int .
+
+<http://dbpedia.org/resource/Riich> <http://schema.org/identifier> "771"^^xsd:int .
+
+<http://dbpedia.org/resource/Riley_Motor> <http://schema.org/identifier> "772"^^xsd:int .
+
+<http://dbpedia.org/resource/Rimac_Automobili> <http://schema.org/identifier> "773"^^xsd:int .
+
+<http://dbpedia.org/resource/Ringing_Bells_Private_Limited> <http://schema.org/identifier>
+    "774"^^xsd:int .
+
+<http://dbpedia.org/resource/Rocar> <http://schema.org/identifier> "775"^^xsd:int .
+
+<http://dbpedia.org/resource/Rocket_Lab> <http://schema.org/identifier> "776"^^xsd:int .
+
+<http://dbpedia.org/resource/Roewe> <http://schema.org/identifier> "777"^^xsd:int .
+
+<http://dbpedia.org/resource/Rogue_Ales> <http://schema.org/identifier> "778"^^xsd:int .
+
+<http://dbpedia.org/resource/Roland_Aircraft> <http://schema.org/identifier> "779"^^xsd:int .
+
+<http://dbpedia.org/resource/Rolland-Pilain> <http://schema.org/identifier> "780"^^xsd:int .
+
+<http://dbpedia.org/resource/Rootes_Group> <http://schema.org/identifier> "781"^^xsd:int .
+
+<http://dbpedia.org/resource/Rotax> <http://schema.org/identifier> "782"^^xsd:int .
+
+<http://dbpedia.org/resource/RotorWay_International> <http://schema.org/identifier>
+    "783"^^xsd:int .
+
+<http://dbpedia.org/resource/Rotor_Flight_Dynamics> <http://schema.org/identifier>
+    "784"^^xsd:int .
+
+<http://dbpedia.org/resource/Rover_Company> <http://schema.org/identifier> "785"^^xsd:int .
+
+<http://dbpedia.org/resource/Rover_Group> <http://schema.org/identifier> "786"^^xsd:int .
+
+<http://dbpedia.org/resource/Rud_Aero> <http://schema.org/identifier> "787"^^xsd:int .
+
+<http://dbpedia.org/resource/Ruf_Automobile> <http://schema.org/identifier> "788"^^xsd:int .
+
+<http://dbpedia.org/resource/Russian_Helicopters> <http://schema.org/identifier> "789"^^xsd:int .
+
+<http://dbpedia.org/resource/Rába_(company)> <http://schema.org/identifier> "790"^^xsd:int .
+
+<http://dbpedia.org/resource/S-TEC_Corporation> <http://schema.org/identifier> "791"^^xsd:int .
+
+<http://dbpedia.org/resource/S._M._Jaleel_and_Company> <http://schema.org/identifier>
+    "792"^^xsd:int .
+
+<http://dbpedia.org/resource/SABMiller> <http://schema.org/identifier> "793"^^xsd:int .
+
+<http://dbpedia.org/resource/SAGEM> <http://schema.org/identifier> "794"^^xsd:int .
+
+<http://dbpedia.org/resource/SAIC-GM-Wuling> <http://schema.org/identifier> "795"^^xsd:int .
+
+<http://dbpedia.org/resource/SAIC_Motor> <http://schema.org/identifier> "796"^^xsd:int .
+
+<http://dbpedia.org/resource/SATUMA> <http://schema.org/identifier> "797"^^xsd:int .
+
+<http://dbpedia.org/resource/SEAT> <http://schema.org/identifier> "798"^^xsd:int .
+
+<http://dbpedia.org/resource/SEAT_Sport> <http://schema.org/identifier> "799"^^xsd:int .
+
+<http://dbpedia.org/resource/SNCASE> <http://schema.org/identifier> "800"^^xsd:int .
+
+<http://dbpedia.org/resource/SNK> <http://schema.org/identifier> "801"^^xsd:int .
+
+<http://dbpedia.org/resource/ST_Aerospace> <http://schema.org/identifier> "802"^^xsd:int .
+
+<http://dbpedia.org/resource/Saab_Automobile> <http://schema.org/identifier> "803"^^xsd:int .
+
+<http://dbpedia.org/resource/Saab_Group> <http://schema.org/identifier> "804"^^xsd:int .
+
+<http://dbpedia.org/resource/Sabre_Aircraft> <http://schema.org/identifier> "805"^^xsd:int .
+
+<http://dbpedia.org/resource/Saehan_Motors> <http://schema.org/identifier> "806"^^xsd:int .
+
+<http://dbpedia.org/resource/Safari_Helicopter> <http://schema.org/identifier> "807"^^xsd:int .
+
+<http://dbpedia.org/resource/Saleen> <http://schema.org/identifier> "808"^^xsd:int .
+
+<http://dbpedia.org/resource/Salmson> <http://schema.org/identifier> "809"^^xsd:int .
+
+<http://dbpedia.org/resource/Salvador_Caetano> <http://schema.org/identifier> "810"^^xsd:int .
+
+<http://dbpedia.org/resource/Samsung> <http://schema.org/identifier> "811"^^xsd:int .
+
+<http://dbpedia.org/resource/Samsung_Electronics> <http://schema.org/identifier> "812"^^xsd:int .
+
+<http://dbpedia.org/resource/SanDisk> <http://schema.org/identifier> "813"^^xsd:int .
+
+<http://dbpedia.org/resource/San_Miguel_Corporation> <http://schema.org/identifier>
+    "814"^^xsd:int .
+
+<http://dbpedia.org/resource/Sanyo> <http://schema.org/identifier> "815"^^xsd:int .
+
+<http://dbpedia.org/resource/Sarao_Motors> <http://schema.org/identifier> "816"^^xsd:int .
+
+<http://dbpedia.org/resource/Saturn_Corporation> <http://schema.org/identifier> "817"^^xsd:int .
+
+<http://dbpedia.org/resource/Saviem> <http://schema.org/identifier> "818"^^xsd:int .
+
+<http://dbpedia.org/resource/Sazerac_Company> <http://schema.org/identifier> "819"^^xsd:int .
+
+<http://dbpedia.org/resource/Scaled_Composites> <http://schema.org/identifier> "820"^^xsd:int .
+
+<http://dbpedia.org/resource/Schweppes_Australia> <http://schema.org/identifier> "821"^^xsd:int .
+
+<http://dbpedia.org/resource/Scion_(automobile)> <http://schema.org/identifier> "822"^^xsd:int .
+
+<http://dbpedia.org/resource/Sea-Bow_International> <http://schema.org/identifier>
+    "823"^^xsd:int .
+
+<http://dbpedia.org/resource/Seabird_Aviation_Australia> <http://schema.org/identifier>
+    "824"^^xsd:int .
+
+<http://dbpedia.org/resource/Sega> <http://schema.org/identifier> "825"^^xsd:int .
+
+<http://dbpedia.org/resource/Shaanxi_Aircraft_Corporation> <http://schema.org/identifier>
+    "826"^^xsd:int .
+
+<http://dbpedia.org/resource/Shanghai_Electric> <http://schema.org/identifier> "827"^^xsd:int .
+
+<http://dbpedia.org/resource/Shanghai_Maple> <http://schema.org/identifier> "828"^^xsd:int .
+
+<http://dbpedia.org/resource/Sharp_Corporation> <http://schema.org/identifier> "829"^^xsd:int .
+
+<http://dbpedia.org/resource/Shenyang_Aircraft_Corporation> <http://schema.org/identifier>
+    "830"^^xsd:int .
+
+<http://dbpedia.org/resource/Shinjin_Motors> <http://schema.org/identifier> "831"^^xsd:int .
+
+<http://dbpedia.org/resource/Short_Brothers> <http://schema.org/identifier> "832"^^xsd:int .
+
+<http://dbpedia.org/resource/Siemens> <http://schema.org/identifier> "833"^^xsd:int .
+
+<http://dbpedia.org/resource/Sierra_Nevada_Corporation> <http://schema.org/identifier>
+    "834"^^xsd:int .
+
+<http://dbpedia.org/resource/Sikorsky_Aircraft> <http://schema.org/identifier> "835"^^xsd:int .
+
+<http://dbpedia.org/resource/Silent_Family> <http://schema.org/identifier> "836"^^xsd:int .
+
+<http://dbpedia.org/resource/Simca> <http://schema.org/identifier> "837"^^xsd:int .
+
+<http://dbpedia.org/resource/Simca_do_Brasil> <http://schema.org/identifier> "838"^^xsd:int .
+
+<http://dbpedia.org/resource/Sinclair_Research> <http://schema.org/identifier> "839"^^xsd:int .
+
+<http://dbpedia.org/resource/Singer_Motors> <http://schema.org/identifier> "840"^^xsd:int .
+
+<http://dbpedia.org/resource/Sirius_Satellite_Radio> <http://schema.org/identifier>
+    "841"^^xsd:int .
+
+<http://dbpedia.org/resource/Sisu_Auto> <http://schema.org/identifier> "842"^^xsd:int .
+
+<http://dbpedia.org/resource/Six_Chuter> <http://schema.org/identifier> "843"^^xsd:int .
+
+<http://dbpedia.org/resource/SkyCraft_Airplanes> <http://schema.org/identifier> "844"^^xsd:int .
+
+<http://dbpedia.org/resource/Skyrider_Flugschule> <http://schema.org/identifier> "845"^^xsd:int .
+
+<http://dbpedia.org/resource/Slingsby_Aviation> <http://schema.org/identifier> "846"^^xsd:int .
+
+<http://dbpedia.org/resource/Smart_(automobile)> <http://schema.org/identifier> "847"^^xsd:int .
+
+<http://dbpedia.org/resource/Société_Anonyme_des_Ateliers_de_Sécheron> <http://schema.org/identifier>
+    "848"^^xsd:int .
+
+<http://dbpedia.org/resource/Société_Aérienne_Bordelaise> <http://schema.org/identifier>
+    "849"^^xsd:int .
+
+<http://dbpedia.org/resource/Société_Française_de_Construction_Aéronautique> <http://schema.org/identifier>
+    "850"^^xsd:int .
+
+<http://dbpedia.org/resource/Société_Provençale_de_Constructions_Aéronautiques> <http://schema.org/identifier>
+    "851"^^xsd:int .
+
+<http://dbpedia.org/resource/Société_des_Avions_Bernard> <http://schema.org/identifier>
+    "852"^^xsd:int .
+
+<http://dbpedia.org/resource/Société_des_Avions_Marcel_Bloch> <http://schema.org/identifier>
+    "853"^^xsd:int .
+
+<http://dbpedia.org/resource/Solar_Turbines> <http://schema.org/identifier> "854"^^xsd:int .
+
+<http://dbpedia.org/resource/Solaris_Bus_&_Coach> <http://schema.org/identifier> "855"^^xsd:int .
+
+<http://dbpedia.org/resource/Solid_Air_UL-Bau_Franz> <http://schema.org/identifier>
+    "856"^^xsd:int .
+
+<http://dbpedia.org/resource/Sonex_Aircraft> <http://schema.org/identifier> "857"^^xsd:int .
+
+<http://dbpedia.org/resource/Sony> <http://schema.org/identifier> "858"^^xsd:int .
+
+<http://dbpedia.org/resource/Sorefame> <http://schema.org/identifier> "859"^^xsd:int .
+
+<http://dbpedia.org/resource/Southern_Aeronautical_Corporation> <http://schema.org/identifier>
+    "860"^^xsd:int .
+
+<http://dbpedia.org/resource/SpaceX> <http://schema.org/identifier> "861"^^xsd:int .
+
+<http://dbpedia.org/resource/Spectrum_Aeronautical> <http://schema.org/identifier>
+    "862"^^xsd:int .
+
+<http://dbpedia.org/resource/Spectrum_Aircraft> <http://schema.org/identifier> "863"^^xsd:int .
+
+<http://dbpedia.org/resource/Sperry_Corporation> <http://schema.org/identifier> "864"^^xsd:int .
+
+<http://dbpedia.org/resource/Spice_Digital> <http://schema.org/identifier> "865"^^xsd:int .
+
+<http://dbpedia.org/resource/Spin_Master> <http://schema.org/identifier> "866"^^xsd:int .
+
+<http://dbpedia.org/resource/Sport_Copter> <http://schema.org/identifier> "867"^^xsd:int .
+
+<http://dbpedia.org/resource/Spyker> <http://schema.org/identifier> "868"^^xsd:int .
+
+<http://dbpedia.org/resource/Spyker_Cars> <http://schema.org/identifier> "869"^^xsd:int .
+
+<http://dbpedia.org/resource/SsangYong_Motor> <http://schema.org/identifier> "870"^^xsd:int .
+
+<http://dbpedia.org/resource/St-Just_Aviation> <http://schema.org/identifier> "871"^^xsd:int .
+
+<http://dbpedia.org/resource/St_Croix_Aircraft> <http://schema.org/identifier> "872"^^xsd:int .
+
+<http://dbpedia.org/resource/Stewart_Aircraft_Corporation> <http://schema.org/identifier>
+    "873"^^xsd:int .
+
+<http://dbpedia.org/resource/Steyr-Daimler-Puch> <http://schema.org/identifier> "874"^^xsd:int .
+
+<http://dbpedia.org/resource/Stinson_Aircraft_Company> <http://schema.org/identifier>
+    "875"^^xsd:int .
+
+<http://dbpedia.org/resource/Storm_Aircraft> <http://schema.org/identifier> "876"^^xsd:int .
+
+<http://dbpedia.org/resource/Street_&_Racing_Technology> <http://schema.org/identifier>
+    "877"^^xsd:int .
+
+<http://dbpedia.org/resource/Stroh_Brewery_Company> <http://schema.org/identifier>
+    "878"^^xsd:int .
+
+<http://dbpedia.org/resource/Stroukoff_Aircraft> <http://schema.org/identifier> "879"^^xsd:int .
+
+<http://dbpedia.org/resource/Strømmens_Værksted> <http://schema.org/identifier> "880"^^xsd:int .
+
+<http://dbpedia.org/resource/Studebaker> <http://schema.org/identifier> "881"^^xsd:int .
+
+<http://dbpedia.org/resource/Subaru> <http://schema.org/identifier> "882"^^xsd:int .
+
+<http://dbpedia.org/resource/Sukhoi> <http://schema.org/identifier> "883"^^xsd:int .
+
+<http://dbpedia.org/resource/Supermarine_Aircraft> <http://schema.org/identifier>
+    "884"^^xsd:int .
+
+<http://dbpedia.org/resource/Suzuki> <http://schema.org/identifier> "885"^^xsd:int .
+
+<http://dbpedia.org/resource/Swift_Aircraft> <http://schema.org/identifier> "886"^^xsd:int .
+
+<http://dbpedia.org/resource/Swiss_Space_Systems> <http://schema.org/identifier> "887"^^xsd:int .
+
+<http://dbpedia.org/resource/SyberJet_Aircraft> <http://schema.org/identifier> "888"^^xsd:int .
+
+<http://dbpedia.org/resource/Symphony_Aircraft_Industries> <http://schema.org/identifier>
+    "889"^^xsd:int .
+
+<http://dbpedia.org/resource/TCL_Corporation> <http://schema.org/identifier> "890"^^xsd:int .
+
+<http://dbpedia.org/resource/TRW_Inc.> <http://schema.org/identifier> "891"^^xsd:int .
+
+<http://dbpedia.org/resource/TVR> <http://schema.org/identifier> "892"^^xsd:int .
+
+<http://dbpedia.org/resource/TagAZ> <http://schema.org/identifier> "893"^^xsd:int .
+
+<http://dbpedia.org/resource/Tangshan_Railway_Vehicle> <http://schema.org/identifier>
+    "894"^^xsd:int .
+
+<http://dbpedia.org/resource/Tapanee_Aviation> <http://schema.org/identifier> "895"^^xsd:int .
+
+<http://dbpedia.org/resource/Tara_International> <http://schema.org/identifier> "896"^^xsd:int .
+
+<http://dbpedia.org/resource/Tata_Daewoo> <http://schema.org/identifier> "897"^^xsd:int .
+
+<http://dbpedia.org/resource/Tata_Motors> <http://schema.org/identifier> "898"^^xsd:int .
+
+<http://dbpedia.org/resource/Tatra_(company)> <http://schema.org/identifier> "899"^^xsd:int .
+
+<http://dbpedia.org/resource/Tatung_Company> <http://schema.org/identifier> "900"^^xsd:int .
+
+<http://dbpedia.org/resource/Taylorcraft_Aircraft> <http://schema.org/identifier>
+    "901"^^xsd:int .
+
+<http://dbpedia.org/resource/TeST_Gliders> <http://schema.org/identifier> "902"^^xsd:int .
+
+<http://dbpedia.org/resource/Team_Mini-Max> <http://schema.org/identifier> "903"^^xsd:int .
+
+<http://dbpedia.org/resource/Team_Tango> <http://schema.org/identifier> "904"^^xsd:int .
+
+<http://dbpedia.org/resource/TechArt> <http://schema.org/identifier> "905"^^xsd:int .
+
+<http://dbpedia.org/resource/Technicolor_SA> <http://schema.org/identifier> "906"^^xsd:int .
+
+<http://dbpedia.org/resource/Tecnologia_Automotiva_Catarinense> <http://schema.org/identifier>
+    "907"^^xsd:int .
+
+<http://dbpedia.org/resource/Tectoy> <http://schema.org/identifier> "908"^^xsd:int .
+
+<http://dbpedia.org/resource/Teledyne_Technologies> <http://schema.org/identifier>
+    "909"^^xsd:int .
+
+<http://dbpedia.org/resource/Tennessee_Propellers> <http://schema.org/identifier>
+    "910"^^xsd:int .
+
+<http://dbpedia.org/resource/Terrafugia> <http://schema.org/identifier> "911"^^xsd:int .
+
+<http://dbpedia.org/resource/Textron> <http://schema.org/identifier> "912"^^xsd:int .
+
+<http://dbpedia.org/resource/Thales_Group> <http://schema.org/identifier> "913"^^xsd:int .
+
+<http://dbpedia.org/resource/The_Coca-Cola_Company> <http://schema.org/identifier>
+    "914"^^xsd:int .
+
+<http://dbpedia.org/resource/The_London_Taxi_Company> <http://schema.org/identifier>
+    "915"^^xsd:int .
+
+<http://dbpedia.org/resource/Thiokol> <http://schema.org/identifier> "916"^^xsd:int .
+
+<http://dbpedia.org/resource/Thomas_Built_Buses> <http://schema.org/identifier> "917"^^xsd:int .
+
+<http://dbpedia.org/resource/Thrush_Aircraft> <http://schema.org/identifier> "918"^^xsd:int .
+
+<http://dbpedia.org/resource/Thruster_Air_Services> <http://schema.org/identifier>
+    "919"^^xsd:int .
+
+<http://dbpedia.org/resource/Tiger_Aircraft> <http://schema.org/identifier> "920"^^xsd:int .
+
+<http://dbpedia.org/resource/Tiger_Electronics> <http://schema.org/identifier> "921"^^xsd:int .
+
+<http://dbpedia.org/resource/Titan_Aircraft> <http://schema.org/identifier> "922"^^xsd:int .
+
+<http://dbpedia.org/resource/Toda_Racing> <http://schema.org/identifier> "923"^^xsd:int .
+
+<http://dbpedia.org/resource/Tofaş> <http://schema.org/identifier> "924"^^xsd:int .
+
+<http://dbpedia.org/resource/Tommo_Inc.> <http://schema.org/identifier> "925"^^xsd:int .
+
+<http://dbpedia.org/resource/Tomy> <http://schema.org/identifier> "926"^^xsd:int .
+
+<http://dbpedia.org/resource/Toshiba> <http://schema.org/identifier> "927"^^xsd:int .
+
+<http://dbpedia.org/resource/Tovarna_avtomobilov_Maribor> <http://schema.org/identifier>
+    "928"^^xsd:int .
+
+<http://dbpedia.org/resource/Toyota> <http://schema.org/identifier> "929"^^xsd:int .
+
+<http://dbpedia.org/resource/Toyota_Australia> <http://schema.org/identifier> "930"^^xsd:int .
+
+<http://dbpedia.org/resource/Tri-R_Technologies> <http://schema.org/identifier> "931"^^xsd:int .
+
+<http://dbpedia.org/resource/Trixy_Aviation_Products> <http://schema.org/identifier>
+    "932"^^xsd:int .
+
+<http://dbpedia.org/resource/Tugan_Aircraft> <http://schema.org/identifier> "933"^^xsd:int .
+
+<http://dbpedia.org/resource/Tulip_Computers> <http://schema.org/identifier> "934"^^xsd:int .
+
+<http://dbpedia.org/resource/Tupolev> <http://schema.org/identifier> "935"^^xsd:int .
+
+<http://dbpedia.org/resource/Turing_Robotic_Industries> <http://schema.org/identifier>
+    "936"^^xsd:int .
+
+<http://dbpedia.org/resource/Turner_Sports_Cars> <http://schema.org/identifier> "937"^^xsd:int .
+
+<http://dbpedia.org/resource/TÜLOMSAŞ> <http://schema.org/identifier> "938"^^xsd:int .
+
+<http://dbpedia.org/resource/UAZ> <http://schema.org/identifier> "939"^^xsd:int .
+
+<http://dbpedia.org/resource/UD_Trucks> <http://schema.org/identifier> "940"^^xsd:int .
+
+<http://dbpedia.org/resource/UMM_(União_Metalo-Mecânica)> <http://schema.org/identifier>
+    "941"^^xsd:int .
+
+<http://dbpedia.org/resource/UP_Aerospace> <http://schema.org/identifier> "942"^^xsd:int .
+
+<http://dbpedia.org/resource/US_Aviation> <http://schema.org/identifier> "943"^^xsd:int .
+
+<http://dbpedia.org/resource/Ultimate_Ears> <http://schema.org/identifier> "944"^^xsd:int .
+
+<http://dbpedia.org/resource/United_Aircraft_Corporation> <http://schema.org/identifier>
+    "945"^^xsd:int .
+
+<http://dbpedia.org/resource/United_Australian_Automobile_Industries> <http://schema.org/identifier>
+    "946"^^xsd:int .
+
+<http://dbpedia.org/resource/United_Breweries_Group> <http://schema.org/identifier>
+    "947"^^xsd:int .
+
+<http://dbpedia.org/resource/United_Launch_Alliance> <http://schema.org/identifier>
+    "948"^^xsd:int .
+
+<http://dbpedia.org/resource/United_Microelectronics_Corporation> <http://schema.org/identifier>
+    "949"^^xsd:int .
+
+<http://dbpedia.org/resource/United_Space_Alliance> <http://schema.org/identifier>
+    "950"^^xsd:int .
+
+<http://dbpedia.org/resource/Urban_Air> <http://schema.org/identifier> "951"^^xsd:int .
+
+<http://dbpedia.org/resource/Utva_Aviation_Industry> <http://schema.org/identifier>
+    "952"^^xsd:int .
+
+<http://dbpedia.org/resource/V-STOL_Aircraft_Corporation> <http://schema.org/identifier>
+    "953"^^xsd:int .
+
+<http://dbpedia.org/resource/VDL_Nedcar> <http://schema.org/identifier> "954"^^xsd:int .
+
+<http://dbpedia.org/resource/VM_Motori> <http://schema.org/identifier> "955"^^xsd:int .
+
+<http://dbpedia.org/resource/VR_Group> <http://schema.org/identifier> "956"^^xsd:int .
+
+<http://dbpedia.org/resource/VTech> <http://schema.org/identifier> "957"^^xsd:int .
+
+<http://dbpedia.org/resource/Valmet> <http://schema.org/identifier> "958"^^xsd:int .
+
+<http://dbpedia.org/resource/Valmet_Automotive> <http://schema.org/identifier> "959"^^xsd:int .
+
+<http://dbpedia.org/resource/Valtion_lentokonetehdas> <http://schema.org/identifier>
+    "960"^^xsd:int .
+
+<http://dbpedia.org/resource/Van's_Aircraft> <http://schema.org/identifier> "961"^^xsd:int .
+
+<http://dbpedia.org/resource/Van_Diemen> <http://schema.org/identifier> "962"^^xsd:int .
+
+<http://dbpedia.org/resource/Van_Hool> <http://schema.org/identifier> "963"^^xsd:int .
+
+<http://dbpedia.org/resource/Vanajan_Autotehdas> <http://schema.org/identifier> "964"^^xsd:int .
+
+<http://dbpedia.org/resource/Vauxhall_Motors> <http://schema.org/identifier> "965"^^xsd:int .
+
+<http://dbpedia.org/resource/Vector_Motors> <http://schema.org/identifier> "966"^^xsd:int .
+
+<http://dbpedia.org/resource/Vehicle_Factory_Jabalpur> <http://schema.org/identifier>
+    "967"^^xsd:int .
+
+<http://dbpedia.org/resource/Vehículos_Automotores_Mexicanos> <http://schema.org/identifier>
+    "968"^^xsd:int .
+
+<http://dbpedia.org/resource/Velocity,_Inc.> <http://schema.org/identifier> "969"^^xsd:int .
+
+<http://dbpedia.org/resource/Venturi_Automobiles> <http://schema.org/identifier> "970"^^xsd:int .
+
+<http://dbpedia.org/resource/Videoton_(company)> <http://schema.org/identifier> "971"^^xsd:int .
+
+<http://dbpedia.org/resource/Vignale> <http://schema.org/identifier> "972"^^xsd:int .
+
+<http://dbpedia.org/resource/Viking_Air> <http://schema.org/identifier> "973"^^xsd:int .
+
+<http://dbpedia.org/resource/Viking_Aircraft_LLC> <http://schema.org/identifier> "974"^^xsd:int .
+
+<http://dbpedia.org/resource/Visionary_Vehicles> <http://schema.org/identifier> "975"^^xsd:int .
+
+<http://dbpedia.org/resource/Visteon> <http://schema.org/identifier> "976"^^xsd:int .
+
+<http://dbpedia.org/resource/Vizio> <http://schema.org/identifier> "977"^^xsd:int .
+
+<http://dbpedia.org/resource/Volkswagen> <http://schema.org/identifier> "978"^^xsd:int .
+
+<http://dbpedia.org/resource/Volkswagen_Commercial_Vehicles> <http://schema.org/identifier>
+    "979"^^xsd:int .
+
+<http://dbpedia.org/resource/Volkswagen_Group> <http://schema.org/identifier> "980"^^xsd:int .
+
+<http://dbpedia.org/resource/Volkswagen_Trucks_and_Buses> <http://schema.org/identifier>
+    "981"^^xsd:int .
+
+<http://dbpedia.org/resource/Volvo_Buses> <http://schema.org/identifier> "982"^^xsd:int .
+
+<http://dbpedia.org/resource/Volvo_Cars> <http://schema.org/identifier> "983"^^xsd:int .
+
+<http://dbpedia.org/resource/Volvo_Trucks> <http://schema.org/identifier> "984"^^xsd:int .
+
+<http://dbpedia.org/resource/Voronezh_Aircraft_Production_Association> <http://schema.org/identifier>
+    "985"^^xsd:int .
+
+<http://dbpedia.org/resource/Vossloh> <http://schema.org/identifier> "986"^^xsd:int .
+
+<http://dbpedia.org/resource/Vulcan_Foundry> <http://schema.org/identifier> "987"^^xsd:int .
+
+<http://dbpedia.org/resource/WACO_Classic_Aircraft> <http://schema.org/identifier>
+    "988"^^xsd:int .
+
+<http://dbpedia.org/resource/W_Motors> <http://schema.org/identifier> "989"^^xsd:int .
+
+<http://dbpedia.org/resource/Waco_Aircraft_Company> <http://schema.org/identifier>
+    "990"^^xsd:int .
+
+<http://dbpedia.org/resource/Wang_Laboratories> <http://schema.org/identifier> "991"^^xsd:int .
+
+<http://dbpedia.org/resource/Warner_Aerocraft> <http://schema.org/identifier> "992"^^xsd:int .
+
+<http://dbpedia.org/resource/Weller_Flugzeugbau> <http://schema.org/identifier> "993"^^xsd:int .
+
+<http://dbpedia.org/resource/Weser_Flugzeugbau> <http://schema.org/identifier> "994"^^xsd:int .
+
+<http://dbpedia.org/resource/Western_Digital> <http://schema.org/identifier> "995"^^xsd:int .
+
+<http://dbpedia.org/resource/Westland_Helicopters> <http://schema.org/identifier>
+    "996"^^xsd:int .
+
+<http://dbpedia.org/resource/White_Motor_Company> <http://schema.org/identifier> "997"^^xsd:int .
+
+<http://dbpedia.org/resource/Wibault> <http://schema.org/identifier> "998"^^xsd:int .
+
+<http://dbpedia.org/resource/Willett_Distillery> <http://schema.org/identifier> "999"^^xsd:int .
+
+<http://dbpedia.org/resource/William_Beardmore_and_Company> <http://schema.org/identifier>
+    "1000"^^xsd:int .
+
+<http://dbpedia.org/resource/Willys> <http://schema.org/identifier> "1001"^^xsd:int .
+
+<http://dbpedia.org/resource/Windward_Performance> <http://schema.org/identifier>
+    "1002"^^xsd:int .
+
+<http://dbpedia.org/resource/Wings_of_Freedom> <http://schema.org/identifier> "1003"^^xsd:int .
+
+<http://dbpedia.org/resource/Winnebago_Industries> <http://schema.org/identifier>
+    "1004"^^xsd:int .
+
+<http://dbpedia.org/resource/WizKids> <http://schema.org/identifier> "1005"^^xsd:int .
+
+<http://dbpedia.org/resource/Wolseley_Motors> <http://schema.org/identifier> "1006"^^xsd:int .
+
+<http://dbpedia.org/resource/World_Aircraft_Company> <http://schema.org/identifier>
+    "1007"^^xsd:int .
+
+<http://dbpedia.org/resource/Worlds_of_Wonder_(toy_company)> <http://schema.org/identifier>
+    "1008"^^xsd:int .
+
+<http://dbpedia.org/resource/Wyrd_(company)> <http://schema.org/identifier> "1009"^^xsd:int .
+
+<http://dbpedia.org/resource/Wärtsilä> <http://schema.org/identifier> "1010"^^xsd:int .
+
+<http://dbpedia.org/resource/XCOR_Aerospace> <http://schema.org/identifier> "1011"^^xsd:int .
+
+<http://dbpedia.org/resource/XMobots> <http://schema.org/identifier> "1012"^^xsd:int .
+
+<http://dbpedia.org/resource/Xerox> <http://schema.org/identifier> "1013"^^xsd:int .
+
+<http://dbpedia.org/resource/Xetec> <http://schema.org/identifier> "1014"^^xsd:int .
+
+<http://dbpedia.org/resource/Xi'an_Aircraft_Industrial_Corporation> <http://schema.org/identifier>
+    "1015"^^xsd:int .
+
+<http://dbpedia.org/resource/Xiaomi> <http://schema.org/identifier> "1016"^^xsd:int .
+
+<http://dbpedia.org/resource/XtremeAir> <http://schema.org/identifier> "1017"^^xsd:int .
+
+<http://dbpedia.org/resource/YU_Televentures> <http://schema.org/identifier> "1018"^^xsd:int .
+
+<http://dbpedia.org/resource/Yingli> <http://schema.org/identifier> "1019"^^xsd:int .
+
+<http://dbpedia.org/resource/Youngman> <http://schema.org/identifier> "1020"^^xsd:int .
+
+<http://dbpedia.org/resource/Yulon> <http://schema.org/identifier> "1021"^^xsd:int .
+
+<http://dbpedia.org/resource/Yuneec_International> <http://schema.org/identifier>
+    "1022"^^xsd:int .
+
+<http://dbpedia.org/resource/Yutong> <http://schema.org/identifier> "1023"^^xsd:int .
+
+<http://dbpedia.org/resource/ZAP_(motor_company)> <http://schema.org/identifier> "1024"^^xsd:int .
+
+<http://dbpedia.org/resource/ZAZ> <http://schema.org/identifier> "1025"^^xsd:int .
+
+<http://dbpedia.org/resource/ZF_Friedrichshafen> <http://schema.org/identifier> "1026"^^xsd:int .
+
+<http://dbpedia.org/resource/ZTE> <http://schema.org/identifier> "1027"^^xsd:int .
+
+<http://dbpedia.org/resource/Zagato> <http://schema.org/identifier> "1028"^^xsd:int .
+
+<http://dbpedia.org/resource/Zagrebačka_pivovara> <http://schema.org/identifier> "1029"^^xsd:int .
+
+<http://dbpedia.org/resource/Zeebo_Inc.> <http://schema.org/identifier> "1030"^^xsd:int .
+
+<http://dbpedia.org/resource/Zenair> <http://schema.org/identifier> "1031"^^xsd:int .
+
+<http://dbpedia.org/resource/ZiL> <http://schema.org/identifier> "1032"^^xsd:int .
+
+<http://dbpedia.org/resource/Întreprinderea_de_Construcții_Aeronautice_Românești>
+  <http://schema.org/identifier> "1033"^^xsd:int .
+
+<http://dbpedia.org/resource/Ülker> <http://schema.org/identifier> "1034"^^xsd:int .
+
+<http://dbpedia.org/resource/Üstra> <http://schema.org/identifier> "1035"^^xsd:int .
+
+<http://dbpedia.org/resource/Škoda_Auto> <http://schema.org/identifier> "1036"^^xsd:int .
+
+<http://dbpedia.org/resource/Škoda_Transportation> <http://schema.org/identifier>
+    "1037"^^xsd:int .
+
+<http://dbpedia.org/resource/Škoda_Works> <http://schema.org/identifier> "1038"^^xsd:int .
