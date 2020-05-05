@@ -1,46 +1,41 @@
 package Preprocessing.LDBC;
 
-import Preprocessing.Helper;
-import org.eclipse.rdf4j.rio.RDFFormat;
-import org.eclipse.rdf4j.rio.Rio;
 import org.javatuples.Pair;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.util.*;
 
 public class generatePopularTagByCountry {
     public static void main(String[] args) throws Exception {
-        // 59 8106 1.00631
+        // <country> <company> <p> <class?>
 
-        var countryIds = readDicLocations(generatePopularTagByCountry.class.getResourceAsStream("/dicLocations.txt"));
-        var tagIds = Rio.parse(generatePopularTagByCountry.class.getResourceAsStream("/product_id.ttl"), "", RDFFormat.TURTLE);
-        var tagRankings = Rio.parse(generatePopularTagByCountry.class.getResourceAsStream("/product_ranking.ttl"), "", RDFFormat.TURTLE);
-        var tagCountries = Rio.parse(generatePopularTagByCountry.class.getResourceAsStream("/product_location.ttl"), "", RDFFormat.TURTLE);
+        var rdf = generatePopularTagByCountry.class.getResourceAsStream("/location_company_ranking.tsv");
 
         var path = "./output/popularTagByCountry.txt";
 
-        var collected = new HashMap<Integer, Map<Integer, Double>>(); // country_id: {[tag_id, ranking]}
+        var records = new HashMap<Integer, Map<Integer, Double>>();
 
-        tagCountries.forEach(statement -> {
-            var tag = statement.getSubject();
-            var country = statement.getObject();
+        var reader = new BufferedReader(new InputStreamReader(rdf));
+        reader.readLine(); // skip header
 
-            var ranking_iter = tagRankings.getStatements(tag, null, null).iterator();
-            if (!ranking_iter.hasNext())
-                return; // this product has no matching QID thus no ranking
+        var line = "";
+        while ((line = reader.readLine()) != null) {
+            var segs = line.split("\\t");
+            if (segs.length != 5)
+                continue;
 
-            double tag_ranking = Double.parseDouble(ranking_iter.next().getObject().stringValue());
+            int country = Integer.parseInt(segs[2]);
+            int company = Integer.parseInt(segs[3]);
+            double ranking = Double.parseDouble(segs[4]);
 
-            int tag_id = Integer.parseInt(
-                    tagIds.getStatements(tag, null, null).iterator().next().getObject().stringValue());
-            int country_id = countryIds.get(Helper.getUriLast(country.stringValue()));
+            records.computeIfAbsent(country, f -> new HashMap<>());
+            records.get(country).put(company, ranking);
+        }
 
-            collected.computeIfAbsent(country_id, f -> new HashMap<>());
+        var sorted = sort(records);
 
-            collected.get(country_id).put(tag_id, tag_ranking);
-        });
-
-        var sorted = sort(collected); // [country, [tag, ranking]]
         replaceRankingByP(sorted);
 
         var writer = new PrintWriter(path);
@@ -50,27 +45,12 @@ public class generatePopularTagByCountry {
                 int tag = tag_p.getValue0();
                 double p = tag_p.getValue1();
 
-                writer.println(String.format("%d %d %f", country, tag, p));
+                writer.println(String.format("%d %d %1.10f", country, tag, p));
             });
         });
         writer.close();
     }
 
-    private static void replaceRankingByP(List<Pair<Integer, List<Pair<Integer, Double>>>> sorted) {
-        sorted.forEach(part -> {
-            var zipf = new Zipf(part.getValue1().size(), 1.5d);
-            var p = 0d;
-
-            for (int i = 0; i < part.getValue1().size(); i++) {
-                p += zipf.pmf(i + 1);
-
-                var pair = part.getValue1().get(i).setAt1(p);
-                part.getValue1().set(i, pair);
-            }
-        });
-    }
-
-    // [country, [tag, ranking]]
     private static List<Pair<Integer, List<Pair<Integer, Double>>>> sort(Map<Integer, Map<Integer, Double>> map) {
         var result = new ArrayList<Pair<Integer, List<Pair<Integer, Double>>>>();
 
@@ -92,17 +72,18 @@ public class generatePopularTagByCountry {
         return result;
     }
 
-    private static Map<String, Integer> readDicLocations(InputStream resource) throws IOException {
-        var map = new HashMap<String, Integer>();
 
-        var br = new BufferedReader(new InputStreamReader(resource));
+    private static void replaceRankingByP(List<Pair<Integer, List<Pair<Integer, Double>>>> sorted) {
+        sorted.forEach(part -> {
+            var zipf = new Zipf(part.getValue1().size(), 1.5d);
+            var p = 0d;
 
-        String line;
-        int id = 0;
+            for (int i = 0; i < part.getValue1().size(); i++) {
+                p += zipf.pmf(i + 1);
 
-        while ((line = br.readLine()) != null)
-            map.put(line.split(" ")[1], id++);
-
-        return map;
+                var pair = part.getValue1().get(i).setAt1(p);
+                part.getValue1().set(i, pair);
+            }
+        });
     }
 }
