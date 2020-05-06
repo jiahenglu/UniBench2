@@ -1,5 +1,7 @@
 package Preprocessing.LDBC;
 
+import org.apache.commons.math3.distribution.IntegerDistribution;
+import org.apache.commons.math3.distribution.ZipfDistribution;
 import org.javatuples.Pair;
 
 import java.io.BufferedReader;
@@ -72,16 +74,12 @@ public class generatePopularTagByCountry {
         return result;
     }
 
+    private static final IntegerDistribution zipf = new ZipfDistribution(50, 1.5);
 
     private static void replaceRankingByP(List<Pair<Integer, List<Pair<Integer, Double>>>> sorted) {
         sorted.forEach(part -> {
-            var zipf = new Zipf(part.getValue1().size(), 1.5d);
-            var p = 0d;
-
             for (int i = 0; i < part.getValue1().size(); i++) {
-                p += zipf.pmf(i + 1);
-
-                var pair = part.getValue1().get(i).setAt1(p);
+                var pair = part.getValue1().get(i).setAt1(zipf.cumulativeProbability(i + 1));
                 part.getValue1().set(i, pair);
             }
         });
