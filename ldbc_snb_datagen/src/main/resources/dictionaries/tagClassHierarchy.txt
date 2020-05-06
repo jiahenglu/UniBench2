@@ -1,11 +1,19 @@
-1	0
-2	0
-3	0
-4	0
-5	0
-6	0
-7	0
-8	0
-9	0
-10	0
-11	0
+10	12	// MotorsportSeason -> SportsSeason
+4	6	// Beverage -> Food
+7	0	// Game -> Activity
+8	5	// InformationAppliance -> Device
+9	15	// MeanOfTransportation -> DUL.owl#DesignedArtifact
+9	17	// MeanOfTransportation -> owl#Thing
+0	17	// Activity -> owl#Thing
+5	15	// Device -> DUL.owl#DesignedArtifact
+5	17	// Device -> owl#Thing
+3	5	// AutomobileEngine -> Device
+11	9	// Rocket -> MeanOfTransportation
+12	17	// SportsSeason -> owl#Thing
+13	9	// Train -> MeanOfTransportation
+2	14	// Automobile -> Product
+2	9	// Automobile -> MeanOfTransportation
+1	14	// Aircraft -> Product
+1	9	// Aircraft -> MeanOfTransportation
+6	16	// Food -> DUL.owl#FunctionalSubstance
+6	17	// Food -> owl#Thing
