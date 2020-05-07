@@ -6,6 +6,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 
+import static Preprocessing.Helper.getTitle;
+
 public class generateTagText {
     public static void main(String[] args) throws Exception {
         // <product> <text>
@@ -31,16 +33,9 @@ public class generateTagText {
             if (comment.equals(""))
                 comment = Helper.getUriLast(product).replace('_', ' ').trim();
 
-            var sb = new StringBuilder(comment);
-            int i = sb.length() - 1;
-            while (i >= 0) {
-                if (sb.charAt(i) == ' ' && i + 1 < sb.length() - 1 && sb.charAt(i + 1) == ' ')
-                    sb.deleteCharAt(i + 1);
-                else
-                    i--;
-            }
+            String title = getTitle(comment);
 
-            writer.println(String.format("%d  %s", product_id, sb.toString()));
+            writer.println(String.format("%d  %s", product_id, title));
         }
 
         writer.close();

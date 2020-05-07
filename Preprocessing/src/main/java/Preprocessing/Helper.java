@@ -23,4 +23,16 @@ public class Helper {
         var segs = uri.split("/");
         return segs[segs.length - 1];
     }
+
+    public static String getTitle(String url) {
+        var sb = new StringBuilder(url);
+        int i = sb.length() - 1;
+        while (i >= 0) {
+            if (sb.charAt(i) == ' ' && i + 1 < sb.length() - 1 && sb.charAt(i + 1) == ' ')
+                sb.deleteCharAt(i + 1);
+            else
+                i--;
+        }
+        return sb.toString();
+    }
 }
