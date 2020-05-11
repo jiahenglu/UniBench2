@@ -95,10 +95,6 @@ object Unibench1_0 {
 
     //Order_Review_Invoice.Create(spark,"NewInterestsTable/part-*",2011)
 
-
-    // Product
-    //Product.WriteToDisk(spark,Product.CreateProduct(spark))
-
   }
 
   def Train_model(spark: SparkSession) = {
@@ -245,6 +241,12 @@ object Unibench1_0 {
     //Train_model(spark)
 
     //Re_Purchase(spark)
+
+
+    // Product
+    Product.WriteToDisk(spark, Product.CreateProduct(spark))
+    // Vender
+    Vendor.GenerateVendor(spark)
 
     /* Stop the sparkSession */
     spark.stop()
