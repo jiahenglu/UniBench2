@@ -219,7 +219,8 @@ object Unibench1_0 {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Unibench").setMaster("local")
     val spark = SparkSession.builder()
-      .master("local[4]")
+      .master("local[*]")
+      .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") //required by SANSA
       .getOrCreate()
 
     spark.conf.set("interest_table", "../ldbc_snb_datagen/parameter_curation/social_network/person_hasInterest_tag_0_0.csv")
@@ -234,7 +235,7 @@ object Unibench1_0 {
 
     spark.conf.set("RFM", "RFM")
 
-    Purchase(spark)
+    //Purchase(spark)
 
     //Propagation_Purchase(spark)
 
@@ -242,11 +243,12 @@ object Unibench1_0 {
 
     //Re_Purchase(spark)
 
+    RDF.Create(spark)
 
     // Product
-    Product.WriteToDisk(spark, Product.CreateProduct(spark))
+    //Product.WriteToDisk(spark, Product.CreateProduct(spark))
     // Vender
-    Vendor.GenerateVendor(spark)
+    //Vendor.GenerateVendor(spark)
 
     /* Stop the sparkSession */
     spark.stop()
