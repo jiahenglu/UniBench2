@@ -14,6 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -22,15 +23,22 @@ public class ProductSubGraphMiner {
     public static void main(String[] args) throws Exception {
         new File("output/dbpedia/").mkdirs();
 
-        //collectNeighbours();
-        collectProperties();
+        //for (int hop = 0; hop <= 2; hop++)
+        //   collectNeighbours(hop);
+
+        // sort -o node.0.txt node.0.txt
+        // sort -o node.1.txt node.1.txt
+        // diff node.0.txt node.1.txt | grep ">" | sed -e 's/> //' > 1.txt
+
+        for (int hop = 0; hop <= 2; hop++)
+            collectProperties(hop);
     }
 
-    private static void collectProperties() throws Exception {
+    private static void collectProperties(int hop) throws Exception {
 
-        var lines = Files.readAllLines(Paths.get("output/dbpedia/nodes.txt"));
+        var lines = Files.readAllLines(Paths.get(String.format("output/dbpedia/node.%d.txt", hop)));
 
-        var writer = new PrintWriter("output/dbpedia/nodes.properties.ttl");
+        var writer = new PrintWriter(String.format("output/dbpedia/triple.%d.nt", hop));
 
         var i = new AtomicInteger(1);
         lines.parallelStream().forEach(node -> {
@@ -76,7 +84,7 @@ public class ProductSubGraphMiner {
         return builder.build();
     }
 
-    private static void collectNeighbours() throws Exception {
+    private static void collectNeighbours(int hop) throws Exception {
         var products = Rio.parse(ProductSubGraphMiner.class.getResourceAsStream("/product_id.ttl"), "", RDFFormat.TURTLE)
                 .subjects().stream().map(Value::stringValue).toArray(String[]::new);
 
@@ -87,40 +95,52 @@ public class ProductSubGraphMiner {
         Arrays.stream(products).parallel().forEach(p -> {
             System.out.println(String.format("%d/%d (%s) %s", i.getAndIncrement(), products.length, neighbours.size(), p));
 
-            var collected = doCollectNeighbours("http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org", p);
+            var collected = doCollectNeighbours("http://localhost:8890/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org", p, hop);
 
             collected.forEach(c -> neighbours.putIfAbsent(c, Boolean.TRUE));
         });
 
-        var writer = new PrintWriter("output/dbpedia/nodes.txt");
+        var writer = new PrintWriter(String.format("output/dbpedia/node.%d.txt", hop));
         neighbours.keySet().forEach(writer::println);
         writer.close();
     }
 
-    static List<String> doCollectNeighbours(String endpoint, String start) {
+    static List<String> doCollectNeighbours(String endpoint, String start, int hop) {
+        if (hop < 0)
+            throw new IllegalArgumentException("hop must be 0 or greater");
+
+        if (hop == 0)
+            return Collections.singletonList(start);
+
         var SparqlRepo = new SPARQLRepository(endpoint);
         SparqlRepo.init();
         var con = SparqlRepo.getConnection();
 
-        var query = String.format("PREFIX dbr: <http://dbpedia.org/resource/>\n" +
-                "PREFIX dbp: <http://dbpedia.org/property/>\n" +
-                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
-                "select distinct ?sss where {\n" +
-                "    <%s> ((<>|!<>)|^(<>|!<>)){0,1} ?s .\n" +
-                "    filter(isuri(?s) && strstarts(str(?s), \"http://dbpedia.org/\"))\n" +
-                "\n" +
-                "    ?s ((<>|!<>)|^(<>|!<>)){0,1} ?ss .\n" +
-                "    filter(isuri(?ss) && strstarts(str(?ss), \"http://dbpedia.org/\"))\n" +
-                "\n" +
-                "    ?ss ((<>|!<>)|^(<>|!<>)){0,1} ?sss .\n" +
-                "    filter(isuri(?sss) && strstarts(str(?sss), \"http://dbpedia.org/\"))\n" +
-                "}", start);
-        var tupleQuery = con.prepareTupleQuery(QueryLanguage.SPARQL, query);
+        StringBuilder query = new StringBuilder(String.format("PREFIX dbr: <http://dbpedia.org/resource/>\n" +
+                        "PREFIX dbp: <http://dbpedia.org/property/>\n" +
+                        "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" +
+                        "select distinct ?%s where {\n" +
+                        "    <%s> ((<>|!<>)|^(<>|!<>)){0,1} ?s .\n" +
+                        "    filter(isuri(?s) && strstarts(str(?s), \"http://dbpedia.org/\"))\n"
+                , "s".repeat(hop), start));
+
+        if (hop > 1) {
+            for (int d = 2; d <= hop; d++) {
+                query.append(String.format("    ?%s ((<>|!<>)|^(<>|!<>)){0,1} ?%s .\n" +
+                                "    filter(isuri(?%s) && strstarts(str(?%s), \"http://dbpedia.org/\"))\n",
+                        "s".repeat(d - 1), "s".repeat(d), "s".repeat(d), "s".repeat(d)
+                ));
+            }
+        }
+
+        query.append("}");
+
+        var tupleQuery = con.prepareTupleQuery(QueryLanguage.SPARQL, query.toString());
 
         var result = new ArrayList<String>();
         var iter = tupleQuery.evaluate();
         while (iter.hasNext())
-            result.add(iter.next().getValue("sss").stringValue());
+            result.add(iter.next().getValue("s".repeat(hop)).stringValue());
 
         con.close();
         SparqlRepo.shutDown();

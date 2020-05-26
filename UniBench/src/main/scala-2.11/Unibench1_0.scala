@@ -221,6 +221,7 @@ object Unibench1_0 {
     val spark = SparkSession.builder()
       .master("local[*]")
       .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") //required by SANSA
+      .config("spark.io.compression.codec", "snappy")
       .getOrCreate()
 
     spark.conf.set("interest_table", "../ldbc_snb_datagen/parameter_curation/social_network/person_hasInterest_tag_0_0.csv")
@@ -232,6 +233,7 @@ object Unibench1_0 {
     spark.conf.set("feedback", "Unibench/Purchase_feedback")
     spark.conf.set("invoice", "Unibench/Purchase_invoice")
     spark.conf.set("rating", "Unibench/Purchase_rating")
+    spark.conf.set("rdf", "Unibench/Product_rdf")
 
     spark.conf.set("RFM", "RFM")
 
@@ -243,7 +245,7 @@ object Unibench1_0 {
 
     //Re_Purchase(spark)
 
-    RDF.Create(spark)
+    RDFSimplified.Create(spark)
 
     // Product
     //Product.WriteToDisk(spark, Product.CreateProduct(spark))

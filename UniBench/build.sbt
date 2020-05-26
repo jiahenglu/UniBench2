@@ -8,11 +8,15 @@ val sparkVersion = "2.4.3"
 val varscalaVersion = "2.11.11"
 val varscalaBinaryVersion = "2.11"
 
+dependencyOverrides += "com.fasterxml.jackson.core" % "jackson-core" % "2.8.7"
+
+
 // SANSA
 dependencyOverrides += "com.fasterxml.jackson.core" % "jackson-core" % "2.8.7"
 dependencyOverrides += "com.fasterxml.jackson.core" % "jackson-databind" % "2.8.7"
 dependencyOverrides += "com.fasterxml.jackson.module" % "jackson-module-scala_2.11" % "2.8.7"
 dependencyOverrides += "org.apache.jena" % "jena-osgi" % "3.11.0"
+//dependencyOverrides += "org.slf4j" % "slf4j-api" % "1.7.26"
 
 resolvers += "Spark Packages Repo" at "https://dl.bintray.com/spark-packages/maven"
 resolvers += "Sonatype Releases" at "https://oss.sonatype.org/content/repositories/releases/"
