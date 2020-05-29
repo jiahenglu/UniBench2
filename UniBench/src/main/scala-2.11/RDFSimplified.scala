@@ -7,7 +7,7 @@ object RDFSimplified {
     var collected = spark.sparkContext.emptyRDD[String]
 
     for (level <- 0 until TOTAL_LEVELS) {
-      var p = 0.01
+      val p = scala.math.pow(0.5, level)
 
       val nodes = spark.sparkContext
         .textFile(s"src/main/resources/dbpedia/level$level.txt.bz2")
@@ -15,7 +15,7 @@ object RDFSimplified {
         .collect
         .toSet
 
-      println(nodes.size)
+      println(s"level $level has sampled ${nodes.size} nodes")
 
       var triples = spark.sparkContext
         .textFile(s"src/main/resources/dbpedia/level$level.nt.*")
@@ -24,7 +24,7 @@ object RDFSimplified {
           nodes.contains(seg(0).substring(1, seg(0).length - 1))
         })
 
-      println(triples.count())
+      println(s"level $level has sampled ${triples.count} triples")
 
       collected = collected.union(triples)
     }
