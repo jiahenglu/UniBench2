@@ -33,7 +33,9 @@ libraryDependencies ++= Seq(
   "org.scalanlp" %% "breeze-viz" % "0.11.2",
   "com.databricks" %% "spark-xml" % "0.4.1",
   "com.github.bruneli.scalaopt" % "scalaopt-core_2.10" % "0.1",
-  "amplab" % "spark-indexedrdd" % "0.3"
+  "amplab" % "spark-indexedrdd" % "0.3",
+  "org.json4s" %% "json4s-native" % "3.7.0-M4"
+
 )
 
 // | SANSA Layers
