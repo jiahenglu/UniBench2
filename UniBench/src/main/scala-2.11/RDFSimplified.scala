@@ -1,3 +1,5 @@
+import java.net.URLEncoder
+
 import net.sansa_stack.rdf.spark.io._
 import net.sansa_stack.rdf.spark.model._
 import org.apache.jena.graph
@@ -34,6 +36,10 @@ object RDFSimplified {
       collected = collected.union(triples)
     }
 
+    collected = collected
+      .filter(t => !t.getSubject.isURI || IsDbpedia(t.getSubject.getURI))
+      .filter(t => !t.getObject.isURI || IsDbpedia(t.getObject.getURI))
+
     // output N-TRIPLES directly
 
     //collected
@@ -68,7 +74,7 @@ object RDFSimplified {
     val json_attributes = attributes
       .map {
         case (sub, attrs) =>
-          var j = new JObject(List(("@id", JString(sub.toString))))
+          var j = new JObject(List(("_key", JString(Shorten(sub.getURI)))))
 
           attrs.foreach(attr =>
             if (attr._2.size == 1)
@@ -85,11 +91,16 @@ object RDFSimplified {
         case (from, egs) =>
           egs.flatMap {
             case (pred, tos) =>
-              tos.map(to => compact(render(("@subject", from.getURI) ~ ("@object", to.getURI) ~ ("@predicate", pred.getURI))))
+              tos.map(to => compact(render(("_from", Shorten(from.getURI)) ~ ("_to", Shorten(to.getURI)) ~ ("predicate", pred.getURI))))
           }
       }
 
     json_attributes.repartition(1).saveAsTextFile(spark.conf.get("rdf") + "_nodes")
     json_edges.repartition(1).saveAsTextFile(spark.conf.get("rdf") + "_edges")
   }
+
+  def IsDbpedia(uri: String): Boolean = uri.startsWith("http://dbpedia.org/")
+
+  def Shorten(uri: String): String =
+    "dbr:" + URLEncoder.encode(uri.replace("http://dbpedia.org/resource/", ""), "UTF-8")
 }
