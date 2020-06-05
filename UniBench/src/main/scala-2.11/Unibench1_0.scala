@@ -224,6 +224,14 @@ object Unibench1_0 {
       .config("spark.io.compression.codec", "snappy")
       .getOrCreate()
 
+    { // get rid of DEBUG logs
+      import ch.qos.logback.classic.{Level, Logger}
+      import org.slf4j.LoggerFactory
+
+      val rootLogger = LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
+      rootLogger.setLevel(Level.INFO)
+    }
+
     spark.conf.set("interest_table", "../ldbc_snb_datagen/parameter_curation/social_network/person_hasInterest_tag_0_0.csv")
     spark.conf.set("Person_knows_Person", "../ldbc_snb_datagen/parameter_curation/social_network/person_knows_person_0_0.csv")
     spark.conf.set("BrandByProduct", "src/main/resources/SportsBrandByProduct.csv")
@@ -237,7 +245,7 @@ object Unibench1_0 {
 
     spark.conf.set("RFM", "RFM")
 
-    //Purchase(spark)
+    Purchase(spark)
 
     //Propagation_Purchase(spark)
 
