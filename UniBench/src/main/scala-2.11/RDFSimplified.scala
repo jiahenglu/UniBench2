@@ -74,7 +74,7 @@ object RDFSimplified {
     val json_attributes = attributes
       .map {
         case (sub, attrs) =>
-          var j = new JObject(List(("_key", JString(Shorten(sub.getURI)))))
+          var j = new JObject(List(("_key", JString(GetLast(sub.getURI))), ("uri", JString(sub.getURI))))
 
           attrs.foreach(attr =>
             if (attr._2.size == 1)
@@ -91,7 +91,7 @@ object RDFSimplified {
         case (from, egs) =>
           egs.flatMap {
             case (pred, tos) =>
-              tos.map(to => compact(render(("_from", Shorten(from.getURI)) ~ ("_to", Shorten(to.getURI)) ~ ("predicate", pred.getURI))))
+              tos.map(to => compact(render(("_from", GetLast(from.getURI)) ~ ("_to", GetLast(to.getURI)) ~ ("predicate", pred.getURI))))
           }
       }
 
@@ -101,6 +101,7 @@ object RDFSimplified {
 
   def IsDbpedia(uri: String): Boolean = uri.startsWith("http://dbpedia.org/")
 
-  def Shorten(uri: String): String =
-    "dbr:" + URLEncoder.encode(uri.replace("http://dbpedia.org/resource/", ""), "UTF-8")
+  def GetLast(uri: String): String =
+  //URLEncoder.encode(uri.replace("http://dbpedia.org/resource/", ""), "UTF-8")
+    URLEncoder.encode(uri.substring(28), "UTF-8")
 }
