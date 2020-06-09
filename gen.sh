@@ -18,3 +18,4 @@ cd /code/UniBench
 rm -rf Unibench
 
 sbt "runMain Unibench1_0"
+

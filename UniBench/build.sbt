@@ -44,8 +44,6 @@ resolvers ++= Seq(
   "Sonatype snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/",
   ("NetBeans" at "http://bits.netbeans.org/nexus/content/groups/netbeans/").withAllowInsecureProtocol(true),
   "gephi" at "https://raw.github.com/gephi/gephi/mvn-thirdparty-repo/",
-  Resolver.defaultLocal,
-  Resolver.mavenLocal,
   "Apache Staging" at "https://repository.apache.org/content/repositories/staging/",
   "jitpack" at "https://jitpack.io"
 )
