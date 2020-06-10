@@ -1,0 +1,6 @@
+SELECT distinct ?company ?type
+WHERE {
+  graph <http://product> {?product ?ig1 ?company}
+  graph <http://product_type> {?product ?predicate ?type}
+}
+order by asc(?company)

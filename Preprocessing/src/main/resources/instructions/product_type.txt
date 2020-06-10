@@ -1,0 +1,12 @@
+insert {
+  graph <http://product_type> {?subject rdf:type ?type .}
+}
+where {
+  SELECT distinct ?subject ?type
+  WHERE {
+    graph <http://products> {?subject ?predicate ?object .}
+    {?subject rdf:type ?type }
+    filter (?type != owl:Thing)
+    filter (!isBlank(?type))
+  }
+}

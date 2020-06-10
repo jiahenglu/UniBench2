@@ -95,10 +95,6 @@ object Unibench1_0 {
 
     //Order_Review_Invoice.Create(spark,"NewInterestsTable/part-*",2011)
 
-
-    // Product
-    //Product.WriteToDisk(spark,Product.CreateProduct(spark))
-
   }
 
   def Train_model(spark: SparkSession) = {
@@ -223,8 +219,18 @@ object Unibench1_0 {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Unibench").setMaster("local")
     val spark = SparkSession.builder()
-      .master("local[4]")
+      .master("local[*]")
+      .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") //required by SANSA
+      .config("spark.io.compression.codec", "snappy")
       .getOrCreate()
+
+    { // get rid of DEBUG logs
+      import ch.qos.logback.classic.{Level, Logger}
+      import org.slf4j.LoggerFactory
+
+      val rootLogger = LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
+      rootLogger.setLevel(Level.INFO)
+    }
 
     spark.conf.set("interest_table", "../ldbc_snb_datagen/parameter_curation/social_network/person_hasInterest_tag_0_0.csv")
     spark.conf.set("Person_knows_Person", "../ldbc_snb_datagen/parameter_curation/social_network/person_knows_person_0_0.csv")
@@ -235,6 +241,7 @@ object Unibench1_0 {
     spark.conf.set("feedback", "Unibench/Purchase_feedback")
     spark.conf.set("invoice", "Unibench/Purchase_invoice")
     spark.conf.set("rating", "Unibench/Purchase_rating")
+    spark.conf.set("rdf", "Unibench/Product_rdf")
 
     spark.conf.set("RFM", "RFM")
 
@@ -245,6 +252,13 @@ object Unibench1_0 {
     //Train_model(spark)
 
     //Re_Purchase(spark)
+
+    RDFSimplified.Create(spark)
+
+    // Product
+    //Product.WriteToDisk(spark, Product.CreateProduct(spark))
+    // Vender
+    //Vendor.GenerateVendor(spark)
 
     /* Stop the sparkSession */
     spark.stop()

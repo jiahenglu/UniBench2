@@ -1,0 +1,41 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/ontology/Activity> <http://schema.org/identifier> "0"^^xsd:int .
+
+<http://dbpedia.org/ontology/Aircraft> <http://schema.org/identifier> "1"^^xsd:int .
+
+<http://dbpedia.org/ontology/Automobile> <http://schema.org/identifier> "2"^^xsd:int .
+
+<http://dbpedia.org/ontology/AutomobileEngine> <http://schema.org/identifier> "3"^^xsd:int .
+
+<http://dbpedia.org/ontology/Beverage> <http://schema.org/identifier> "4"^^xsd:int .
+
+<http://dbpedia.org/ontology/Device> <http://schema.org/identifier> "5"^^xsd:int .
+
+<http://dbpedia.org/ontology/Food> <http://schema.org/identifier> "6"^^xsd:int .
+
+<http://dbpedia.org/ontology/Game> <http://schema.org/identifier> "7"^^xsd:int .
+
+<http://dbpedia.org/ontology/InformationAppliance> <http://schema.org/identifier>
+    "8"^^xsd:int .
+
+<http://dbpedia.org/ontology/MeanOfTransportation> <http://schema.org/identifier>
+    "9"^^xsd:int .
+
+<http://dbpedia.org/ontology/MotorsportSeason> <http://schema.org/identifier> "10"^^xsd:int .
+
+<http://dbpedia.org/ontology/Rocket> <http://schema.org/identifier> "11"^^xsd:int .
+
+<http://dbpedia.org/ontology/SportsSeason> <http://schema.org/identifier> "12"^^xsd:int .
+
+<http://dbpedia.org/ontology/Train> <http://schema.org/identifier> "13"^^xsd:int .
+
+<http://schema.org/Product> <http://schema.org/identifier> "14"^^xsd:int .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact> <http://schema.org/identifier>
+    "15"^^xsd:int .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#FunctionalSubstance> <http://schema.org/identifier>
+    "16"^^xsd:int .
+
+<http://www.w3.org/2002/07/owl#Thing> <http://schema.org/identifier> "17"^^xsd:int .

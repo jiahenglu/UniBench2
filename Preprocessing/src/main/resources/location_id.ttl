@@ -1,0 +1,226 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Dominican_Republic> <http://schema.org/identifier> "11"^^xsd:int .
+
+<http://dbpedia.org/resource/Angola> <http://schema.org/identifier> "2"^^xsd:int .
+
+<http://dbpedia.org/resource/Cambodia> <http://schema.org/identifier> "67"^^xsd:int .
+
+<http://dbpedia.org/resource/Wales> <http://schema.org/identifier> "48"^^xsd:int .
+
+<http://dbpedia.org/resource/England> <http://schema.org/identifier> "75"^^xsd:int .
+
+<http://dbpedia.org/resource/El_Salvador> <http://schema.org/identifier> "12"^^xsd:int .
+
+<http://dbpedia.org/resource/Hong_Kong> <http://schema.org/identifier> "16"^^xsd:int .
+
+<http://dbpedia.org/resource/Kazakhstan> <http://schema.org/identifier> "82"^^xsd:int .
+
+<http://dbpedia.org/resource/Portugal> <http://schema.org/identifier> "93"^^xsd:int .
+
+<http://dbpedia.org/resource/Greece> <http://schema.org/identifier> "78"^^xsd:int .
+
+<http://dbpedia.org/resource/Latvia> <http://schema.org/identifier> "20"^^xsd:int .
+
+<http://dbpedia.org/resource/Mongolia> <http://schema.org/identifier> "27"^^xsd:int .
+
+<http://dbpedia.org/resource/Iran> <http://schema.org/identifier> "80"^^xsd:int .
+
+<http://dbpedia.org/resource/Morocco> <http://schema.org/identifier> "87"^^xsd:int .
+
+<http://dbpedia.org/resource/Panama> <http://schema.org/identifier> "34"^^xsd:int .
+
+<http://dbpedia.org/resource/Puerto_Rico> <http://schema.org/identifier> "36"^^xsd:int .
+
+<http://dbpedia.org/resource/United_States> <http://schema.org/identifier> "57"^^xsd:int .
+
+<http://dbpedia.org/resource/Chile> <http://schema.org/identifier> "69"^^xsd:int .
+
+<http://dbpedia.org/resource/Laos> <http://schema.org/identifier> "19"^^xsd:int .
+
+<http://dbpedia.org/resource/Nepal> <http://schema.org/identifier> "88"^^xsd:int .
+
+<http://dbpedia.org/resource/Argentina> <http://schema.org/identifier> "61"^^xsd:int .
+
+<http://dbpedia.org/resource/Tanzania> <http://schema.org/identifier> "102"^^xsd:int .
+
+<http://dbpedia.org/resource/Ukraine> <http://schema.org/identifier> "106"^^xsd:int .
+
+<http://dbpedia.org/resource/Zambia> <http://schema.org/identifier> "110"^^xsd:int .
+
+<http://dbpedia.org/resource/India> <http://schema.org/identifier> "0"^^xsd:int .
+
+<http://dbpedia.org/resource/Canada> <http://schema.org/identifier> "66"^^xsd:int .
+
+<http://dbpedia.org/resource/Turkey> <http://schema.org/identifier> "105"^^xsd:int .
+
+<http://dbpedia.org/resource/Belgium> <http://schema.org/identifier> "64"^^xsd:int .
+
+<http://dbpedia.org/resource/Namibia> <http://schema.org/identifier> "28"^^xsd:int .
+
+<http://dbpedia.org/resource/Finland> <http://schema.org/identifier> "14"^^xsd:int .
+
+<http://dbpedia.org/resource/Taiwan> <http://schema.org/identifier> "94"^^xsd:int .
+
+<http://dbpedia.org/resource/Peru> <http://schema.org/identifier> "91"^^xsd:int .
+
+<http://dbpedia.org/resource/Germany> <http://schema.org/identifier> "50"^^xsd:int .
+
+<http://dbpedia.org/resource/South_Korea> <http://schema.org/identifier> "98"^^xsd:int .
+
+<http://dbpedia.org/resource/Yemen> <http://schema.org/identifier> "109"^^xsd:int .
+
+<http://dbpedia.org/resource/Chad> <http://schema.org/identifier> "8"^^xsd:int .
+
+<http://dbpedia.org/resource/Madagascar> <http://schema.org/identifier> "84"^^xsd:int .
+
+<http://dbpedia.org/resource/Thailand> <http://schema.org/identifier> "103"^^xsd:int .
+
+<http://dbpedia.org/resource/Libya> <http://schema.org/identifier> "22"^^xsd:int .
+
+<http://dbpedia.org/resource/Vietnam> <http://schema.org/identifier> "58"^^xsd:int .
+
+<http://dbpedia.org/resource/Sweden> <http://schema.org/identifier> "101"^^xsd:int .
+
+<http://dbpedia.org/resource/Poland> <http://schema.org/identifier> "92"^^xsd:int .
+
+<http://dbpedia.org/resource/Czech_Republic> <http://schema.org/identifier> "72"^^xsd:int .
+
+<http://dbpedia.org/resource/Bulgaria> <http://schema.org/identifier> "7"^^xsd:int .
+
+<http://dbpedia.org/resource/Jordan> <http://schema.org/identifier> "18"^^xsd:int .
+
+<http://dbpedia.org/resource/Tunisia> <http://schema.org/identifier> "104"^^xsd:int .
+
+<http://dbpedia.org/resource/Croatia> <http://schema.org/identifier> "9"^^xsd:int .
+
+<http://dbpedia.org/resource/Uruguay> <http://schema.org/identifier> "47"^^xsd:int .
+
+<http://dbpedia.org/resource/Kenya> <http://schema.org/identifier> "83"^^xsd:int .
+
+<http://dbpedia.org/resource/Switzerland> <http://schema.org/identifier> "45"^^xsd:int .
+
+<http://dbpedia.org/resource/Spain> <http://schema.org/identifier> "99"^^xsd:int .
+
+<http://dbpedia.org/resource/Azerbaijan> <http://schema.org/identifier> "4"^^xsd:int .
+
+<http://dbpedia.org/resource/Liberia> <http://schema.org/identifier> "21"^^xsd:int .
+
+<http://dbpedia.org/resource/Cuba> <http://schema.org/identifier> "71"^^xsd:int .
+
+<http://dbpedia.org/resource/Venezuela> <http://schema.org/identifier> "108"^^xsd:int .
+
+<http://dbpedia.org/resource/Mauritania> <http://schema.org/identifier> "25"^^xsd:int .
+
+<http://dbpedia.org/resource/Swaziland> <http://schema.org/identifier> "44"^^xsd:int .
+
+<http://dbpedia.org/resource/New_Zealand> <http://schema.org/identifier> "29"^^xsd:int .
+
+<http://dbpedia.org/resource/Israel> <http://schema.org/identifier> "17"^^xsd:int .
+
+<http://dbpedia.org/resource/Australia> <http://schema.org/identifier> "62"^^xsd:int .
+
+<http://dbpedia.org/resource/Tajikistan> <http://schema.org/identifier> "46"^^xsd:int .
+
+<http://dbpedia.org/resource/Estonia> <http://schema.org/identifier> "13"^^xsd:int .
+
+<http://dbpedia.org/resource/Cameroon> <http://schema.org/identifier> "68"^^xsd:int .
+
+<http://dbpedia.org/resource/Sri_Lanka> <http://schema.org/identifier> "100"^^xsd:int .
+
+<http://dbpedia.org/resource/Malaysia> <http://schema.org/identifier> "85"^^xsd:int .
+
+<http://dbpedia.org/resource/Oman> <http://schema.org/identifier> "33"^^xsd:int .
+
+<http://dbpedia.org/resource/South_Africa> <http://schema.org/identifier> "97"^^xsd:int .
+
+<http://dbpedia.org/resource/Austria> <http://schema.org/identifier> "3"^^xsd:int .
+
+<http://dbpedia.org/resource/Brazil> <http://schema.org/identifier> "49"^^xsd:int .
+
+<http://dbpedia.org/resource/Algeria> <http://schema.org/identifier> "60"^^xsd:int .
+
+<http://dbpedia.org/resource/Slovenia> <http://schema.org/identifier> "43"^^xsd:int .
+
+<http://dbpedia.org/resource/Colombia> <http://schema.org/identifier> "70"^^xsd:int .
+
+<http://dbpedia.org/resource/Hungary> <http://schema.org/identifier> "79"^^xsd:int .
+
+<http://dbpedia.org/resource/Japan> <http://schema.org/identifier> "52"^^xsd:int .
+
+<http://dbpedia.org/resource/Republic_of_Macedonia> <http://schema.org/identifier>
+    "38"^^xsd:int .
+
+<http://dbpedia.org/resource/Moldova> <http://schema.org/identifier> "86"^^xsd:int .
+
+<http://dbpedia.org/resource/Belarus> <http://schema.org/identifier> "63"^^xsd:int .
+
+<http://dbpedia.org/resource/Mauritius> <http://schema.org/identifier> "26"^^xsd:int .
+
+<http://dbpedia.org/resource/Papua_New_Guinea> <http://schema.org/identifier> "35"^^xsd:int .
+
+<http://dbpedia.org/resource/Senegal> <http://schema.org/identifier> "96"^^xsd:int .
+
+<http://dbpedia.org/resource/Honduras> <http://schema.org/identifier> "15"^^xsd:int .
+
+<http://dbpedia.org/resource/Italy> <http://schema.org/identifier> "81"^^xsd:int .
+
+<http://dbpedia.org/resource/Ethiopia> <http://schema.org/identifier> "76"^^xsd:int .
+
+<http://dbpedia.org/resource/United_Kingdom> <http://schema.org/identifier> "107"^^xsd:int .
+
+<http://dbpedia.org/resource/Afghanistan> <http://schema.org/identifier> "59"^^xsd:int .
+
+<http://dbpedia.org/resource/Singapore> <http://schema.org/identifier> "41"^^xsd:int .
+
+<http://dbpedia.org/resource/Egypt> <http://schema.org/identifier> "74"^^xsd:int .
+
+<http://dbpedia.org/resource/Scotland> <http://schema.org/identifier> "40"^^xsd:int .
+
+<http://dbpedia.org/resource/Bolivia> <http://schema.org/identifier> "5"^^xsd:int .
+
+<http://dbpedia.org/resource/Malta> <http://schema.org/identifier> "24"^^xsd:int .
+
+<http://dbpedia.org/resource/Russia> <http://schema.org/identifier> "56"^^xsd:int .
+
+<http://dbpedia.org/resource/Netherlands> <http://schema.org/identifier> "89"^^xsd:int .
+
+<http://dbpedia.org/resource/Pakistan> <http://schema.org/identifier> "54"^^xsd:int .
+
+<http://dbpedia.org/resource/China> <http://schema.org/identifier> "1"^^xsd:int .
+
+<http://dbpedia.org/resource/Slovakia> <http://schema.org/identifier> "42"^^xsd:int .
+
+<http://dbpedia.org/resource/Lithuania> <http://schema.org/identifier> "23"^^xsd:int .
+
+<http://dbpedia.org/resource/France> <http://schema.org/identifier> "77"^^xsd:int .
+
+<http://dbpedia.org/resource/Democratic_Republic_of_the_Congo> <http://schema.org/identifier>
+    "73"^^xsd:int .
+
+<http://dbpedia.org/resource/Romania> <http://schema.org/identifier> "95"^^xsd:int .
+
+<http://dbpedia.org/resource/Niger> <http://schema.org/identifier> "90"^^xsd:int .
+
+<http://dbpedia.org/resource/Philippines> <http://schema.org/identifier> "55"^^xsd:int .
+
+<http://dbpedia.org/resource/Rwanda> <http://schema.org/identifier> "39"^^xsd:int .
+
+<http://dbpedia.org/resource/Burma> <http://schema.org/identifier> "65"^^xsd:int .
+
+<http://dbpedia.org/resource/Bosnia_and_Herzegovina> <http://schema.org/identifier>
+    "6"^^xsd:int .
+
+<http://dbpedia.org/resource/Nicaragua> <http://schema.org/identifier> "30"^^xsd:int .
+
+<http://dbpedia.org/resource/Norway> <http://schema.org/identifier> "32"^^xsd:int .
+
+<http://dbpedia.org/resource/Denmark> <http://schema.org/identifier> "10"^^xsd:int .
+
+<http://dbpedia.org/resource/Mexico> <http://schema.org/identifier> "53"^^xsd:int .
+
+<http://dbpedia.org/resource/Republic_of_Ireland> <http://schema.org/identifier> "37"^^xsd:int .
+
+<http://dbpedia.org/resource/Northern_Ireland> <http://schema.org/identifier> "31"^^xsd:int .
+
+<http://dbpedia.org/resource/Indonesia> <http://schema.org/identifier> "51"^^xsd:int .

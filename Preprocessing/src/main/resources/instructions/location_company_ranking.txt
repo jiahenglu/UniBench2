@@ -1,0 +1,13 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?location ?company ?location_id ?company_id (sum(?rank) as ?acc)
+WHERE {
+  graph <http://product> {?product dbo:manufacturer ?company}
+  graph <http://company_location> {?company dbo:locationCountry ?location}
+  graph <http://product_ranking> {?product schema:ratingValue ?rank}
+  graph <http://company_id> {?company schema:identifier ?company_id}
+  graph <http://location_id> {?location schema:identifier ?location_id}
+}
+group by ?location ?company ?location_id ?company_id
+order by asc(?location_id) desc(?acc)

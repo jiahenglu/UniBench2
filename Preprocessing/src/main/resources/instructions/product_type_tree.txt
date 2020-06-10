@@ -1,0 +1,14 @@
+insert {
+  graph <http://product_type_tree> { ?mtype rdfs:subClassOf ?mmtype }
+}
+where {
+  select distinct ?mtype ?mmtype
+  where {
+    {select distinct ?type where {graph <http://product_type> {?ign1 ?ign2 ?type}}}
+    graph <http://dbpedia.org/ontology/> {
+      {?type rdfs:subClassOf* ?mtype .}
+      {?mtype rdfs:subClassOf ?mmtype .}
+      {?mmtype rdfs:subClassOf* ?mmmtype .}
+    }
+  }
+}

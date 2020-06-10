@@ -1,0 +1,13 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX schema: <http://schema.org/>
+
+SELECT distinct ?company ?product ?asin ?company_id ?product_id ?price ?rank
+WHERE {
+  graph <http://product> {?product dbo:manufacturer ?company}
+  graph <http://product_ranking> {?product schema:ratingValue ?rank}
+  graph <http://company_id> {?company schema:identifier ?company_id}
+  graph <http://product_id> {?product schema:identifier ?product_id}
+  graph <http://product_asin> {?product schema:identifier ?asin}
+  graph <http://product_price> {?product schema:price ?price}
+}
+order by asc(?company_id) desc(?rank)

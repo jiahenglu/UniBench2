@@ -1,0 +1,9 @@
+PREFIX sc: <http://purl.org/science/owl/sciencecommons/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?product ?product_id ?comment1
+WHERE {
+  graph <http://product_id> {?product schema:identifier ?product_id}
+  optional { graph <http://product_comment> {?product rdfs:comment ?comment} }
+  bind ( coalesce (?comment, ""@en) As ?comment1)
+}
