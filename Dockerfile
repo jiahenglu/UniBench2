@@ -8,6 +8,10 @@ COPY gen.sh /code
 
 RUN apk --update add --no-cache libc6-compat
 
+# loading
+RUN cd /code/ldbc_snb_datagen && mvn compile
+RUN cd /code/UniBench && sbt compile
+
 WORKDIR /code
 
 CMD ["sh", "gen.sh"]
