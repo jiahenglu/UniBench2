@@ -6,7 +6,7 @@
 
 ... can be found on [our group website](https://www.helsinki.fi/en/researchgroups/unified-database-management-systems-udbms/unibench-towards-benchmarking-multi-model-dbms).
 
-## Run
+## Running UniBench
 
 Instructions can be found in [the documentation](https://jiahenglu.github.io/UniBench2/). We provide a Docker image for your convenience.
 
