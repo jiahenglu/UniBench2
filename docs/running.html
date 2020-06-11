@@ -1,0 +1,172 @@
+
+
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running UniBench &#8212; UniBench  documentation</title>
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Development" href="development.html" />
+    <link rel="prev" title="Welcome page" href="index.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="development.html" title="Development"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome page"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">UniBench  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Running UniBench</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="running-unibench">
+<h1>Running UniBench<a class="headerlink" href="#running-unibench" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="build-from-source">
+<h2>Build from source<a class="headerlink" href="#build-from-source" title="Permalink to this headline">¶</a></h2>
+<p>Before building and running UniBench from source, make sure you have installed all packages/software mentioned in the <a class="reference internal" href="development.html#label-prerequisites"><span class="std std-ref">Prerequisites</span></a> section.</p>
+<p>To build UniBench from source, follow the following steps:</p>
+<ol class="arabic simple">
+<li><p>Clone UniBench with Git and change the working directory:</p></li>
+</ol>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ git clone https://github.com/jiahenglu/UniBench2.git
+$ <span class="nb">cd</span> UniBench2
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>Change parameters of <code class="docutils literal notranslate"><span class="pre">ldbc_snb_datagen</span></code> by editing <code class="docutils literal notranslate"><span class="pre">ldbc_snb_datagen/ldbc_params.ini</span></code>. Refer to <a class="reference external" href="https://github.com/ldbc/ldbc_snb_datagen/wiki/Configuration#generator-parameters">the official wiki</a> for how to modify this file.</p></li>
+</ol>
+<p>TODO: Allow users to configure UniBench.</p>
+<ol class="arabic simple" start="3">
+<li><p>Restore dependencies and compile UniBench:</p></li>
+</ol>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ldbc_snb_datagen
+$ mvn compile
+$ <span class="nb">cd</span> ../UniBench
+$ sbt compile
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Finally, run <code class="docutils literal notranslate"><span class="pre">ldbc_snb_datagen</span></code> and then <code class="docutils literal notranslate"><span class="pre">UniBench</span></code>:</p></li>
+</ol>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> ../ldbc_snb_datagen
+$ mvn exec:java -Dexec.mainClass<span class="o">=</span>ldbc.snb.datagen.generator.LDBCDatagen <span class="se">\</span>
+  -Dexec.args<span class="o">=</span><span class="s2">&quot;ldbc_params.ini&quot;</span>
+$ <span class="nb">cd</span> ../UniBench
+$ sbt <span class="s2">&quot;runMain Unibench1_0&quot;</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Check <code class="docutils literal notranslate"><span class="pre">ldbc_snb_datagen/parameter_curation</span></code> and <code class="docutils literal notranslate"><span class="pre">UniBench/Unibench</span></code> folders to find the generated dataset. Note that names of files are not the same as the released datasets.</p></li>
+</ol>
+</div>
+<div class="section" id="run-with-docker">
+<h2>Run with Docker<a class="headerlink" href="#run-with-docker" title="Permalink to this headline">¶</a></h2>
+<p>Running UniBench could not be easier once you have <a class="reference external" href="https://www.docker.com/">Docker</a> installed. Simply execute the following command:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ docker run --rm -e <span class="nv">JAVA_OPTS</span><span class="o">=</span>-Xmx8g <span class="se">\</span>
+  -v <span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">/ldbc:/code/ldbc_snb_datagen/parameter_curation&quot;</span> <span class="se">\</span>
+  -v <span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">/unibench:/code/UniBench/Unibench&quot;</span> <span class="se">\</span>
+  jiahenglu/unibench
+</pre></div>
+</div>
+<p>A few comments:</p>
+<ul class="simple">
+<li><p>When running on Windows, replace <code class="docutils literal notranslate"><span class="pre">$(pwd)</span></code> by the absolute path of the working directory.</p></li>
+<li><p>The statement <code class="docutils literal notranslate"><span class="pre">JAVA_OPTS=-Xmx8g</span></code> limits the maximum heap size of the JVM. It is 8GB by default, and we recommend users to set it to a reasonably large value (Note that you may have to first enlarge the CPU &amp; RAM limit of Docker if you are using Windows or macOS).</p></li>
+</ul>
+<p>After the execution has been completed, please check two new folders in the working directory, <code class="docutils literal notranslate"><span class="pre">ldbc</span></code> and <code class="docutils literal notranslate"><span class="pre">unibench</span></code>, for generated datasets.</p>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Running UniBench</a><ul>
+<li><a class="reference internal" href="#build-from-source">Build from source</a></li>
+<li><a class="reference internal" href="#run-with-docker">Run with Docker</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome page</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="development.html"
+                        title="next chapter">Development</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/running.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="development.html" title="Development"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome page"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">UniBench  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Running UniBench</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, UDBMS@HY.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.0.
+    </div>
+  </body>
+</html>

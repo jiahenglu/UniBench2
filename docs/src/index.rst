@@ -1,20 +1,14 @@
-.. UniBench documentation master file, created by
-   sphinx-quickstart on Tue Jun  9 14:40:45 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome page
+============
 
-Welcome to UniBench's documentation!
-====================================
+As more businesses realized that data, in all forms and sizes, is critical to making the best possible decisions, we see the continued growth of systems that support the massive volume of relational or non-relational forms of data. Unlike traditional database management systems which are organized around a single data model that determines how data can be organized, stored, and manipulated, a multi-model database is designed to support multiple data models against a single, integrated backend. For example, document, graph, relational, and key-value models are examples of data models that may be supported by a multi-model database. Having a single data platform for managing both well-structured data and NoSQL data is beneficial to users; this approach reduces significantly integration, migration, development, maintenance, and operational issues.
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   running
+   development
+   research
+   data_provenance
+   license

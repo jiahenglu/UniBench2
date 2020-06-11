@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome page &#8212; UniBench  documentation</title>
+    <title>Development &#8212; UniBench  documentation</title>
     <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
@@ -18,7 +18,8 @@
     <script src="_static/bizstyle.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Running UniBench" href="running.html" />
+    <link rel="next" title="Research" href="research.html" />
+    <link rel="prev" title="Running UniBench" href="running.html" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <!--[if lt IE 9]>
     <script src="_static/css3-mediaqueries.js"></script>
@@ -31,10 +32,13 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="running.html" title="Running UniBench"
+          <a href="research.html" title="Research"
              accesskey="N">next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">UniBench  documentation</a> &#187;</li>
-        <li class="nav-item nav-item-this"><a href="">Welcome page</a></li> 
+        <li class="right" >
+          <a href="running.html" title="Running UniBench"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">UniBench  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Development</a></li> 
       </ul>
     </div>  
 
@@ -43,26 +47,20 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="welcome-page">
-<h1>Welcome page<a class="headerlink" href="#welcome-page" title="Permalink to this headline">¶</a></h1>
-<p>As more businesses realized that data, in all forms and sizes, is critical to making the best possible decisions, we see the continued growth of systems that support the massive volume of relational or non-relational forms of data. Unlike traditional database management systems which are organized around a single data model that determines how data can be organized, stored, and manipulated, a multi-model database is designed to support multiple data models against a single, integrated backend. For example, document, graph, relational, and key-value models are examples of data models that may be supported by a multi-model database. Having a single data platform for managing both well-structured data and NoSQL data is beneficial to users; this approach reduces significantly integration, migration, development, maintenance, and operational issues.</p>
-<div class="toctree-wrapper compound">
-<p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="running.html">Running UniBench</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="running.html#build-from-source">Build from source</a></li>
-<li class="toctree-l2"><a class="reference internal" href="running.html#run-with-docker">Run with Docker</a></li>
+  <div class="section" id="development">
+<h1>Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="prerequisites">
+<span id="label-prerequisites"></span><h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<p>Following are the prerequisites to build UniBench:</p>
+<ul class="simple">
+<li><p>OpenJDK 8: <a class="reference external" href="https://adoptopenjdk.net/?variant=openjdk8&amp;jvmVariant=hotspot">https://adoptopenjdk.net/?variant=openjdk8&amp;jvmVariant=hotspot</a></p></li>
+<li><p>Maven: <a class="reference external" href="https://maven.apache.org/install.html">https://maven.apache.org/install.html</a></p></li>
+<li><p>sbt: <a class="reference external" href="https://www.scala-sbt.org/download.html">https://www.scala-sbt.org/download.html</a></p></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="development.html">Development</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="development.html#prerequisites">Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="development.html#file-formats">File formats</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="research.html">Research</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data_provenance.html">Data Provenance</a></li>
-<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
-</ul>
+<p>… or you can install IntelliJ IDEA which contains all the above except OpenJDK 8: <a class="reference external" href="https://www.jetbrains.com/idea/">https://www.jetbrains.com/idea/</a>.</p>
+</div>
+<div class="section" id="file-formats">
+<h2>File formats<a class="headerlink" href="#file-formats" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -73,13 +71,25 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h4>Next topic</h4>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Development</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#file-formats">File formats</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
   <p class="topless"><a href="running.html"
-                        title="next chapter">Running UniBench</a></p>
+                        title="previous chapter">Running UniBench</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="research.html"
+                        title="next chapter">Research</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/index.rst.txt"
+      <li><a href="_sources/development.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
@@ -104,10 +114,13 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="running.html" title="Running UniBench"
+          <a href="research.html" title="Research"
              >next</a> |</li>
-        <li class="nav-item nav-item-0"><a href="#">UniBench  documentation</a> &#187;</li>
-        <li class="nav-item nav-item-this"><a href="">Welcome page</a></li> 
+        <li class="right" >
+          <a href="running.html" title="Running UniBench"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">UniBench  documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Development</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
