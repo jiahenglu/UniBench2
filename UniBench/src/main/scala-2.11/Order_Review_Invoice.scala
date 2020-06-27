@@ -103,7 +103,7 @@ object Order_Review_Invoice {
 
     val resultWithoutfeedback = result
       .select("PersonId", "_1", "_2", "_3", "_4", "_5")
-      .groupBy('PersonId')
+      .groupBy($"PersonId")
       .agg(collect_set((struct("_1", "_2", "_3", "_4", "_5"))))
       .toDF("PersonId", "order")
 
