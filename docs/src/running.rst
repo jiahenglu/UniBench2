@@ -17,7 +17,7 @@ To build UniBench from source, follow the following steps:
 
 2. Change parameters of ``ldbc_snb_datagen`` by editing ``ldbc_snb_datagen/ldbc_params.ini``. Refer to `the official wiki <https://github.com/ldbc/ldbc_snb_datagen/wiki/Configuration#generator-parameters>`_ for how to modify this file.
 
-TODO: Allow users to configure UniBench.
+3. (Optional) Reduce the size of output of UniBench by decreasing the sampling probabilities (range: 0 to 1) in ``unibench_params.ini``.
 
 3. Restore dependencies and compile UniBench:
 
