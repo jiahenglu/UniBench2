@@ -1,4 +1,7 @@
 
+import java.io.FileInputStream
+import java.util.Properties
+
 import edu.berkeley.cs.amplab.spark.indexedrdd.IndexedRDD
 import edu.berkeley.cs.amplab.spark.indexedrdd.IndexedRDD._
 import org.apache.spark.SparkConf
@@ -217,6 +220,15 @@ object Unibench1_0 {
   }
 
   def main(args: Array[String]): Unit = {
+    val params = new Properties
+    try {
+      params.load(new FileInputStream("unibench_params.ini"))
+    } catch {
+      case e: Exception =>
+        println("Failed to parse params file: " + e.toString)
+        return
+    }
+
     val conf = new SparkConf().setAppName("Unibench").setMaster("local")
     val spark = SparkSession.builder()
       .master("local[*]")
@@ -231,6 +243,9 @@ object Unibench1_0 {
       val rootLogger = LoggerFactory.getLogger(org.slf4j.Logger.ROOT_LOGGER_NAME).asInstanceOf[Logger]
       rootLogger.setLevel(Level.INFO)
     }
+
+    spark.conf.set("feedback_factor", params.getProperty("feedback_factor", "1"))
+    spark.conf.set("rdf_factor", params.getProperty("rdf_factor", "0"))
 
     spark.conf.set("interest_table", "../ldbc_snb_datagen/parameter_curation/social_network/person_hasInterest_tag_0_0.csv")
     spark.conf.set("Person_knows_Person", "../ldbc_snb_datagen/parameter_curation/social_network/person_knows_person_0_0.csv")

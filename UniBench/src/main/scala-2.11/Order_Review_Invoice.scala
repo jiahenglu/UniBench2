@@ -12,15 +12,13 @@ import scala.util.Random
  */
 object Order_Review_Invoice {
 
-  // SF1 - 150000
   def Create(spark: SparkSession, filename: String, DateBound: Int) = {
 
-    // Configure the serilize path
+    // Configure the serialize path
     val path_order = spark.conf.get("order")
     val path_feedback = spark.conf.get("feedback")
     val path_invoice = spark.conf.get("invoice")
     val path_rating = spark.conf.get("rating")
-    val path_parameter = spark.conf.get("parameter1")
 
     // helper function in the following fold block
     // Sample the id according to the interest table
@@ -56,14 +54,12 @@ object Order_Review_Invoice {
     // Compute the totalamount of single order
     val computeTotalamount: Seq[Double] => Double = (item: Seq[Double]) => BigDecimal(item.reduceLeft(_ + _)).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
 
-
     val asin = StructField("asin", DataTypes.StringType)
     val title = StructField("title", DataTypes.StringType)
     val price = StructField("price", DataTypes.DoubleType)
     // add the brand field
     val brand = StructField("brand", DataTypes.StringType)
     val schema_order = """array<array<struct<productId:String,asin:String,title:String,price:Double,brand:String>>>"""
-
 
     val ProductDF = CreateProduct(spark)
     // Mapping the product id to asin
@@ -101,13 +97,13 @@ object Order_Review_Invoice {
 
     //Key-value for feedback
     spark.sqlContext
-      .sql("SELECT asin,PersonId,feedback FROM Feedback limit 150000").repartition(1).write.option("delimiter", "|").csv(path_feedback)
+      .sql("SELECT asin,PersonId,feedback FROM Feedback").sample(false, spark.conf.get("feedback_factor").toDouble).repartition(1).write.option("delimiter", "|").csv(path_feedback)
 
     val result = InterestByperson.join(intermediateResult, "productId").toDF("_1", "PersonId", "_0", "_2", "_3", "_4", "_6", "_5")
 
     val resultWithoutfeedback = result
       .select("PersonId", "_1", "_2", "_3", "_4", "_5")
-      .groupBy('PersonId)
+      .groupBy('PersonId')
       .agg(collect_set((struct("_1", "_2", "_3", "_4", "_5"))))
       .toDF("PersonId", "order")
 

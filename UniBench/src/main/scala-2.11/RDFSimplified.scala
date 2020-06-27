@@ -21,7 +21,7 @@ object RDFSimplified {
 
       val nodes = spark.sparkContext
         .textFile(s"src/main/resources/dbpedia/level$level.txt.bz2")
-        .sample(false, p)
+        .sample(false, spark.conf.get("rdf_factor").toDouble)
         .collect
         .toSet
 
