@@ -1,5 +1,12 @@
 package Preprocessing.Unibench;
 
+import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import Preprocessing.Helper;
 import Preprocessing.LDBC.generatePopularTagByCountry;
 import org.apache.commons.csv.CSVFormat;
@@ -9,16 +16,9 @@ import org.apache.commons.math3.distribution.UniformIntegerDistribution;
 import org.apache.commons.math3.distribution.ZipfDistribution;
 import org.javatuples.Pair;
 
-import java.io.BufferedReader;
-import java.io.FileWriter;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
-
 public class generateMetadataProduct {
     public static void main(String[] args) throws Exception {
-        // asin|title|price|categories|feedback|imgUrl|description
+        // asin|productId|brand|title|price|categories|feedback|imgUrl|description
 
         var path = "./output/metadata_product.csv";
 
@@ -29,7 +29,7 @@ public class generateMetadataProduct {
 
         var writer = new CSVPrinter(new FileWriter(path), CSVFormat.DEFAULT
                 .withDelimiter('|')
-                .withHeader("asin", "title", "price", "categories", "feedback", "imgUrl", "description"));
+                .withHeader("asin", "productId", "brand", "title", "price", "categories", "feedback", "imgUrl", "description"));
 
         var line = "";
         while ((line = reader.readLine()) != null) {
@@ -39,13 +39,15 @@ public class generateMetadataProduct {
 
             String product = Helper.getTitle(Helper.getUriLast(segs[1].substring(1, segs[1].length() - 1)));
             String asin = segs[2].substring(1, segs[2].length() - 1);
+            int brand = Integer.parseInt(segs[3]);
+            int productId = Integer.parseInt(segs[4]);
             double price = Double.parseDouble(segs[5]);
 
             var feedback = "[" + generateFeedbacks().stream()
                     .map(fb -> String.format("'%d.0,%s'", fb.getValue0(), fb.getValue1()))
                     .collect(Collectors.joining(", ")) + "]";
 
-            writer.printRecord(asin, product, String.format("%5.2f", price), "[['category']]",
+            writer.printRecord(asin, productId, brand, product, String.format("%5.2f", price), "[['category']]",
                     feedback, "http://example.com/img.jpg", "description");
         }
 

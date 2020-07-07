@@ -2,15 +2,16 @@
 import java.io.FileInputStream
 import java.util.Properties
 
+import scala.util.Random
+
 import edu.berkeley.cs.amplab.spark.indexedrdd.IndexedRDD
 import edu.berkeley.cs.amplab.spark.indexedrdd.IndexedRDD._
+
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.functions.{desc, rank, _}
-
-import scala.util.Random
 
 /**
  * Unibench - Three-phase transaction generation
@@ -247,8 +248,8 @@ object Unibench1_0 {
     spark.conf.set("feedback_factor", params.getProperty("feedback_factor", "1"))
     spark.conf.set("rdf_factor", params.getProperty("rdf_factor", "0"))
 
-    spark.conf.set("interest_table", "../ldbc_snb_datagen/parameter_curation/social_network/person_hasInterest_tag_0_0.csv")
-    spark.conf.set("Person_knows_Person", "../ldbc_snb_datagen/parameter_curation/social_network/person_knows_person_0_0.csv")
+    spark.conf.set("interest_table", "../ldbc_snb_datagen/parameter_curation/social_network/person_hasInterest_tag_*_0.csv")
+    spark.conf.set("Person_knows_Person", "../ldbc_snb_datagen/parameter_curation/social_network/person_knows_person_*_0.csv")
     spark.conf.set("BrandByProduct", "src/main/resources/SportsBrandByProduct.csv")
 
     spark.conf.set("order", "Unibench/Purchase_order")
@@ -268,12 +269,12 @@ object Unibench1_0 {
 
     //Re_Purchase(spark)
 
-    RDFSimplified.Create(spark)
+    //RDFSimplified.Create(spark)
 
     // Product
-    //Product.WriteToDisk(spark, Product.CreateProduct(spark))
+    Product.WriteToDisk(spark, Product.CreateProduct(spark))
     // Vender
-    //Vendor.GenerateVendor(spark)
+    Vendor.GenerateVendor(spark)
 
     /* Stop the sparkSession */
     spark.stop()

@@ -10,7 +10,7 @@ object scalaTest {
   def post_has_tag_mapping(spark: SparkSession) = {
     // Load post_tag meta data
     // Mapping the product id to asin
-    val Post_tag_dir = "../ldbc_snb_datagen/test_data/social_network/Post_hasTag_tag_0_0.csv"
+    val Post_tag_dir = "../ldbc_snb_datagen/test_data/social_network/Post_hasTag_tag_*_0.csv"
     val Post_tag_DF = spark.read.option("header", "true").option("delimiter", "|").option("mode", "DROPMALFORMED").csv(Post_tag_dir).toDF("postId", "productId")
     import spark.implicits._
     val IdMappingRDD = spark.sparkContext.textFile("src/main/resources/tagMatrix.txt").map(_.split(" ")).map(u => (u(1), u(3))).toDF("productId", "asin")
@@ -38,7 +38,7 @@ object scalaTest {
     // val intermediateResult=IdMappingRDD.join(ProductforOrder,"asin").join(index,"brand").toDF().show(5)
     //post_has_tag_mapping(spark)
     // Construct the order according to interest table
-    //val InterestByperson=spark.read.option("header","true").option("delimiter","|").csv("../ldbc_snb_datagen/test_data/social_network/person_hasInterest_tag_0_0.csv").toDF("PersonId","productId")
+    //val InterestByperson=spark.read.option("header","true").option("delimiter","|").csv("../ldbc_snb_datagen/test_data/social_network/person_hasInterest_tag_*_0.csv").toDF("PersonId","productId")
 
     //val result=InterestByperson.join(intermediateResult,"productId").toDF().show(5)
 
@@ -52,7 +52,7 @@ object scalaTest {
     //Product.WriteToDisk(spark,Product.CreateProduct(spark))
     //    import spark.implicits._
     //    val IdMappingRDD = spark.sparkContext.textFile("src/main/resources/tagMatrix2017.txt").map(_.split(" ")).map(u=>(u(1),u(3))).toDF("productId","asin")
-    //    val Post_tag=spark.read.option("header","false").option("delimiter","|").csv("../ldbc_snb_datagen/test_data/social_network/post_hasTag_tag_0_0.csv").toDF("postId","productId")
+    //    val Post_tag=spark.read.option("header","false").option("delimiter","|").csv("../ldbc_snb_datagen/test_data/social_network/post_hasTag_tag_*_0.csv").toDF("postId","productId")
     //    Post_tag.join(IdMappingRDD,"productId").select("postId","asin")
     //      .repartition(1)
     //      .write.option("header","true").option("delimiter","|").csv("post_hasTag")
@@ -84,8 +84,8 @@ object scalaTest {
           //.foreach{x=>x.foreach(println)}
 
         // Read data to create Brand-NumberofcorrelatedPost matrix
-        val filename_post="../ldbc_snb_datagen/test_data/social_network/person_likes_post_0_0.csv"
-        val filename_tag="../ldbc_snb_datagen/test_data/social_network/Post_hasTag_tag_0_0.csv"
+        val filename_post="../ldbc_snb_datagen/test_data/social_network/person_likes_post_*_0.csv"
+        val filename_tag="../ldbc_snb_datagen/test_data/social_network/Post_hasTag_tag_*_0.csv"
         val filename_tagMatrix="src/main/resources/tagMatrix2017.txt"
         val filename_brand="src/main/resources/SportsBrandByProduct.csv"
 

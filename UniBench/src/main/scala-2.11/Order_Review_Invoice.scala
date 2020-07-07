@@ -1,11 +1,12 @@
-import Product.CreateProduct
-import breeze.stats.distributions.Poisson
-import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.functions._
-import org.apache.spark.sql.types.{DataTypes, StructField}
-
 import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
+
+import Product.CreateProduct
+import breeze.stats.distributions.Poisson
+
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.types.{DataTypes, LongType, StructField}
 
 /**
  * Created by chzhang on 19/06/2017.
@@ -97,7 +98,13 @@ object Order_Review_Invoice {
 
     //Key-value for feedback
     spark.sqlContext
-      .sql("SELECT asin,PersonId,feedback FROM Feedback").sample(false, spark.conf.get("feedback_factor").toDouble).repartition(1).write.option("delimiter", "|").csv(path_feedback)
+      .sql("SELECT asin,PersonId,feedback FROM Feedback")
+      .sample(false, spark.conf.get("feedback_factor").toDouble)
+      .repartition(1)
+      .write
+      .option("delimiter", "|")
+      .option("header", "true")
+      .csv(path_feedback)
 
     val result = InterestByperson.join(intermediateResult, "productId").toDF("_1", "PersonId", "_0", "_2", "_3", "_4", "_6", "_5")
 
@@ -121,6 +128,7 @@ object Order_Review_Invoice {
       .withColumn("Orderline", explode(col("OrderwithSchema"))).drop(col("OrderwithSchema"))
       .withColumn("OrderId", orderid())
       .withColumn("OrderDate", randDateUdf()).drop("Orders")
+      .withColumn("PersonId", $"PersonId".cast(LongType))
 
     flattened.createOrReplaceTempView("Orders")
     spark.sqlContext.udf.register("computeTotalamount", computeTotalamount(_: Seq[Double]))
