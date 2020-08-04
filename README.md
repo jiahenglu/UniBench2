@@ -4,8 +4,10 @@
 
 ## Research background, schema, and publications
 
+As more businesses realized that data, in all forms and sizes, is critical to making the best possible decisions, we see the continued growth of systems that support the massive volume of relational or non-relational forms of data. Unlike traditional database management systems which are organized around a single data model that determines how data can be organized, stored, and manipulated, a multi-model database is designed to support multiple data models against a single, integrated backend. For example, document, graph, relational, and key-value models are examples of data models that may be supported by a multi-model database. Having a single data platform for managing both well-structured data and NoSQL data is beneficial to users; this approach reduces significantly integration, migration, development, maintenance, and operational issues.  
+
 The primary goal of UniBench project is to define a framework where different multi-model processing technologies can be fairly tested and compared, that can drive the identification of multi-model databases' bottlenecks and required functionalities, and can help researchers open new frontiers in high-performance and high-functionality  multi-model data management.
-[our group website](https://www.helsinki.fi/en/researchgroups/unified-database-management-systems-udbms/unibench-towards-benchmarking-multi-model-dbms).
+
 
 ## Running UniBench
 
