@@ -4,7 +4,8 @@
 
 ## Research background, schema, and publications
 
-... can be found on [our group website](https://www.helsinki.fi/en/researchgroups/unified-database-management-systems-udbms/unibench-towards-benchmarking-multi-model-dbms).
+The primary goal of UniBench project is to define a framework where different multi-model processing technologies can be fairly tested and compared, that can drive the identification of multi-model databases' bottlenecks and required functionalities, and can help researchers open new frontiers in high-performance and high-functionality  multi-model data management.
+[our group website](https://www.helsinki.fi/en/researchgroups/unified-database-management-systems-udbms/unibench-towards-benchmarking-multi-model-dbms).
 
 ## Running UniBench
 
