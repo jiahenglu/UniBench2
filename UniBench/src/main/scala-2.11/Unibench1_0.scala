@@ -269,7 +269,7 @@ object Unibench1_0 {
 
     //Re_Purchase(spark)
 
-    //RDFSimplified.Create(spark)
+    RDFSimplified.Create(spark)
 
     // Product
     Product.WriteToDisk(spark, Product.CreateProduct(spark))
