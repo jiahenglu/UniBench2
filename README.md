@@ -10,6 +10,9 @@ As more businesses realized that data, in all forms and sizes, is critical to ma
 The primary goal of UniBench project is to define a framework where different multi-model processing technologies can be fairly tested and compared, that can drive the identification of different systems' bottlenecks and required functionalities, and can help researchers open new frontiers in the fields on heterogeneous data management and integration.
 
 
+We provide the ready-for-use datasets, which classified into intuitive “T-shirt” sizes (e.g., S, M, L, XL).
+
+
 
 ## Running UniBench
 
