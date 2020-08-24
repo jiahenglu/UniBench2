@@ -17,6 +17,3 @@ Following are the prerequisites to build UniBench:
 
 ... Note that this software cannot support OpenJDK 11 now.  
 
-File formats
-----------------
-
