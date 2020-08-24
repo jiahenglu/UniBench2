@@ -15,7 +15,7 @@ Following are the prerequisites to build UniBench:
 
 ... or you can install IntelliJ IDEA which contains all the above except OpenJDK 8: https://www.jetbrains.com/idea/.
 
-
+... Note that this software cannot support OpenJDK 11 now.  
 
 File formats
 ----------------
